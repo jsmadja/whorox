@@ -1,0 +1,775 @@
+head:
+  name: Alexis Masset
+  title: Directeur digital
+  description: Omnicommerce Collab Xp & HR
+  photo: >-
+    https://media.licdn.com/dms/image/v2/C4E03AQFe6OnLMtGtrA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1626881647348?e=1778112000&v=beta&t=c5sE-IZMQiDnSMOs22ICIV8pTp6ubQGiGONQiPtFYcA
+  technos:
+    - JavaScript
+    - AWS
+    - Docker
+delivery_managers:
+  - name: Juliette Lefranc
+    title : Delivery Manager
+    photo: https://cdn.balkan.app/shared/a/2.jpg
+    description: HR & Collaboration
+    technos:
+      - Python
+      - Kubernetes
+      - Azure
+    engineering_manager:
+      name: Sarah Fontaine
+      title: Engineering Manager
+      photo: https://cdn.balkan.app/shared/a/3.jpg
+      technos:
+        - TypeScript
+        - Node.js
+        - GitHub Actions
+    teams:
+      - name: Collab RH
+        description: Outils RH, Onboarding, Portail collaborateur
+        members:
+          - name: Camille Aubert
+            title: Développeur
+            technos:
+              - React
+              - TypeScript
+              - Node.js
+            photo: https://cdn.balkan.app/shared/a/5.jpg
+          - name: Thomas Renard
+            title: Développeur
+            technos:
+              - Python
+              - FastAPI
+              - PostgreSQL
+            photo: https://cdn.balkan.app/shared/a/7.jpg
+          - name: Inès Marchand
+            title: Développeur
+            technos:
+              - Vue.js
+              - GraphQL
+              - Docker
+            photo: https://cdn.balkan.app/shared/a/11.jpg
+          - name: Romain Chevalier
+            title: Développeur
+            technos:
+              - Kotlin
+              - Spring Boot
+              - Kubernetes
+            photo: https://cdn.balkan.app/shared/a/8.jpg
+          - name: Lucie Morin
+            title: QA OPS
+            technos:
+              - Playwright
+              - Cypress
+              - GitHub Actions
+            photo: https://cdn.balkan.app/shared/a/19.jpg
+          - name: Baptiste Garnier
+            title: Développeur
+            technos:
+              - Event Sourcing
+              - Kafka
+              - Domain-Driven Design
+            photo: https://cdn.balkan.app/shared/a/9.jpg
+      - name: Expérience Digitale
+        description: App mobile, Self-service, Parcours client
+        members:
+          - name: Élodie Fabre
+            title: Product Manager
+            technos:
+              - Feature Flags
+              - Domain-Driven Design
+              - JavaScript
+            photo: https://cdn.balkan.app/shared/a/6.jpg
+          - name: Victor Leclercq
+            title: Développeur
+            technos:
+              - React
+              - Next.js
+              - TypeScript
+            photo: https://cdn.balkan.app/shared/a/14.jpg
+          - name: Manon Dupuis
+            title: Développeur
+            technos:
+              - Angular
+              - Node.js
+              - PostgreSQL
+            photo: https://cdn.balkan.app/shared/a/18.jpg
+          - name: Alexis Perrin
+            title: Développeur
+            technos:
+              - AWS
+              - Terraform
+              - Docker
+            photo: https://cdn.balkan.app/shared/a/16.jpg
+          - name: Clara Bonnet
+            title: Développeur
+            technos:
+              - GraphQL
+              - MongoDB
+              - Redis
+            photo: https://cdn.balkan.app/shared/a/15.jpg
+          - name: Hugo Lemaire
+            title: Développeur
+            technos:
+              - OpenTelemetry
+              - Datadog
+              - Sentry
+            photo: https://cdn.balkan.app/shared/a/17.jpg
+          - name: Zoé Carlier
+            title: Développeur
+            technos:
+              - Kotlin
+              - Spring Boot
+              - Istio
+            photo: https://cdn.balkan.app/shared/a/11.jpg
+      - name: Omnicommerce
+        description: Catalogue, Panier, Commande en ligne
+        members:
+          - name: Nicolas Blanc
+            title: Tech Lead
+            technos:
+              - Java
+              - Spring Boot
+              - Kafka
+            photo: https://cdn.balkan.app/shared/a/13.jpg
+          - name: Pauline Girard
+            title: Développeur
+            technos:
+              - TypeScript
+              - React
+              - GraphQL
+            photo: https://cdn.balkan.app/shared/a/6.jpg
+          - name: Simon Leroy
+            title: Développeur
+            technos:
+              - Go
+              - Docker
+              - Kubernetes
+            photo: https://cdn.balkan.app/shared/a/20.jpg
+          - name: Mathilde Rousseau
+            title: Développeur
+            technos:
+              - Elasticsearch
+              - Redis
+              - MongoDB
+            photo: https://cdn.balkan.app/shared/a/5.jpg
+          - name: Antoine Mercier
+            title: Développeur
+            technos:
+              - ArgoCD
+              - Helm
+              - Terraform
+            photo: https://cdn.balkan.app/shared/a/4.jpg
+          - name: Céline Bertrand
+            title: Développeur
+            technos:
+              - Python
+              - dbt
+              - Airflow
+            photo: https://cdn.balkan.app/shared/a/3.jpg
+
+  - name: Loïc Laloyer
+    title : Delivery Manager
+    photo: https://cdn.balkan.app/shared/a/2.jpg
+    description: Sales & Relation
+    technos:
+      - Python
+      - Kubernetes
+      - Azure
+    engineering_manager:
+      name: Marc Tissier
+      title: Engineering Manager
+      photo: https://cdn.balkan.app/shared/a/1.jpg
+      technos:
+        - Java
+        - AWS
+        - Domain-Driven Design
+    teams:
+      - name: CRM & Fidélité
+        description: CRM, Programme fidélité, Offres personnalisées
+        members:
+          - name: Léa Vasseur
+            title: Développeur
+            technos:
+              - Python
+              - Kafka
+              - PostgreSQL
+            photo: https://cdn.balkan.app/shared/a/19.jpg
+          - name: Florian Millet
+            title: Développeur
+            technos:
+              - Java
+              - Spring Boot
+              - MongoDB
+            photo: https://cdn.balkan.app/shared/a/8.jpg
+          - name: Amandine Collet
+            title: Développeur
+            technos:
+              - TypeScript
+              - React
+              - GraphQL
+            photo: https://cdn.balkan.app/shared/a/11.jpg
+          - name: Julien Normand
+            title: Développeur
+            technos:
+              - Redis
+              - Elasticsearch
+              - Datadog
+            photo: https://cdn.balkan.app/shared/a/9.jpg
+          - name: Laure Jacquet
+            title: QA OPS
+            technos:
+              - Cypress
+              - k6
+              - GitHub Actions
+            photo: https://cdn.balkan.app/shared/a/15.jpg
+          - name: Pierre Gautier
+            title: Développeur
+            technos:
+              - Terraform
+              - AWS
+              - Kubernetes
+            photo: https://cdn.balkan.app/shared/a/7.jpg
+      - name: Devis & Configurateur
+        description: Configurateur produit, Devis en ligne, Simulation
+        members:
+          - name: Nathalie Roux
+            title: Product Manager
+            technos:
+              - Feature Flags
+              - Domain-Driven Design
+              - Vertex AI
+            photo: https://cdn.balkan.app/shared/a/18.jpg
+          - name: Kevin Barbier
+            title: Tech Lead
+            technos:
+              - Go
+              - gRPC
+              - Kubernetes
+            photo: https://cdn.balkan.app/shared/a/13.jpg
+          - name: Sandra Picard
+            title: Développeur
+            technos:
+              - Vue.js
+              - Node.js
+              - PostgreSQL
+            photo: https://cdn.balkan.app/shared/a/6.jpg
+          - name: Étienne Morel
+            title: Développeur
+            technos:
+              - Python
+              - FastAPI
+              - Docker
+            photo: https://cdn.balkan.app/shared/a/14.jpg
+          - name: Fanny Lambert
+            title: Développeur
+            technos:
+              - React
+              - TypeScript
+              - Next.js
+            photo: https://cdn.balkan.app/shared/a/5.jpg
+          - name: Grégory Sanchez
+            title: Développeur
+            technos:
+              - Prometheus
+              - Grafana
+              - OpenTelemetry
+            photo: https://cdn.balkan.app/shared/a/16.jpg
+          - name: Isabelle Meunier
+            title: Développeur
+            technos:
+              - Spark
+              - dbt
+              - Airflow
+            photo: https://cdn.balkan.app/shared/a/11.jpg
+      - name: Relation Client
+        description: SAV, Chat, Avis clients
+        members:
+          - name: Damien Ferreira
+            title: Développeur
+            technos:
+              - Kotlin
+              - Spring Boot
+              - Kafka
+            photo: https://cdn.balkan.app/shared/a/20.jpg
+          - name: Océane Dupont
+            title: Développeur
+            technos:
+              - React
+              - GraphQL
+              - MongoDB
+            photo: https://cdn.balkan.app/shared/a/3.jpg
+          - name: Thibault Henry
+            title: Développeur
+            technos:
+              - LangChain
+              - OpenAI API
+              - Python
+            photo: https://cdn.balkan.app/shared/a/4.jpg
+          - name: Virginie Caron
+            title: Développeur
+            technos:
+              - Node.js
+              - TypeScript
+              - Redis
+            photo: https://cdn.balkan.app/shared/a/19.jpg
+          - name: Sébastien Auger
+            title: Développeur
+            technos:
+              - Playwright
+              - SonarQube
+              - GitHub Actions
+            photo: https://cdn.balkan.app/shared/a/17.jpg
+
+  - name: Thomas Conroux
+    title : Delivery Manager
+    photo: https://cdn.balkan.app/shared/a/2.jpg
+    description: Project & config
+    technos:
+      - Python
+      - Kubernetes
+      - Azure
+    engineering_manager:
+      name: Laurent Vidal
+      title: Engineering Manager
+      photo: https://cdn.balkan.app/shared/a/1.jpg
+      technos:
+        - Go
+        - Kubernetes
+        - ArgoCD
+    teams:
+      - name: Config & Référentiel
+        description: MDM, Référentiel produit, Config store
+        members:
+          - name: Aude Renault
+            title: Développeur
+            technos:
+              - Java
+              - Spring Boot
+              - PostgreSQL
+            photo: https://cdn.balkan.app/shared/a/6.jpg
+          - name: Christophe Faure
+            title: Tech Lead
+            technos:
+              - Go
+              - Kubernetes
+              - Helm
+            photo: https://cdn.balkan.app/shared/a/13.jpg
+          - name: Mélanie Prévost
+            title: Développeur
+            technos:
+              - TypeScript
+              - Node.js
+              - MongoDB
+            photo: https://cdn.balkan.app/shared/a/11.jpg
+          - name: Aurore Lemoine
+            title: Développeur
+            technos:
+              - Feature Flags
+              - Domain-Driven Design
+              - Event Sourcing
+            photo: https://cdn.balkan.app/shared/a/5.jpg
+          - name: Bastien Guérin
+            title: Développeur
+            technos:
+              - ArgoCD
+              - Terraform
+              - AWS
+            photo: https://cdn.balkan.app/shared/a/9.jpg
+          - name: Stéphanie Collin
+            title: QA OPS
+            technos:
+              - k6
+              - Playwright
+              - SonarQube
+            photo: https://cdn.balkan.app/shared/a/18.jpg
+      - name: Pricing & Promo
+        description: Moteur de prix, Promotions, Remises
+        members:
+          - name: François Nguyen
+            title: Développeur
+            technos:
+              - Python
+              - Spark
+              - dbt
+            photo: https://cdn.balkan.app/shared/a/14.jpg
+          - name: Charlotte Petit
+            title: Développeur
+            technos:
+              - React
+              - TypeScript
+              - GraphQL
+            photo: https://cdn.balkan.app/shared/a/15.jpg
+          - name: Jonathan Rivière
+            title: Développeur
+            technos:
+              - Kafka
+              - Redis
+              - Elasticsearch
+            photo: https://cdn.balkan.app/shared/a/16.jpg
+          - name: Audrey Lacroix
+            title: Développeur
+            technos:
+              - Datadog
+              - Prometheus
+              - Grafana
+            photo: https://cdn.balkan.app/shared/a/19.jpg
+          - name: Nicolas Reynaud
+            title: Développeur
+            technos:
+              - Kotlin
+              - Spring Boot
+              - Docker
+            photo: https://cdn.balkan.app/shared/a/4.jpg
+          - name: Pauline Guillot
+            title: Développeur
+            technos:
+              - MLflow
+              - Airflow
+              - LangChain
+            photo: https://cdn.balkan.app/shared/a/3.jpg
+          - name: Xavier Lemaire
+            title: Développeur
+            technos:
+              - Go
+              - gRPC
+              - Istio
+            photo: https://cdn.balkan.app/shared/a/20.jpg
+      - name: Approvisionnement
+        description: Supply chain, Stocks, Logistique
+        members:
+          - name: Delphine Arnaud
+            title: Product Manager
+            technos:
+              - Domain-Driven Design
+              - Feature Flags
+              - CQRS
+            photo: https://cdn.balkan.app/shared/a/6.jpg
+          - name: Maxime Bertrand
+            title: Développeur
+            technos:
+              - Java
+              - Spring Boot
+              - Kafka
+            photo: https://cdn.balkan.app/shared/a/8.jpg
+          - name: Anaëlle Roussel
+            title: Développeur
+            technos:
+              - Python
+              - FastAPI
+              - MongoDB
+            photo: https://cdn.balkan.app/shared/a/11.jpg
+          - name: Benoît Martel
+            title: Développeur
+            technos:
+              - AWS
+              - Pulumi
+              - Kubernetes
+            photo: https://cdn.balkan.app/shared/a/17.jpg
+          - name: Margot Schneider
+            title: Développeur
+            technos:
+              - TypeScript
+              - Node.js
+              - PostgreSQL
+            photo: https://cdn.balkan.app/shared/a/5.jpg
+          - name: Guillaume Morin
+            title: Développeur
+            technos:
+              - Sentry
+              - OpenTelemetry
+              - GitHub Actions
+            photo: https://cdn.balkan.app/shared/a/7.jpg
+  - name: Thomas Bujaud
+    description: Services & Reno
+    title: Delivery Manager
+    photo: https://media.licdn.com/dms/image/v2/C5603AQELh6Z79-QYlw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516316841461?e=1778112000&v=beta&t=O9FndgdFKdSeKx7siXnvG__fmA8vBwJkDl_yjSHrk_s
+    technos:
+      - Python
+      - Kubernetes
+      - Azure
+    engineering_manager:
+      name: Cédric Boufflers
+      title: Engineering Manager
+      photo: https://media.licdn.com/dms/image/v2/C4D03AQGAAMGjwYhF_w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1552597928446?e=1778112000&v=beta&t=Ah6SLgyyHGbTFhtmdFvE7iIgHe44AMg5o3vjYyvdcIU
+      technos:
+        - Go
+        - Docker
+        - AWS
+    teams:
+      - name: Tapas
+        description: Tandem, Tandem PRO, Trek
+        members:
+          - name: Sophie Calvat
+            title: Product Manager
+            technos:
+              - Domain-Driven Design
+              - JavaScript
+              - Vertex AI
+            photo: https://cdn.balkan.app/shared/a/3.jpg
+          - name: Julien Smadja
+            title: Tech Lead
+            photo: >-
+              https://media.licdn.com/dms/image/v2/C4D03AQGdrssLYnRVjw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1597738702036?e=1778112000&v=beta&t=L8XgugcYu73c128RmR_2y0kbBC6f4Cd1gr57Eze64zM
+            technos:
+              - TypeScript
+              - React
+              - AWS
+          - name: Jérôme Fleury
+            title: Développeur
+            technos:
+              - PostgreSQL
+              - JavaScript
+              - Istio
+            photo: https://cdn.balkan.app/shared/a/4.jpg
+          - name: Gaëtan Hermand
+            title: Développeur
+            technos:
+              - GitHub Actions
+              - ArgoCD
+              - Azure
+            photo: https://cdn.balkan.app/shared/a/7.jpg
+          - name: Julien Legrand
+            title: Développeur
+            technos:
+              - Angular
+              - Node.js
+              - GitHub Actions
+            photo: https://cdn.balkan.app/shared/a/8.jpg
+          - name: Louis Deparis
+            title: Développeur
+            technos:
+              - MLflow
+              - FastAPI
+              - OpenTelemetry
+            photo: https://cdn.balkan.app/shared/a/9.jpg
+          - name: Adrien Duwez
+            title: Développeur
+            technos:
+              - MLflow
+              - Node.js
+              - MongoDB
+            photo: https://cdn.balkan.app/shared/a/10.jpg
+          - name: Marie Saillard
+            title: Développeur
+            technos:
+              - OpenAI API
+              - GCP
+              - Git
+            photo: https://cdn.balkan.app/shared/a/11.jpg
+          - name: Morgan Lombard
+            title: Développeur Full Stack
+            technos:
+              - k6
+              - Domain-Driven Design
+              - Kafka
+            photo: https://cdn.balkan.app/shared/a/13.jpg
+          - name: Ibrahim Moujaes
+            title: Développeur
+            technos:
+              - Python
+              - SonarQube
+              - Datadog
+            photo: https://cdn.balkan.app/shared/a/14.jpg
+      - name: Installation
+        description: iPose, Installa, Portail Four, BRT
+        members:
+          - name: Alexia Née
+            title: Développeur
+            technos:
+              - Spring Boot
+              - OpenAI API
+              - LangChain
+            photo: https://cdn.balkan.app/shared/a/15.jpg
+          - name: Fabienne Hirwa
+            title: QA OPS
+            technos:
+              - Terraform
+              - Pulumi
+              - Datadog
+            photo: https://cdn.balkan.app/shared/a/18.jpg
+          - name: Heithem Lejmi
+            title: Développeur
+            technos:
+              - Playwright
+              - GraphQL
+              - Spring Boot
+            photo: https://cdn.balkan.app/shared/a/16.jpg
+          - name: Lucie Guerreiro
+            title: Développeur
+            technos:
+              - Go
+              - Vertex AI
+              - Angular
+            photo: https://cdn.balkan.app/shared/a/19.jpg
+          - name: Rémy Halipré
+            title: Développeur
+            technos:
+              - AWS
+              - Domain-Driven Design
+              - SonarQube
+            photo: https://cdn.balkan.app/shared/a/17.jpg
+          - name: Aurélien Gout
+            title: Développeur
+            technos:
+              - Datadog
+              - Node.js
+              - FastAPI
+            photo: https://cdn.balkan.app/shared/a/20.jpg
+          - name: Barthélemy Kalamakas
+            title: Développeur
+            technos:
+              - Node.js
+              - Angular
+              - JavaScript
+            photo: https://cdn.balkan.app/shared/a/1.jpg
+      - name: Renov'Aid
+        description: Renov'Aid, Simulateur DPE
+        members:
+          - name: Alexandre Lamiral
+            title: Développeur
+            technos:
+              - Domain-Driven Design
+              - k6
+              - Go
+            photo: https://cdn.balkan.app/shared/a/13.jpg
+          - name: Fabrice Ahoulou
+            title: Développeur
+            technos:
+              - Spark
+              - Event Sourcing
+              - Terraform
+            photo: https://cdn.balkan.app/shared/a/2.jpg
+          - name: Saad Ederdik
+            title: Développeur
+            technos:
+              - GitHub Actions
+              - Prometheus
+              - Spark
+            photo: https://cdn.balkan.app/shared/a/4.jpg
+          - name: William Meslard
+            title: Développeur
+            technos:
+              - AWS
+              - Redis
+              - Playwright
+            photo: https://cdn.balkan.app/shared/a/7.jpg
+          - name: Sarah Gergaud
+            title: Développeur
+            technos:
+              - Docker
+              - GraphQL
+              - Airflow
+            photo: https://cdn.balkan.app/shared/a/3.jpg
+          - name: Delphine Leguyader
+            title: Développeur
+            technos:
+              - Spring Boot
+              - TypeScript
+              - FastAPI
+            photo: https://cdn.balkan.app/shared/a/5.jpg
+          - name: Rémi Doolaeghe
+            title: Développeur
+            technos:
+              - Event Sourcing
+              - MongoDB
+              - Airflow
+            photo: https://cdn.balkan.app/shared/a/8.jpg
+          - name: Amine Khiari
+            title: Développeur
+            technos:
+              - MongoDB
+              - Pulumi
+              - Vue.js
+            photo: https://cdn.balkan.app/shared/a/9.jpg
+      - name: LM Réno
+        members:
+          - name: Emmanuel Reant
+            title: Développeur
+            technos:
+              - Sentry
+              - JavaScript
+              - OpenTelemetry
+            photo: https://cdn.balkan.app/shared/a/10.jpg
+      - name: Ref Habitat
+        members:
+          - name: Mathieu Boniface
+            title: Développeur
+            technos:
+              - Elasticsearch
+              - Grafana
+              - GraphQL
+            photo: https://cdn.balkan.app/shared/a/13.jpg
+          - name: Julien Thilliez
+            title: Développeur
+            technos:
+              - Terraform
+              - Feature Flags
+              - Kotlin
+            photo: https://cdn.balkan.app/shared/a/14.jpg
+          - name: Matthias Scherrens
+            title: Développeur
+            technos:
+              - Redis
+              - Node.js
+              - PostgreSQL
+            photo: https://cdn.balkan.app/shared/a/16.jpg
+          - name: Mehdi Lahiyane
+            title: Développeur
+            technos:
+              - AWS
+              - Pulumi
+              - JavaScript
+            photo: https://cdn.balkan.app/shared/a/17.jpg
+          - name: Ahmed Achour
+            title: Développeur
+            technos:
+              - MongoDB
+              - JavaScript
+              - Istio
+            photo: https://cdn.balkan.app/shared/a/20.jpg
+      - name: Transversal
+        members:
+          - name: Flavien Pagerie
+            title: Développeur
+            technos:
+              - Cypress
+              - Playwright
+              - Node.js
+            photo: https://cdn.balkan.app/shared/a/1.jpg
+          - name: Julien Defief
+            title: Développeur
+            technos:
+              - Go
+              - k6
+              - GitHub Actions
+            photo: https://cdn.balkan.app/shared/a/2.jpg
+          - name: Anaïs Bernard
+            title: Développeur
+            technos:
+              - dbt
+              - Docker
+              - Node.js
+            photo: https://cdn.balkan.app/shared/a/6.jpg
+          - name: Nabil Boutiyarzist
+            title: Développeur
+            technos:
+              - Domain-Driven Design
+              - Playwright
+              - MLflow
+            photo: https://cdn.balkan.app/shared/a/4.jpg
+          - name: Julie Defrocourt
+            title: Développeur
+            technos:
+              - Kotlin
+              - Vue.js
+              - Feature Flags
+            photo: https://cdn.balkan.app/shared/a/5.jpg
+          - name: Alya Cholet
+            title: Développeur
+            technos:
+              - React
+              - Kafka
+              - GitHub Actions
+            photo: https://cdn.balkan.app/shared/a/6.jpg

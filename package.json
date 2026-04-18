@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "generate:nodes": "node scripts/generate-nodes.js",
+    "generate:tech": "node scripts/generate-tech-options.js",
+    "generate": "npm run generate:tech && npm run generate:nodes"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.1"
+  }
+}

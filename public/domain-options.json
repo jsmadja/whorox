@@ -1,0 +1,7 @@
+[
+    { "value": "SPLIT", "text": "SPLIT" },
+    { "value": "CHECKOUT", "text": "CHECKOUT" },
+    { "value": "CATALOG", "text": "CATALOG" },
+    { "value": "SEARCH", "text": "SEARCH" },
+    { "value": "PLATFORM", "text": "PLATFORM" }
+]

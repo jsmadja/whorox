@@ -1,0 +1,29 @@
+/*CSS*/
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #f4f6f9;
+}
+
+#tree {
+    width: 100%;
+    height: 100%;
+    background-color: #f4f6f9;
+    background-image:
+        radial-gradient(ellipse at 15% 15%, rgba(120, 190, 32, 0.06) 0%, transparent 55%),
+        radial-gradient(ellipse at 85% 85%, rgba(70, 166, 16, 0.04) 0%, transparent 55%);
+}
+
+/* Masquer les contrôles natifs OrgChart */
+#tree .boc-controls {
+    display: none !important;
+}
+
+/* Cursor pointer sur les cartes de l'orgchart */
+[data-n-id] {
+    cursor: pointer;
+}

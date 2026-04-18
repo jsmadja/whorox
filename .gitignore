@@ -1,0 +1,5 @@
+node_modules/
+public/tech-options.json
+public/tech-radar.json
+public/nodes.json
+public/search-index.json
