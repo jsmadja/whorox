@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Who ROX</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            mozaic: '#78be20',
+            'mozaic-dark': '#46a610',
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="index.css" />
+  <script defer src="https://cdn.balkan.app/orgchart.js"></script>
+  <script defer src="index.js"></script>
+</head>
+<body class="bg-[#f4f6f9] overflow-hidden w-full h-full m-0 p-0">
+
+  <!-- Topbar -->
+  <header id="topbar" class="absolute top-0 left-0 right-0 z-50 flex items-center px-6 py-3 bg-white/80 backdrop-blur-sm border-b border-gray-200 shadow-sm">
+    <div class="flex items-center gap-2 cursor-pointer select-none" onclick="location.reload()">
+      <span class="text-xl font-black tracking-tight text-gray-900">Who</span>
+      <span class="text-xl font-black tracking-tight text-mozaic">ROX</span>
+    </div>
+  </header>
+
+  <!-- OrgChart (décalé sous la topbar) -->
+  <div id="tree" class="absolute inset-0 top-[57px]"></div>
+
+</body>
+</html>

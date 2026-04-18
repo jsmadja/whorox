@@ -1,0 +1,119 @@
+[
+    {
+        "id": 1,
+        "name": "Alexis Masset",
+        "title": "Head of ROX",
+        "photo": "https://media.licdn.com/dms/image/v2/C4E03AQFe6OnLMtGtrA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1626881647348?e=1778112000&v=beta&t=c5sE-IZMQiDnSMOs22ICIV8pTp6ubQGiGONQiPtFYcA",
+        "likedTechnos": [
+            "JavaScript",
+            "AWS",
+            "Docker"
+        ]
+    },
+    {
+        "id": 2,
+        "pid": 1,
+        "name": "Thomas Bujaud",
+        "title": "Delivery Manager",
+        "tags": [
+            "list",
+            "manager"
+        ],
+        "photo": "https://cdn.balkan.app/shared/a/8.jpg",
+        "likedTechnos": [
+            "Python",
+            "Kubernetes",
+            "Azure"
+        ],
+        "domain": "SPLIT"
+    },
+    {
+        "id": 3,
+        "pid": 2,
+        "isAssistant": true,
+        "name": "Cédric Boufflers",
+        "title": "Engineering Manager",
+        "photo": "https://cdn.balkan.app/shared/a/3.jpg",
+        "likedTechnos": [
+            "Go",
+            "Docker",
+            "AWS"
+        ],
+        "domain": "SPLIT"
+    },
+    {
+        "id": 4,
+        "pid": 2,
+        "name": "Tapas",
+        "title": "Team",
+        "tags": [
+            "team"
+        ]
+    },
+    {
+        "id": 5,
+        "stpid": 4,
+        "name": "Sophie Calvat",
+        "title": "Product Manager",
+        "photo": "https://cdn.balkan.app/shared/a/16.jpg",
+        "likedTechnos": [
+            "JavaScript",
+            "React",
+            "Node.js"
+        ]
+    },
+    {
+        "id": 6,
+        "stpid": 4,
+        "name": "Julien Smadja",
+        "title": "Tech Lead",
+        "photo": "https://cdn.balkan.app/shared/a/5.jpg",
+        "likedTechnos": [
+            "TypeScript",
+            "React",
+            "AWS"
+        ]
+    },
+    {
+        "id": 7,
+        "stpid": 4,
+        "name": "Jérome Fleury",
+        "title": "Développeur",
+        "photo": "https://cdn.balkan.app/shared/a/7.jpg",
+        "likedTechnos": [
+            "Vue.js",
+            "Node.js",
+            "Docker"
+        ]
+    },
+    {
+        "id": 8,
+        "stpid": 4,
+        "name": "Gaetan Herman",
+        "title": "Développeur",
+        "photo": "https://cdn.balkan.app/shared/a/11.jpg",
+        "likedTechnos": [
+            "Python",
+            "Kubernetes",
+            "GCP"
+        ]
+    },
+    {
+        "id": 9,
+        "pid": 2,
+        "name": "Renovaid",
+        "title": "Team",
+        "tags": [
+            "team"
+        ]
+    },
+    {
+        "id": 10,
+        "pid": 2,
+        "name": "Instala",
+        "title": "Team",
+        "tags": [
+            "team"
+        ]
+    }
+]

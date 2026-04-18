@@ -1,0 +1,14 @@
+[
+    { "value": "Head of ROX", "text": "Head of ROX" },
+    { "value": "Delivery Manager", "text": "Delivery Manager" },
+    { "value": "Engineering Manager", "text": "Engineering Manager" },
+    { "value": "Product Manager", "text": "Product Manager" },
+    { "value": "Tech Lead", "text": "Tech Lead" },
+    { "value": "Développeur", "text": "Développeur" },
+    { "value": "Développeuse", "text": "Développeuse" },
+    { "value": "Designer", "text": "Designer" },
+    { "value": "Data Engineer", "text": "Data Engineer" },
+    { "value": "DevOps Engineer", "text": "DevOps Engineer" },
+    { "value": "QA Engineer", "text": "QA Engineer" },
+    { "value": "Scrum Master", "text": "Scrum Master" }
+]

@@ -1,0 +1,15 @@
+[
+    { "value": "JavaScript", "text": "JavaScript" },
+    { "value": "TypeScript", "text": "TypeScript" },
+    { "value": "React", "text": "React" },
+    { "value": "Vue.js", "text": "Vue.js" },
+    { "value": "Node.js", "text": "Node.js" },
+    { "value": "Python", "text": "Python" },
+    { "value": "Java", "text": "Java" },
+    { "value": "Go", "text": "Go" },
+    { "value": "Docker", "text": "Docker" },
+    { "value": "Kubernetes", "text": "Kubernetes" },
+    { "value": "AWS", "text": "AWS" },
+    { "value": "Azure", "text": "Azure" },
+    { "value": "GCP", "text": "GCP" }
+]
