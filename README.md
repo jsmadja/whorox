@@ -8,9 +8,7 @@ Organigramme interactif de l'équipe ROX, hébergé sur GitHub Pages et génér�
 
 L'organigramme est disponible à l'adresse :
 
-**`https://<ton-compte>.github.io/<nom-du-repo>/`**
-
-> Remplace `<ton-compte>` et `<nom-du-repo>` par les valeurs correspondantes à ce repository.
+**[https://jsmadja.github.io/whorox/](https://jsmadja.github.io/whorox/)**
 
 ---
 
