@@ -38,9 +38,15 @@ OrgChart.templates.clara.field_1 = function(node, data, config, mode, val) {
     var y = node.stChildren.length ? 35 : 180;
     var anchor = node.stChildren.length ? 'end' : 'middle';
     var w = node.stChildren.length ? node.w - 100 : node.w - 20;
-    return OrgChart.wrapText(val,
+    var titleSvg = OrgChart.wrapText(val,
         `<text style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;" fill="#46a610" x="${x}" y="${y}" text-anchor="${anchor}"></text>`,
         w, 1);
+    var technos = data.bio || '';
+    var yTechnos = node.stChildren.length ? 50 : 200;
+    var technosSvg = technos
+        ? `<text style="font-size:10px;font-style:italic;" fill="#888" x="${x}" y="${yTechnos}" text-anchor="${anchor}">${technos}</text>`
+        : '';
+    return titleSvg + technosSvg;
 };
 
 OrgChart.templates.clara.editFormHeaderColor = '#78be20';
@@ -62,22 +68,22 @@ OrgChart.templates.ceo.field_0 = `<text data-width="200" style="font-size:20px;f
 OrgChart.templates.ceo.field_1 = `<text data-width="200" style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;" fill="#78be20" x="390" y="60" text-anchor="start">{val}</text>`;
 OrgChart.templates.ceo.bio = `<text data-width="200" data-text-overflow="multiline" style="font-size:13px;" fill="#8a9ab5" x="390" y="90" text-anchor="start">{val}</text>`;
 
-// ── Template manager : affiche titre + domaine ────────────────
+// ── Template manager : affiche titre + technos ───────────────
 OrgChart.templates.manager = Object.assign({}, OrgChart.templates.clara);
 OrgChart.templates.manager.field_1 = function(node, data, config, mode, val) {
     var x = node.stChildren.length ? node.w - 15 : node.w / 2;
     var anchor = node.stChildren.length ? 'end' : 'middle';
     var w = node.stChildren.length ? node.w - 100 : node.w - 20;
     var yTitle = node.stChildren.length ? 35 : 180;
-    var yDomain = node.stChildren.length ? 50 : 197;
+    var yTechnos = node.stChildren.length ? 50 : 197;
     var titleSvg = OrgChart.wrapText(val,
         `<text style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;" fill="#46a610" x="${x}" y="${yTitle}" text-anchor="${anchor}"></text>`,
         w, 1);
-    var domain = data.domain || '';
-    var domainSvg = domain
-        ? `<text style="font-size:10px;font-weight:600;letter-spacing:0.06em;" fill="#888" x="${x}" y="${yDomain}" text-anchor="${anchor}">${domain}</text>`
+    var technos = data.bio || '';
+    var technosSvg = technos
+        ? `<text style="font-size:10px;font-style:italic;" fill="#aaa" x="${x}" y="${yTechnos}" text-anchor="${anchor}">${technos}</text>`
         : '';
-    return titleSvg + domainSvg;
+    return titleSvg + technosSvg;
 };
 OrgChart.templates.manager.editFormHeaderColor = '#78be20';
 
@@ -146,14 +152,12 @@ Promise.all([
     fetch('tech-options.json').then(function (r) { return r.json(); }),
     fetch('contact-options.json').then(function (r) { return r.json(); }),
     fetch('title-options.json').then(function (r) { return r.json(); }),
-    fetch('domain-options.json').then(function (r) { return r.json(); }),
     fetch('nodes.json').then(function (r) { return r.json(); })
 ]).then(function (results) {
     var TECH_OPTIONS = results[0];
     var CONTACT_OPTIONS = results[1];
     var TITLE_OPTIONS = results[2];
-    var DOMAIN_OPTIONS = results[3];
-    var nodes = results[4];
+    var nodes = results[3];
 
     var chart = new OrgChart(document.getElementById("tree"), {
         template: 'clara',
@@ -175,7 +179,6 @@ Promise.all([
             elements: [
                 { type: 'textbox', label: 'Full Name', binding: 'name' },
                 { type: 'select', options: TITLE_OPTIONS, label: 'Job Title', binding: 'title' },
-                { type: 'select', options: DOMAIN_OPTIONS, label: 'Domaine', binding: 'domain' },
                 { type: 'multiSelect', options: TECH_OPTIONS, label: 'Technos preferees', binding: 'likedTechnos' },
                 { type: 'select', options: CONTACT_OPTIONS, label: 'Contact prefere', binding: 'preferredContact' },
                 { type: 'textbox', label: 'Photo Url', binding: 'photo', btn: 'Upload' }

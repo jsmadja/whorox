@@ -24,8 +24,7 @@
             "Python",
             "Kubernetes",
             "Azure"
-        ],
-        "domain": "SPLIT"
+        ]
     },
     {
         "id": 3,
@@ -38,8 +37,7 @@
             "Go",
             "Docker",
             "AWS"
-        ],
-        "domain": "SPLIT"
+        ]
     },
     {
         "id": 4,
