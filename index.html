@@ -24,14 +24,138 @@
 <body class="bg-[#f4f6f9] overflow-hidden w-full h-full m-0 p-0">
 
   <!-- Topbar -->
-  <header id="topbar" class="absolute top-0 left-0 right-0 z-50 flex items-center px-6 py-3 bg-white/80 backdrop-blur-sm border-b border-gray-200 shadow-sm">
-    <div class="flex items-center gap-2 cursor-pointer select-none" onclick="location.reload()">
+  <header id="topbar" class="absolute top-0 left-0 right-0 z-50 flex items-center gap-4 px-6 py-3 bg-white/80 backdrop-blur-sm border-b border-gray-200 shadow-sm">
+
+    <!-- Logo -->
+    <div class="flex items-center gap-1 cursor-pointer select-none shrink-0" onclick="location.reload()">
       <span class="text-xl font-black tracking-tight text-gray-900">Who</span>
       <span class="text-xl font-black tracking-tight text-mozaic">ROX</span>
     </div>
+
+    <!-- Tech Radar bouton -->
+    <div class="relative shrink-0">
+      <button id="btn-radar" onclick="toggleRadar()"
+        class="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-mozaic border border-mozaic/40 hover:bg-mozaic/5 rounded-full transition-colors">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
+        </svg>
+        Tech Radar
+      </button>
+    </div>
+
+    <!-- Search bouton -->
+    <div class="relative shrink-0">
+      <button id="btn-search-panel" onclick="toggleSearchPanel()"
+        class="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-gray-600 border border-gray-300 hover:bg-gray-50 rounded-full transition-colors">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+        </svg>
+        Recherche
+      </button>
+    </div>
+
+    <!-- Spacer -->
+    <div class="flex-1"></div>
+
+    <!-- Expand / Collapse / Recentrer -->
+    <div class="flex items-center gap-2 shrink-0">
+      <button id="btn-fit" title="Recentrer"
+        class="flex items-center gap-1 px-3 py-1.5 text-xs font-medium text-mozaic border border-mozaic/40 hover:bg-mozaic/5 rounded-full transition-colors">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+        </svg>
+        Recentrer
+      </button>
+      <button id="btn-expand-all" title="Développer tout"
+        class="flex items-center gap-1 px-3 py-1.5 text-xs font-medium text-gray-600 bg-gray-100 hover:bg-gray-200 rounded-full transition-colors">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
+        </svg>
+        Tout développer
+      </button>
+      <button id="btn-collapse-all" title="Réduire tout"
+        class="flex items-center gap-1 px-3 py-1.5 text-xs font-medium text-gray-600 bg-gray-100 hover:bg-gray-200 rounded-full transition-colors">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/>
+        </svg>
+        Tout réduire
+      </button>
+    </div>
+
   </header>
 
-  <!-- OrgChart (décalé sous la topbar) -->
+  <!-- Panneau Tech Radar (gauche) -->
+  <div id="radar-panel" class="hidden absolute top-[57px] left-0 bottom-0 z-40 w-72 bg-white border-r border-gray-200 shadow-xl flex flex-col overflow-hidden">
+    <div class="flex items-center justify-between px-4 py-3 border-b border-gray-100 shrink-0">
+      <h2 class="text-sm font-bold text-gray-800">Tech Radar</h2>
+      <div class="flex items-center gap-1">
+        <button onclick="radarExpandAll()" title="Tout déplier" class="text-gray-400 hover:text-gray-600 p-1">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
+          </svg>
+        </button>
+        <button onclick="radarCollapseAll()" title="Tout replier" class="text-gray-400 hover:text-gray-600 p-1">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/>
+          </svg>
+        </button>
+        <button onclick="toggleRadar()" class="text-gray-400 hover:text-gray-600 p-1">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M18 6 6 18M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="px-4 py-2 border-b border-gray-100 shrink-0">
+      <button id="btn-radar-hide-unused" onclick="toggleRadarHideUnused()"
+        class="flex items-center gap-1.5 text-xs text-gray-500 hover:text-gray-700 transition-colors">
+        <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/>
+        </svg>
+        <span>Masquer les technos inutilisées</span>
+      </button>
+    </div>
+    <div id="radar-content" class="overflow-y-auto flex-1 py-2"></div>
+  </div>
+
+  <!-- Panneau Recherche (droite) -->
+  <div id="search-panel" class="hidden absolute top-[57px] right-0 bottom-0 z-40 w-96 bg-white border-l border-gray-200 shadow-xl flex flex-col overflow-hidden">
+    <div class="flex items-center justify-between px-4 py-3 border-b border-gray-100 shrink-0">
+      <h2 class="text-sm font-bold text-gray-800">Recherche</h2>
+      <button onclick="toggleSearchPanel()" class="text-gray-400 hover:text-gray-600">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M18 6 6 18M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+    <div class="px-4 py-3 border-b border-gray-100 shrink-0">
+      <div class="relative">
+        <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+        </svg>
+        <input id="search-panel-input" type="text" placeholder="Nom, titre, techno..."
+          class="w-full pl-10 pr-4 py-2 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-mozaic/40 focus:border-mozaic transition-colors"
+          oninput="onSearchPanelInput(this.value)" />
+      </div>
+      <div id="search-panel-count" class="text-xs text-gray-400 mt-2 hidden"></div>
+    </div>
+    <div id="search-panel-results" class="overflow-y-auto flex-1 py-2"></div>
+  </div>
+
+  <!-- Panneau Détail membre (droite) -->
+  <div id="detail-panel" class="hidden absolute top-[57px] right-0 bottom-0 z-40 w-96 bg-white border-l border-gray-200 shadow-xl flex flex-col overflow-hidden">
+    <div class="flex items-center justify-between px-4 py-3 border-b border-gray-100 shrink-0">
+      <h2 class="text-sm font-bold text-gray-800">Détail</h2>
+      <button onclick="closeDetailPanel()" class="text-gray-400 hover:text-gray-600">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M18 6 6 18M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+    <div id="detail-panel-content" class="overflow-y-auto flex-1 py-4 px-4"></div>
+  </div>
+
+  <!-- OrgChart -->
   <div id="tree" class="absolute inset-0 top-[57px]"></div>
 
 </body>

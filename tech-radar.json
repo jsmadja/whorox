@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Languages & Frameworks",
+        "technos": [
+            "JavaScript",
+            "TypeScript",
+            "Python",
+            "Java",
+            "Go",
+            "Kotlin",
+            "Rust",
+            "React",
+            "Vue.js",
+            "Angular",
+            "Next.js",
+            "Node.js",
+            "Spring Boot",
+            "FastAPI",
+            "GraphQL"
+        ]
+    },
+    {
+        "name": "Data & AI",
+        "technos": [
+            "PostgreSQL",
+            "MongoDB",
+            "Redis",
+            "Elasticsearch",
+            "Kafka",
+            "dbt",
+            "Spark",
+            "Airflow",
+            "MLflow",
+            "LangChain",
+            "OpenAI API",
+            "Vertex AI"
+        ]
+    },
+    {
+        "name": "Infrastructure & Cloud",
+        "technos": [
+            "AWS",
+            "GCP",
+            "Azure",
+            "Docker",
+            "Kubernetes",
+            "Terraform",
+            "Helm",
+            "Pulumi",
+            "ArgoCD",
+            "Istio"
+        ]
+    },
+    {
+        "name": "Observability & Quality",
+        "technos": [
+            "Datadog",
+            "Grafana",
+            "Prometheus",
+            "OpenTelemetry",
+            "Sentry",
+            "Cypress",
+            "Playwright",
+            "k6"
+        ]
+    },
+    {
+        "name": "Practices & Tools",
+        "technos": [
+            "Git",
+            "GitHub Actions",
+            "SonarQube",
+            "Feature Flags",
+            "Architecture Fitness Functions",
+            "Domain-Driven Design",
+            "Event Sourcing",
+            "CQRS"
+        ]
+    }
+]

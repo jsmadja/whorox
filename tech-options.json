@@ -1,15 +1,214 @@
 [
-    { "value": "JavaScript", "text": "JavaScript" },
-    { "value": "TypeScript", "text": "TypeScript" },
-    { "value": "React", "text": "React" },
-    { "value": "Vue.js", "text": "Vue.js" },
-    { "value": "Node.js", "text": "Node.js" },
-    { "value": "Python", "text": "Python" },
-    { "value": "Java", "text": "Java" },
-    { "value": "Go", "text": "Go" },
-    { "value": "Docker", "text": "Docker" },
-    { "value": "Kubernetes", "text": "Kubernetes" },
-    { "value": "AWS", "text": "AWS" },
-    { "value": "Azure", "text": "Azure" },
-    { "value": "GCP", "text": "GCP" }
+    {
+        "value": "JavaScript",
+        "text": "JavaScript"
+    },
+    {
+        "value": "TypeScript",
+        "text": "TypeScript"
+    },
+    {
+        "value": "Python",
+        "text": "Python"
+    },
+    {
+        "value": "Java",
+        "text": "Java"
+    },
+    {
+        "value": "Go",
+        "text": "Go"
+    },
+    {
+        "value": "Kotlin",
+        "text": "Kotlin"
+    },
+    {
+        "value": "Rust",
+        "text": "Rust"
+    },
+    {
+        "value": "React",
+        "text": "React"
+    },
+    {
+        "value": "Vue.js",
+        "text": "Vue.js"
+    },
+    {
+        "value": "Angular",
+        "text": "Angular"
+    },
+    {
+        "value": "Next.js",
+        "text": "Next.js"
+    },
+    {
+        "value": "Node.js",
+        "text": "Node.js"
+    },
+    {
+        "value": "Spring Boot",
+        "text": "Spring Boot"
+    },
+    {
+        "value": "FastAPI",
+        "text": "FastAPI"
+    },
+    {
+        "value": "GraphQL",
+        "text": "GraphQL"
+    },
+    {
+        "value": "PostgreSQL",
+        "text": "PostgreSQL"
+    },
+    {
+        "value": "MongoDB",
+        "text": "MongoDB"
+    },
+    {
+        "value": "Redis",
+        "text": "Redis"
+    },
+    {
+        "value": "Elasticsearch",
+        "text": "Elasticsearch"
+    },
+    {
+        "value": "Kafka",
+        "text": "Kafka"
+    },
+    {
+        "value": "dbt",
+        "text": "dbt"
+    },
+    {
+        "value": "Spark",
+        "text": "Spark"
+    },
+    {
+        "value": "Airflow",
+        "text": "Airflow"
+    },
+    {
+        "value": "MLflow",
+        "text": "MLflow"
+    },
+    {
+        "value": "LangChain",
+        "text": "LangChain"
+    },
+    {
+        "value": "OpenAI API",
+        "text": "OpenAI API"
+    },
+    {
+        "value": "Vertex AI",
+        "text": "Vertex AI"
+    },
+    {
+        "value": "AWS",
+        "text": "AWS"
+    },
+    {
+        "value": "GCP",
+        "text": "GCP"
+    },
+    {
+        "value": "Azure",
+        "text": "Azure"
+    },
+    {
+        "value": "Docker",
+        "text": "Docker"
+    },
+    {
+        "value": "Kubernetes",
+        "text": "Kubernetes"
+    },
+    {
+        "value": "Terraform",
+        "text": "Terraform"
+    },
+    {
+        "value": "Helm",
+        "text": "Helm"
+    },
+    {
+        "value": "Pulumi",
+        "text": "Pulumi"
+    },
+    {
+        "value": "ArgoCD",
+        "text": "ArgoCD"
+    },
+    {
+        "value": "Istio",
+        "text": "Istio"
+    },
+    {
+        "value": "Datadog",
+        "text": "Datadog"
+    },
+    {
+        "value": "Grafana",
+        "text": "Grafana"
+    },
+    {
+        "value": "Prometheus",
+        "text": "Prometheus"
+    },
+    {
+        "value": "OpenTelemetry",
+        "text": "OpenTelemetry"
+    },
+    {
+        "value": "Sentry",
+        "text": "Sentry"
+    },
+    {
+        "value": "Cypress",
+        "text": "Cypress"
+    },
+    {
+        "value": "Playwright",
+        "text": "Playwright"
+    },
+    {
+        "value": "k6",
+        "text": "k6"
+    },
+    {
+        "value": "Git",
+        "text": "Git"
+    },
+    {
+        "value": "GitHub Actions",
+        "text": "GitHub Actions"
+    },
+    {
+        "value": "SonarQube",
+        "text": "SonarQube"
+    },
+    {
+        "value": "Feature Flags",
+        "text": "Feature Flags"
+    },
+    {
+        "value": "Architecture Fitness Functions",
+        "text": "Architecture Fitness Functions"
+    },
+    {
+        "value": "Domain-Driven Design",
+        "text": "Domain-Driven Design"
+    },
+    {
+        "value": "Event Sourcing",
+        "text": "Event Sourcing"
+    },
+    {
+        "value": "CQRS",
+        "text": "CQRS"
+    }
 ]

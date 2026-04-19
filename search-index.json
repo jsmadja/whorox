@@ -1,1388 +1,1328 @@
 [
     {
-        "id": 1,
         "name": "Alexis Masset",
         "title": "Directeur digital",
         "photo": "https://media.licdn.com/dms/image/v2/C4E03AQFe6OnLMtGtrA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1626881647348?e=1778112000&v=beta&t=c5sE-IZMQiDnSMOs22ICIV8pTp6ubQGiGONQiPtFYcA",
-        "description": "Omnicommerce Collab Xp & HR",
-        "likedTechnos": [
+        "technos": [
             "JavaScript",
             "AWS",
             "Docker"
         ],
-        "tags": [
-            "listceo"
-        ]
+        "team": "",
+        "dm": "",
+        "dmDescription": ""
     },
     {
-        "id": 2,
-        "pid": 1,
         "name": "Juliette Lefranc",
         "title": "Delivery Manager",
-        "tags": [
-            "list",
-            "manager"
-        ],
         "photo": "https://cdn.balkan.app/shared/a/2.jpg",
-        "likedTechnos": [
+        "technos": [
             "Python",
             "Kubernetes",
             "Azure"
         ],
-        "description": "HR & Collaboration"
+        "team": "",
+        "dm": "",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 3,
-        "pid": 2,
-        "isAssistant": true,
         "name": "Sarah Fontaine",
         "title": "Engineering Manager",
         "photo": "https://cdn.balkan.app/shared/a/3.jpg",
-        "likedTechnos": [
+        "technos": [
             "TypeScript",
             "Node.js",
             "GitHub Actions"
-        ]
+        ],
+        "team": "",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 4,
-        "pid": 2,
-        "name": "Collab RH",
-        "title": "Outils RH, Onboarding, Portail collaborateur",
-        "tags": [
-            "team"
-        ]
-    },
-    {
-        "id": 5,
-        "stpid": 4,
         "name": "Camille Aubert",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
-        "likedTechnos": [
+        "technos": [
             "React",
             "TypeScript",
             "Node.js"
-        ]
+        ],
+        "team": "Collab RH",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 6,
-        "stpid": 4,
         "name": "Thomas Renard",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/7.jpg",
-        "likedTechnos": [
+        "technos": [
             "Python",
             "FastAPI",
             "PostgreSQL"
-        ]
+        ],
+        "team": "Collab RH",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 7,
-        "stpid": 4,
         "name": "Inès Marchand",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
-        "likedTechnos": [
+        "technos": [
             "Vue.js",
             "GraphQL",
             "Docker"
-        ]
+        ],
+        "team": "Collab RH",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 8,
-        "stpid": 4,
         "name": "Romain Chevalier",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/8.jpg",
-        "likedTechnos": [
+        "technos": [
             "Kotlin",
             "Spring Boot",
             "Kubernetes"
-        ]
+        ],
+        "team": "Collab RH",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 9,
-        "stpid": 4,
         "name": "Lucie Morin",
         "title": "QA OPS",
         "photo": "https://cdn.balkan.app/shared/a/19.jpg",
-        "likedTechnos": [
+        "technos": [
             "Playwright",
             "Cypress",
             "GitHub Actions"
-        ]
+        ],
+        "team": "Collab RH",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 10,
-        "stpid": 4,
         "name": "Baptiste Garnier",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/9.jpg",
-        "likedTechnos": [
+        "technos": [
             "Event Sourcing",
             "Kafka",
             "Domain-Driven Design"
-        ]
+        ],
+        "team": "Collab RH",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 11,
-        "pid": 2,
-        "name": "Expérience Digitale",
-        "title": "App mobile, Self-service, Parcours client",
-        "tags": [
-            "team"
-        ]
-    },
-    {
-        "id": 12,
-        "stpid": 11,
         "name": "Élodie Fabre",
         "title": "Product Manager",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
-        "likedTechnos": [
+        "technos": [
             "Feature Flags",
             "Domain-Driven Design",
             "JavaScript"
-        ]
+        ],
+        "team": "Expérience Digitale",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 13,
-        "stpid": 11,
         "name": "Victor Leclercq",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/14.jpg",
-        "likedTechnos": [
+        "technos": [
             "React",
             "Next.js",
             "TypeScript"
-        ]
+        ],
+        "team": "Expérience Digitale",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 14,
-        "stpid": 11,
         "name": "Manon Dupuis",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/18.jpg",
-        "likedTechnos": [
+        "technos": [
             "Angular",
             "Node.js",
             "PostgreSQL"
-        ]
+        ],
+        "team": "Expérience Digitale",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 15,
-        "stpid": 11,
         "name": "Alexis Perrin",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/16.jpg",
-        "likedTechnos": [
+        "technos": [
             "AWS",
             "Terraform",
             "Docker"
-        ]
+        ],
+        "team": "Expérience Digitale",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 16,
-        "stpid": 11,
         "name": "Clara Bonnet",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/15.jpg",
-        "likedTechnos": [
+        "technos": [
             "GraphQL",
             "MongoDB",
             "Redis"
-        ]
+        ],
+        "team": "Expérience Digitale",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 17,
-        "stpid": 11,
         "name": "Hugo Lemaire",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/17.jpg",
-        "likedTechnos": [
+        "technos": [
             "OpenTelemetry",
             "Datadog",
             "Sentry"
-        ]
+        ],
+        "team": "Expérience Digitale",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 18,
-        "stpid": 11,
         "name": "Zoé Carlier",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
-        "likedTechnos": [
+        "technos": [
             "Kotlin",
             "Spring Boot",
             "Istio"
-        ]
+        ],
+        "team": "Expérience Digitale",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 19,
-        "pid": 2,
-        "name": "Omnicommerce",
-        "title": "Catalogue, Panier, Commande en ligne",
-        "tags": [
-            "team"
-        ]
-    },
-    {
-        "id": 20,
-        "stpid": 19,
         "name": "Nicolas Blanc",
         "title": "Tech Lead",
         "photo": "https://cdn.balkan.app/shared/a/13.jpg",
-        "likedTechnos": [
+        "technos": [
             "Java",
             "Spring Boot",
             "Kafka"
-        ]
+        ],
+        "team": "Omnicommerce",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 21,
-        "stpid": 19,
         "name": "Pauline Girard",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
-        "likedTechnos": [
+        "technos": [
             "TypeScript",
             "React",
             "GraphQL"
-        ]
+        ],
+        "team": "Omnicommerce",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 22,
-        "stpid": 19,
         "name": "Simon Leroy",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/20.jpg",
-        "likedTechnos": [
+        "technos": [
             "Go",
             "Docker",
             "Kubernetes"
-        ]
+        ],
+        "team": "Omnicommerce",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 23,
-        "stpid": 19,
         "name": "Mathilde Rousseau",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
-        "likedTechnos": [
+        "technos": [
             "Elasticsearch",
             "Redis",
             "MongoDB"
-        ]
+        ],
+        "team": "Omnicommerce",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 24,
-        "stpid": 19,
         "name": "Antoine Mercier",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/4.jpg",
-        "likedTechnos": [
+        "technos": [
             "ArgoCD",
             "Helm",
             "Terraform"
-        ]
+        ],
+        "team": "Omnicommerce",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 25,
-        "stpid": 19,
         "name": "Céline Bertrand",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/3.jpg",
-        "likedTechnos": [
+        "technos": [
             "Python",
             "dbt",
             "Airflow"
-        ]
+        ],
+        "team": "Omnicommerce",
+        "dm": "Juliette Lefranc",
+        "dmDescription": "HR & Collaboration"
     },
     {
-        "id": 26,
-        "pid": 1,
         "name": "Loïc Laloyer",
         "title": "Delivery Manager",
-        "tags": [
-            "list",
-            "manager"
-        ],
         "photo": "https://cdn.balkan.app/shared/a/2.jpg",
-        "likedTechnos": [
+        "technos": [
             "Python",
             "Kubernetes",
             "Azure"
         ],
-        "description": "Sales & Relation"
+        "team": "",
+        "dm": "",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 27,
-        "pid": 26,
-        "isAssistant": true,
         "name": "Marc Tissier",
         "title": "Engineering Manager",
         "photo": "https://cdn.balkan.app/shared/a/1.jpg",
-        "likedTechnos": [
+        "technos": [
             "Java",
             "AWS",
             "Domain-Driven Design"
-        ]
+        ],
+        "team": "",
+        "dm": "Loïc Laloyer",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 28,
-        "pid": 26,
-        "name": "CRM & Fidélité",
-        "title": "CRM, Programme fidélité, Offres personnalisées",
-        "tags": [
-            "team"
-        ]
-    },
-    {
-        "id": 29,
-        "stpid": 28,
         "name": "Léa Vasseur",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/19.jpg",
-        "likedTechnos": [
+        "technos": [
             "Python",
             "Kafka",
             "PostgreSQL"
-        ]
+        ],
+        "team": "CRM & Fidélité",
+        "dm": "Loïc Laloyer",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 30,
-        "stpid": 28,
         "name": "Florian Millet",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/8.jpg",
-        "likedTechnos": [
+        "technos": [
             "Java",
             "Spring Boot",
             "MongoDB"
-        ]
+        ],
+        "team": "CRM & Fidélité",
+        "dm": "Loïc Laloyer",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 31,
-        "stpid": 28,
         "name": "Amandine Collet",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
-        "likedTechnos": [
+        "technos": [
             "TypeScript",
             "React",
             "GraphQL"
-        ]
+        ],
+        "team": "CRM & Fidélité",
+        "dm": "Loïc Laloyer",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 32,
-        "stpid": 28,
         "name": "Julien Normand",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/9.jpg",
-        "likedTechnos": [
+        "technos": [
             "Redis",
             "Elasticsearch",
             "Datadog"
-        ]
+        ],
+        "team": "CRM & Fidélité",
+        "dm": "Loïc Laloyer",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 33,
-        "stpid": 28,
         "name": "Laure Jacquet",
         "title": "QA OPS",
         "photo": "https://cdn.balkan.app/shared/a/15.jpg",
-        "likedTechnos": [
+        "technos": [
             "Cypress",
             "k6",
             "GitHub Actions"
-        ]
+        ],
+        "team": "CRM & Fidélité",
+        "dm": "Loïc Laloyer",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 34,
-        "stpid": 28,
         "name": "Pierre Gautier",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/7.jpg",
-        "likedTechnos": [
+        "technos": [
             "Terraform",
             "AWS",
             "Kubernetes"
-        ]
+        ],
+        "team": "CRM & Fidélité",
+        "dm": "Loïc Laloyer",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 35,
-        "pid": 26,
-        "name": "Devis & Configurateur",
-        "title": "Configurateur produit, Devis en ligne, Simulation",
-        "tags": [
-            "team"
-        ]
-    },
-    {
-        "id": 36,
-        "stpid": 35,
         "name": "Nathalie Roux",
         "title": "Product Manager",
         "photo": "https://cdn.balkan.app/shared/a/18.jpg",
-        "likedTechnos": [
+        "technos": [
             "Feature Flags",
             "Domain-Driven Design",
             "Vertex AI"
-        ]
+        ],
+        "team": "Devis & Configurateur",
+        "dm": "Loïc Laloyer",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 37,
-        "stpid": 35,
         "name": "Kevin Barbier",
         "title": "Tech Lead",
         "photo": "https://cdn.balkan.app/shared/a/13.jpg",
-        "likedTechnos": [
+        "technos": [
             "Go",
             "gRPC",
             "Kubernetes"
-        ]
+        ],
+        "team": "Devis & Configurateur",
+        "dm": "Loïc Laloyer",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 38,
-        "stpid": 35,
         "name": "Sandra Picard",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
-        "likedTechnos": [
+        "technos": [
             "Vue.js",
             "Node.js",
             "PostgreSQL"
-        ]
+        ],
+        "team": "Devis & Configurateur",
+        "dm": "Loïc Laloyer",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 39,
-        "stpid": 35,
         "name": "Étienne Morel",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/14.jpg",
-        "likedTechnos": [
+        "technos": [
             "Python",
             "FastAPI",
             "Docker"
-        ]
+        ],
+        "team": "Devis & Configurateur",
+        "dm": "Loïc Laloyer",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 40,
-        "stpid": 35,
         "name": "Fanny Lambert",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
-        "likedTechnos": [
+        "technos": [
             "React",
             "TypeScript",
             "Next.js"
-        ]
+        ],
+        "team": "Devis & Configurateur",
+        "dm": "Loïc Laloyer",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 41,
-        "stpid": 35,
         "name": "Grégory Sanchez",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/16.jpg",
-        "likedTechnos": [
+        "technos": [
             "Prometheus",
             "Grafana",
             "OpenTelemetry"
-        ]
+        ],
+        "team": "Devis & Configurateur",
+        "dm": "Loïc Laloyer",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 42,
-        "stpid": 35,
         "name": "Isabelle Meunier",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
-        "likedTechnos": [
+        "technos": [
             "Spark",
             "dbt",
             "Airflow"
-        ]
+        ],
+        "team": "Devis & Configurateur",
+        "dm": "Loïc Laloyer",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 43,
-        "pid": 26,
-        "name": "Relation Client",
-        "title": "SAV, Chat, Avis clients",
-        "tags": [
-            "team"
-        ]
-    },
-    {
-        "id": 44,
-        "stpid": 43,
         "name": "Damien Ferreira",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/20.jpg",
-        "likedTechnos": [
+        "technos": [
             "Kotlin",
             "Spring Boot",
             "Kafka"
-        ]
+        ],
+        "team": "Relation Client",
+        "dm": "Loïc Laloyer",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 45,
-        "stpid": 43,
         "name": "Océane Dupont",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/3.jpg",
-        "likedTechnos": [
+        "technos": [
             "React",
             "GraphQL",
             "MongoDB"
-        ]
+        ],
+        "team": "Relation Client",
+        "dm": "Loïc Laloyer",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 46,
-        "stpid": 43,
         "name": "Thibault Henry",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/4.jpg",
-        "likedTechnos": [
+        "technos": [
             "LangChain",
             "OpenAI API",
             "Python"
-        ]
+        ],
+        "team": "Relation Client",
+        "dm": "Loïc Laloyer",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 47,
-        "stpid": 43,
         "name": "Virginie Caron",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/19.jpg",
-        "likedTechnos": [
+        "technos": [
             "Node.js",
             "TypeScript",
             "Redis"
-        ]
+        ],
+        "team": "Relation Client",
+        "dm": "Loïc Laloyer",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 48,
-        "stpid": 43,
         "name": "Sébastien Auger",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/17.jpg",
-        "likedTechnos": [
+        "technos": [
             "Playwright",
             "SonarQube",
             "GitHub Actions"
-        ]
+        ],
+        "team": "Relation Client",
+        "dm": "Loïc Laloyer",
+        "dmDescription": "Sales & Relation"
     },
     {
-        "id": 49,
-        "pid": 1,
         "name": "Thomas Conroux",
         "title": "Delivery Manager",
-        "tags": [
-            "list",
-            "manager"
-        ],
         "photo": "https://cdn.balkan.app/shared/a/2.jpg",
-        "likedTechnos": [
+        "technos": [
             "Python",
             "Kubernetes",
             "Azure"
         ],
-        "description": "Project & config"
+        "team": "",
+        "dm": "",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 50,
-        "pid": 49,
-        "isAssistant": true,
         "name": "Laurent Vidal",
         "title": "Engineering Manager",
         "photo": "https://cdn.balkan.app/shared/a/1.jpg",
-        "likedTechnos": [
+        "technos": [
             "Go",
             "Kubernetes",
             "ArgoCD"
-        ]
+        ],
+        "team": "",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 51,
-        "pid": 49,
-        "name": "Config & Référentiel",
-        "title": "MDM, Référentiel produit, Config store",
-        "tags": [
-            "team"
-        ]
-    },
-    {
-        "id": 52,
-        "stpid": 51,
         "name": "Aude Renault",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
-        "likedTechnos": [
+        "technos": [
             "Java",
             "Spring Boot",
             "PostgreSQL"
-        ]
+        ],
+        "team": "Config & Référentiel",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 53,
-        "stpid": 51,
         "name": "Christophe Faure",
         "title": "Tech Lead",
         "photo": "https://cdn.balkan.app/shared/a/13.jpg",
-        "likedTechnos": [
+        "technos": [
             "Go",
             "Kubernetes",
             "Helm"
-        ]
+        ],
+        "team": "Config & Référentiel",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 54,
-        "stpid": 51,
         "name": "Mélanie Prévost",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
-        "likedTechnos": [
+        "technos": [
             "TypeScript",
             "Node.js",
             "MongoDB"
-        ]
+        ],
+        "team": "Config & Référentiel",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 55,
-        "stpid": 51,
         "name": "Aurore Lemoine",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
-        "likedTechnos": [
+        "technos": [
             "Feature Flags",
             "Domain-Driven Design",
             "Event Sourcing"
-        ]
+        ],
+        "team": "Config & Référentiel",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 56,
-        "stpid": 51,
         "name": "Bastien Guérin",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/9.jpg",
-        "likedTechnos": [
+        "technos": [
             "ArgoCD",
             "Terraform",
             "AWS"
-        ]
+        ],
+        "team": "Config & Référentiel",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 57,
-        "stpid": 51,
         "name": "Stéphanie Collin",
         "title": "QA OPS",
         "photo": "https://cdn.balkan.app/shared/a/18.jpg",
-        "likedTechnos": [
+        "technos": [
             "k6",
             "Playwright",
             "SonarQube"
-        ]
+        ],
+        "team": "Config & Référentiel",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 58,
-        "pid": 49,
-        "name": "Pricing & Promo",
-        "title": "Moteur de prix, Promotions, Remises",
-        "tags": [
-            "team"
-        ]
-    },
-    {
-        "id": 59,
-        "stpid": 58,
         "name": "François Nguyen",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/14.jpg",
-        "likedTechnos": [
+        "technos": [
             "Python",
             "Spark",
             "dbt"
-        ]
+        ],
+        "team": "Pricing & Promo",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 60,
-        "stpid": 58,
         "name": "Charlotte Petit",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/15.jpg",
-        "likedTechnos": [
+        "technos": [
             "React",
             "TypeScript",
             "GraphQL"
-        ]
+        ],
+        "team": "Pricing & Promo",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 61,
-        "stpid": 58,
         "name": "Jonathan Rivière",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/16.jpg",
-        "likedTechnos": [
+        "technos": [
             "Kafka",
             "Redis",
             "Elasticsearch"
-        ]
+        ],
+        "team": "Pricing & Promo",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 62,
-        "stpid": 58,
         "name": "Audrey Lacroix",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/19.jpg",
-        "likedTechnos": [
+        "technos": [
             "Datadog",
             "Prometheus",
             "Grafana"
-        ]
+        ],
+        "team": "Pricing & Promo",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 63,
-        "stpid": 58,
         "name": "Nicolas Reynaud",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/4.jpg",
-        "likedTechnos": [
+        "technos": [
             "Kotlin",
             "Spring Boot",
             "Docker"
-        ]
+        ],
+        "team": "Pricing & Promo",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 64,
-        "stpid": 58,
         "name": "Pauline Guillot",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/3.jpg",
-        "likedTechnos": [
+        "technos": [
             "MLflow",
             "Airflow",
             "LangChain"
-        ]
+        ],
+        "team": "Pricing & Promo",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 65,
-        "stpid": 58,
         "name": "Xavier Lemaire",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/20.jpg",
-        "likedTechnos": [
+        "technos": [
             "Go",
             "gRPC",
             "Istio"
-        ]
+        ],
+        "team": "Pricing & Promo",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 66,
-        "pid": 49,
-        "name": "Approvisionnement",
-        "title": "Supply chain, Stocks, Logistique",
-        "tags": [
-            "team"
-        ]
-    },
-    {
-        "id": 67,
-        "stpid": 66,
         "name": "Delphine Arnaud",
         "title": "Product Manager",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
-        "likedTechnos": [
+        "technos": [
             "Domain-Driven Design",
             "Feature Flags",
             "CQRS"
-        ]
+        ],
+        "team": "Approvisionnement",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 68,
-        "stpid": 66,
         "name": "Maxime Bertrand",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/8.jpg",
-        "likedTechnos": [
+        "technos": [
             "Java",
             "Spring Boot",
             "Kafka"
-        ]
+        ],
+        "team": "Approvisionnement",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 69,
-        "stpid": 66,
         "name": "Anaëlle Roussel",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
-        "likedTechnos": [
+        "technos": [
             "Python",
             "FastAPI",
             "MongoDB"
-        ]
+        ],
+        "team": "Approvisionnement",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 70,
-        "stpid": 66,
         "name": "Benoît Martel",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/17.jpg",
-        "likedTechnos": [
+        "technos": [
             "AWS",
             "Pulumi",
             "Kubernetes"
-        ]
+        ],
+        "team": "Approvisionnement",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 71,
-        "stpid": 66,
         "name": "Margot Schneider",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
-        "likedTechnos": [
+        "technos": [
             "TypeScript",
             "Node.js",
             "PostgreSQL"
-        ]
+        ],
+        "team": "Approvisionnement",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 72,
-        "stpid": 66,
         "name": "Guillaume Morin",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/7.jpg",
-        "likedTechnos": [
+        "technos": [
             "Sentry",
             "OpenTelemetry",
             "GitHub Actions"
-        ]
+        ],
+        "team": "Approvisionnement",
+        "dm": "Thomas Conroux",
+        "dmDescription": "Project & config"
     },
     {
-        "id": 73,
-        "pid": 1,
         "name": "Thomas Bujaud",
         "title": "Delivery Manager",
-        "tags": [
-            "list",
-            "manager"
-        ],
         "photo": "https://media.licdn.com/dms/image/v2/C5603AQELh6Z79-QYlw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516316841461?e=1778112000&v=beta&t=O9FndgdFKdSeKx7siXnvG__fmA8vBwJkDl_yjSHrk_s",
-        "likedTechnos": [
+        "technos": [
             "Python",
             "Kubernetes",
             "Azure"
         ],
-        "description": "Services & Reno"
+        "team": "",
+        "dm": "",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 74,
-        "pid": 73,
-        "isAssistant": true,
         "name": "Cédric Boufflers",
         "title": "Engineering Manager",
         "photo": "https://media.licdn.com/dms/image/v2/C4D03AQGAAMGjwYhF_w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1552597928446?e=1778112000&v=beta&t=Ah6SLgyyHGbTFhtmdFvE7iIgHe44AMg5o3vjYyvdcIU",
-        "likedTechnos": [
+        "technos": [
             "Go",
             "Docker",
             "AWS"
-        ]
+        ],
+        "team": "",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 75,
-        "pid": 73,
-        "name": "Tapas",
-        "title": "Tandem, Tandem PRO, Trek",
-        "tags": [
-            "team"
-        ]
-    },
-    {
-        "id": 76,
-        "stpid": 75,
         "name": "Sophie Calvat",
         "title": "Product Manager",
         "photo": "https://cdn.balkan.app/shared/a/3.jpg",
-        "likedTechnos": [
+        "technos": [
             "Domain-Driven Design",
             "JavaScript",
             "Vertex AI"
-        ]
+        ],
+        "team": "Tapas",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 77,
-        "stpid": 75,
         "name": "Julien Smadja",
         "title": "Tech Lead",
         "photo": "https://media.licdn.com/dms/image/v2/C4D03AQGdrssLYnRVjw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1597738702036?e=1778112000&v=beta&t=L8XgugcYu73c128RmR_2y0kbBC6f4Cd1gr57Eze64zM",
-        "likedTechnos": [
+        "technos": [
             "TypeScript",
             "React",
             "AWS"
-        ]
+        ],
+        "team": "Tapas",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 78,
-        "stpid": 75,
         "name": "Jérôme Fleury",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/4.jpg",
-        "likedTechnos": [
+        "technos": [
             "PostgreSQL",
             "JavaScript",
             "Istio"
-        ]
+        ],
+        "team": "Tapas",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 79,
-        "stpid": 75,
         "name": "Gaëtan Hermand",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/7.jpg",
-        "likedTechnos": [
+        "technos": [
             "GitHub Actions",
             "ArgoCD",
             "Azure"
-        ]
+        ],
+        "team": "Tapas",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 80,
-        "stpid": 75,
         "name": "Julien Legrand",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/8.jpg",
-        "likedTechnos": [
+        "technos": [
             "Angular",
             "Node.js",
             "GitHub Actions"
-        ]
+        ],
+        "team": "Tapas",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 81,
-        "stpid": 75,
         "name": "Louis Deparis",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/9.jpg",
-        "likedTechnos": [
+        "technos": [
             "MLflow",
             "FastAPI",
             "OpenTelemetry"
-        ]
+        ],
+        "team": "Tapas",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 82,
-        "stpid": 75,
         "name": "Adrien Duwez",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/10.jpg",
-        "likedTechnos": [
+        "technos": [
             "MLflow",
             "Node.js",
             "MongoDB"
-        ]
+        ],
+        "team": "Tapas",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 83,
-        "stpid": 75,
         "name": "Marie Saillard",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
-        "likedTechnos": [
+        "technos": [
             "OpenAI API",
             "GCP",
             "Git"
-        ]
+        ],
+        "team": "Tapas",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 84,
-        "stpid": 75,
         "name": "Morgan Lombard",
         "title": "Développeur Full Stack",
         "photo": "https://cdn.balkan.app/shared/a/13.jpg",
-        "likedTechnos": [
+        "technos": [
             "k6",
             "Domain-Driven Design",
             "Kafka"
-        ]
+        ],
+        "team": "Tapas",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 85,
-        "stpid": 75,
         "name": "Ibrahim Moujaes",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/14.jpg",
-        "likedTechnos": [
+        "technos": [
             "Python",
             "SonarQube",
             "Datadog"
-        ]
+        ],
+        "team": "Tapas",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 86,
-        "pid": 73,
-        "name": "Installation",
-        "title": "iPose, Installa, Portail Four, BRT",
-        "tags": [
-            "team"
-        ]
-    },
-    {
-        "id": 87,
-        "stpid": 86,
         "name": "Alexia Née",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/15.jpg",
-        "likedTechnos": [
+        "technos": [
             "Spring Boot",
             "OpenAI API",
             "LangChain"
-        ]
+        ],
+        "team": "Installation",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 88,
-        "stpid": 86,
         "name": "Fabienne Hirwa",
         "title": "QA OPS",
         "photo": "https://cdn.balkan.app/shared/a/18.jpg",
-        "likedTechnos": [
+        "technos": [
             "Terraform",
             "Pulumi",
             "Datadog"
-        ]
+        ],
+        "team": "Installation",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 89,
-        "stpid": 86,
         "name": "Heithem Lejmi",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/16.jpg",
-        "likedTechnos": [
+        "technos": [
             "Playwright",
             "GraphQL",
             "Spring Boot"
-        ]
+        ],
+        "team": "Installation",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 90,
-        "stpid": 86,
         "name": "Lucie Guerreiro",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/19.jpg",
-        "likedTechnos": [
+        "technos": [
             "Go",
             "Vertex AI",
             "Angular"
-        ]
+        ],
+        "team": "Installation",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 91,
-        "stpid": 86,
         "name": "Rémy Halipré",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/17.jpg",
-        "likedTechnos": [
+        "technos": [
             "AWS",
             "Domain-Driven Design",
             "SonarQube"
-        ]
+        ],
+        "team": "Installation",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 92,
-        "stpid": 86,
         "name": "Aurélien Gout",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/20.jpg",
-        "likedTechnos": [
+        "technos": [
             "Datadog",
             "Node.js",
             "FastAPI"
-        ]
+        ],
+        "team": "Installation",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 93,
-        "stpid": 86,
         "name": "Barthélemy Kalamakas",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/1.jpg",
-        "likedTechnos": [
+        "technos": [
             "Node.js",
             "Angular",
             "JavaScript"
-        ]
+        ],
+        "team": "Installation",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 94,
-        "pid": 73,
-        "name": "Renov'Aid",
-        "title": "Renov'Aid, Simulateur DPE",
-        "tags": [
-            "team"
-        ]
-    },
-    {
-        "id": 95,
-        "stpid": 94,
         "name": "Alexandre Lamiral",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/13.jpg",
-        "likedTechnos": [
+        "technos": [
             "Domain-Driven Design",
             "k6",
             "Go"
-        ]
+        ],
+        "team": "Renov'Aid",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 96,
-        "stpid": 94,
         "name": "Fabrice Ahoulou",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/2.jpg",
-        "likedTechnos": [
+        "technos": [
             "Spark",
             "Event Sourcing",
             "Terraform"
-        ]
+        ],
+        "team": "Renov'Aid",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 97,
-        "stpid": 94,
         "name": "Saad Ederdik",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/4.jpg",
-        "likedTechnos": [
+        "technos": [
             "GitHub Actions",
             "Prometheus",
             "Spark"
-        ]
+        ],
+        "team": "Renov'Aid",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 98,
-        "stpid": 94,
         "name": "William Meslard",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/7.jpg",
-        "likedTechnos": [
+        "technos": [
             "AWS",
             "Redis",
             "Playwright"
-        ]
+        ],
+        "team": "Renov'Aid",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 99,
-        "stpid": 94,
         "name": "Sarah Gergaud",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/3.jpg",
-        "likedTechnos": [
+        "technos": [
             "Docker",
             "GraphQL",
             "Airflow"
-        ]
+        ],
+        "team": "Renov'Aid",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 100,
-        "stpid": 94,
         "name": "Delphine Leguyader",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
-        "likedTechnos": [
+        "technos": [
             "Spring Boot",
             "TypeScript",
             "FastAPI"
-        ]
+        ],
+        "team": "Renov'Aid",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 101,
-        "stpid": 94,
         "name": "Rémi Doolaeghe",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/8.jpg",
-        "likedTechnos": [
+        "technos": [
             "Event Sourcing",
             "MongoDB",
             "Airflow"
-        ]
+        ],
+        "team": "Renov'Aid",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 102,
-        "stpid": 94,
         "name": "Amine Khiari",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/9.jpg",
-        "likedTechnos": [
+        "technos": [
             "MongoDB",
             "Pulumi",
             "Vue.js"
-        ]
+        ],
+        "team": "Renov'Aid",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 103,
-        "pid": 73,
-        "name": "LM Réno",
-        "title": "Team",
-        "tags": [
-            "team"
-        ]
-    },
-    {
-        "id": 104,
-        "stpid": 103,
         "name": "Emmanuel Reant",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/10.jpg",
-        "likedTechnos": [
+        "technos": [
             "Sentry",
             "JavaScript",
             "OpenTelemetry"
-        ]
+        ],
+        "team": "LM Réno",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 105,
-        "pid": 73,
-        "name": "Ref Habitat",
-        "title": "Team",
-        "tags": [
-            "team"
-        ]
-    },
-    {
-        "id": 106,
-        "stpid": 105,
         "name": "Mathieu Boniface",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/13.jpg",
-        "likedTechnos": [
+        "technos": [
             "Elasticsearch",
             "Grafana",
             "GraphQL"
-        ]
+        ],
+        "team": "Ref Habitat",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 107,
-        "stpid": 105,
         "name": "Julien Thilliez",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/14.jpg",
-        "likedTechnos": [
+        "technos": [
             "Terraform",
             "Feature Flags",
             "Kotlin"
-        ]
+        ],
+        "team": "Ref Habitat",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 108,
-        "stpid": 105,
         "name": "Matthias Scherrens",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/16.jpg",
-        "likedTechnos": [
+        "technos": [
             "Redis",
             "Node.js",
             "PostgreSQL"
-        ]
+        ],
+        "team": "Ref Habitat",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 109,
-        "stpid": 105,
         "name": "Mehdi Lahiyane",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/17.jpg",
-        "likedTechnos": [
+        "technos": [
             "AWS",
             "Pulumi",
             "JavaScript"
-        ]
+        ],
+        "team": "Ref Habitat",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 110,
-        "stpid": 105,
         "name": "Ahmed Achour",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/20.jpg",
-        "likedTechnos": [
+        "technos": [
             "MongoDB",
             "JavaScript",
             "Istio"
-        ]
+        ],
+        "team": "Ref Habitat",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 111,
-        "pid": 73,
-        "name": "Transversal",
-        "title": "Team",
-        "tags": [
-            "team"
-        ]
-    },
-    {
-        "id": 112,
-        "stpid": 111,
         "name": "Flavien Pagerie",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/1.jpg",
-        "likedTechnos": [
+        "technos": [
             "Cypress",
             "Playwright",
             "Node.js"
-        ]
+        ],
+        "team": "Transversal",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 113,
-        "stpid": 111,
         "name": "Julien Defief",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/2.jpg",
-        "likedTechnos": [
+        "technos": [
             "Go",
             "k6",
             "GitHub Actions"
-        ]
+        ],
+        "team": "Transversal",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 114,
-        "stpid": 111,
         "name": "Anaïs Bernard",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
-        "likedTechnos": [
+        "technos": [
             "dbt",
             "Docker",
             "Node.js"
-        ]
+        ],
+        "team": "Transversal",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 115,
-        "stpid": 111,
         "name": "Nabil Boutiyarzist",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/4.jpg",
-        "likedTechnos": [
+        "technos": [
             "Domain-Driven Design",
             "Playwright",
             "MLflow"
-        ]
+        ],
+        "team": "Transversal",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 116,
-        "stpid": 111,
         "name": "Julie Defrocourt",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
-        "likedTechnos": [
+        "technos": [
             "Kotlin",
             "Vue.js",
             "Feature Flags"
-        ]
+        ],
+        "team": "Transversal",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     },
     {
-        "id": 117,
-        "stpid": 111,
         "name": "Alya Cholet",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
-        "likedTechnos": [
+        "technos": [
             "React",
             "Kafka",
             "GitHub Actions"
-        ]
+        ],
+        "team": "Transversal",
+        "dm": "Thomas Bujaud",
+        "dmDescription": "Services & Reno"
     }
 ]
