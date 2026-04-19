@@ -638,6 +638,9 @@ Promise.all([
         template: 'clara',
         enableSearch: false,
         expand: {},
+        collapse: {
+            level: 2
+        },
         tags: {
             manager: {
                 template: 'manager'
@@ -648,7 +651,7 @@ Promise.all([
                     layout: OrgChart.layout.treeList,
                     template: 'treeListItemWithTechnos',
                     collapse: {
-                        level: 0
+                        level: 1
                     }
                 }
             },
@@ -657,7 +660,7 @@ Promise.all([
                     layout: OrgChart.layout.treeList,
                     template: 'treeListItemWithTechnos',
                     collapse: {
-                        level: 0
+                        level: 1
                     }
                 }
             },
@@ -673,7 +676,7 @@ Promise.all([
                     layout: OrgChart.layout.treeList,
                     template: 'treeListItem',
                     collapse: {
-                        level: 0
+                        level: 1
                     }
                 }
             },
@@ -731,17 +734,22 @@ Promise.all([
         chart.fit();
     });
 
+    document.getElementById('btn-zoom-in').addEventListener('click', function() {
+        chart.zoom(true);
+    });
+    document.getElementById('btn-zoom-out').addEventListener('click', function() {
+        chart.zoom(false);
+    });
+
     document.getElementById('btn-expand-all').addEventListener('click', function() {
         var ids = getAllCollapsedIds();
         if (ids.length) {
             chart.expandCollapse(chart.roots[0].id, ids, []);
+            setTimeout(function() { chart.fit(); }, 300);
         }
     });
     document.getElementById('btn-collapse-all').addEventListener('click', function() {
-        var allIds = chart.config.nodes.map(function(n) { return n.id; });
-        if (allIds.length > 1) {
-            chart.collapse(allIds[0], allIds.slice(1));
-        }
+        chart.load(enrichedNodes);
     });
 
     chart.load(enrichedNodes);
@@ -749,7 +757,18 @@ Promise.all([
 
     // ── Clic sur un nœud → panneau détail ────────────────────
     chart.on('click', function(sender, args) {
+        if (args && args.node) {
+            var nodeData = chart.get(args.node.id);
+            if (nodeData && nodeData.name) {
+                openDetailPanel(nodeData.name);
+            }
+        }
         return false;
+    });
+
+    // ── Fit automatique après expand/collapse ────────────────
+    chart.on('expcollclick', function(sender, collapse, id) {
+        setTimeout(function() { chart.fit(); }, 300);
     });
 
     // ── Clic sur le vide → recentrer ─────────────────────────
@@ -759,44 +778,14 @@ Promise.all([
         chart.fit();
     });
 
-    // ── Clic sur une techno dans l'orgchart → recherche ──────
-    // ── Clic sur photo/nom/titre → panneau détail ────────────
+    // ── Clic sur un nœud → panneau détail ──────────────────────
     document.getElementById('tree').addEventListener('click', function(e) {
-        var target = e.target;
-
-        // Remonter au <text> si on a cliqué sur un <tspan>
-        var textTarget = target;
-        if (textTarget.tagName === 'tspan') textTarget = textTarget.parentElement;
-
-        // Clic sur techno verte → recherche
-        if (textTarget.tagName === 'text' && textTarget.getAttribute('fill') === '#46a610') {
-            var text = textTarget.textContent.trim();
-            if (!text) return;
-            var technos = text.split(' · ').map(function(t) { return t.trim(); }).filter(Boolean);
-            if (technos.length === 0) return;
-            e.stopPropagation();
-            if (technos.length === 1) {
-                openSearchWithTechno(technos[0]);
-            } else {
-                showTechnoPicker(technos, e.clientX, e.clientY);
-            }
-            return;
-        }
-
-        // Clic sur photo (image/circle dans clipPath) ou nom/titre → détail
-        var tag = target.tagName;
-        var isPhoto = (tag === 'image' || tag === 'circle');
-        var isNameOrTitle = (tag === 'text' || tag === 'tspan') && textTarget.getAttribute('fill') !== '#46a610';
-
-        if (isPhoto || isNameOrTitle) {
-            // Remonter au nœud [data-n-id]
-            var nodeEl = target.closest('[data-n-id]');
-            if (!nodeEl) return;
-            var nodeId = parseInt(nodeEl.getAttribute('data-n-id'));
-            var nodeData = chart.get(nodeId);
-            if (nodeData && nodeData.name) {
-                openDetailPanel(nodeData.name);
-            }
+        var nodeEl = e.target.closest('[data-n-id]');
+        if (!nodeEl) return;
+        var nodeId = parseInt(nodeEl.getAttribute('data-n-id'));
+        var nodeData = chart.get(nodeId);
+        if (nodeData && nodeData.name) {
+            openDetailPanel(nodeData.name);
         }
     }, true);
 
