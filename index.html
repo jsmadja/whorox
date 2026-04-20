@@ -54,6 +54,18 @@
       </button>
     </div>
 
+    <!-- Actualités bouton -->
+    <div class="relative shrink-0">
+      <button id="btn-feed" onclick="toggleFeedPanel()"
+        class="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-gray-600 border border-gray-300 hover:bg-gray-50 rounded-full transition-colors">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/>
+        </svg>
+        Actualités
+        <span id="feed-badge" class="hidden ml-1 px-1.5 py-0.5 text-[10px] font-bold text-white bg-orange-500 rounded-full leading-none"></span>
+      </button>
+    </div>
+
     <!-- Spacer -->
     <div class="flex-1"></div>
 
@@ -94,6 +106,15 @@
       </button>
     </div>
 
+    <!-- Avatar utilisateur connecté -->
+    <div class="relative shrink-0">
+      <button id="btn-profile" onclick="toggleProfilePanel()" title="Mon profil"
+        class="relative w-9 h-9 rounded-full overflow-hidden border-2 border-gray-200 hover:border-mozaic transition-colors">
+        <span id="profile-avatar" class="flex items-center justify-center w-full h-full bg-mozaic text-white text-xs font-bold">JS</span>
+      </button>
+      <span id="profile-badge" class="hidden absolute -top-1 -right-1 px-1.5 py-0.5 text-[10px] font-bold text-white bg-red-500 rounded-full leading-none"></span>
+    </div>
+
   </header>
 
   <!-- Panneau Tech Radar (gauche) -->
@@ -127,6 +148,9 @@
         <span>Masquer les technos inutilisées</span>
       </button>
     </div>
+    <div class="px-4 py-2 border-b border-gray-100 shrink-0">
+      <input id="radar-filter-input" type="text" placeholder="Filtrer les technos..." class="w-full px-3 py-1.5 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-mozaic focus:border-mozaic" />
+    </div>
     <div id="radar-content" class="overflow-y-auto flex-1 py-2"></div>
   </div>
 
@@ -150,6 +174,10 @@
           oninput="onSearchPanelInput(this.value)" />
       </div>
       <div id="search-panel-count" class="text-xs text-gray-400 mt-2 hidden"></div>
+      <div class="flex gap-2 mt-2">
+        <button onclick="searchFilterCanHelp()" class="text-[10px] px-2 py-1 rounded-full border border-green-300 text-green-700 hover:bg-green-50 transition-colors">Peut aider sur...</button>
+        <button onclick="searchFilterNeedsHelp()" class="text-[10px] px-2 py-1 rounded-full border border-orange-300 text-orange-700 hover:bg-orange-50 transition-colors">Cherche aide sur...</button>
+      </div>
     </div>
     <div id="search-panel-results" class="overflow-y-auto flex-1 py-2"></div>
   </div>
@@ -165,6 +193,32 @@
       </button>
     </div>
     <div id="detail-panel-content" class="overflow-y-auto flex-1 py-4 px-4"></div>
+  </div>
+
+  <!-- Panneau Mon Profil (droite) -->
+  <div id="profile-panel" class="hidden absolute top-[57px] right-0 bottom-0 z-40 w-96 bg-white border-l border-gray-200 shadow-xl flex flex-col overflow-hidden">
+    <div class="flex items-center justify-between px-4 py-3 border-b border-gray-100 shrink-0">
+      <h2 class="text-sm font-bold text-gray-800">Mon Profil</h2>
+      <button onclick="toggleProfilePanel()" class="text-gray-400 hover:text-gray-600">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M18 6 6 18M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+    <div id="profile-panel-content" class="overflow-y-auto flex-1 py-4 px-4"></div>
+  </div>
+
+  <!-- Panneau Fil d'actu (droite) -->
+  <div id="feed-panel" class="hidden absolute top-[57px] right-0 bottom-0 z-40 w-96 bg-white border-l border-gray-200 shadow-xl flex flex-col overflow-hidden">
+    <div class="flex items-center justify-between px-4 py-3 border-b border-gray-100 shrink-0">
+      <h2 class="text-sm font-bold text-gray-800">Actualités</h2>
+      <button onclick="toggleFeedPanel()" class="text-gray-400 hover:text-gray-600">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M18 6 6 18M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+    <div id="feed-panel-content" class="overflow-y-auto flex-1 py-2 px-4"></div>
   </div>
 
   <!-- OrgChart -->

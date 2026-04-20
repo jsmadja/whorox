@@ -6,9 +6,9 @@
         "photo": "https://media.licdn.com/dms/image/v2/C4E03AQFe6OnLMtGtrA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1626881647348?e=1778112000&v=beta&t=c5sE-IZMQiDnSMOs22ICIV8pTp6ubQGiGONQiPtFYcA",
         "description": "Omnicommerce Collab Xp & HR",
         "likedTechnos": [
-            "JavaScript",
-            "AWS",
-            "Docker"
+            "Open Telemetry",
+            "ADR - Synchronous API Internal Exposition",
+            "Cloud Containers"
         ],
         "tags": [
             "listceo"
@@ -25,9 +25,9 @@
         ],
         "photo": "https://cdn.balkan.app/shared/a/2.jpg",
         "likedTechnos": [
-            "Python",
-            "Kubernetes",
-            "Azure"
+            "Google Cloud BigQuery AS Analytical Database",
+            "Code Review Standards for AI-generated Code",
+            "SQL"
         ],
         "description": "HR & Collaboration"
     },
@@ -39,9 +39,9 @@
         "title": "Engineering Manager",
         "photo": "https://cdn.balkan.app/shared/a/3.jpg",
         "likedTechnos": [
-            "TypeScript",
-            "Node.js",
-            "GitHub Actions"
+            "Spring Boot",
+            "Argo Workflows",
+            "Adeo Design System V2"
         ]
     },
     {
@@ -60,9 +60,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
         "likedTechnos": [
-            "React",
-            "TypeScript",
-            "Node.js"
+            "Dependabot",
+            "Github Advanced Security",
+            "Adeo Design System V2"
         ]
     },
     {
@@ -72,9 +72,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/7.jpg",
         "likedTechnos": [
-            "Python",
-            "FastAPI",
-            "PostgreSQL"
+            "ADR - Synchronous API Public Exposition",
+            "Svelte",
+            "Camunda"
         ]
     },
     {
@@ -84,9 +84,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
         "likedTechnos": [
-            "Vue.js",
-            "GraphQL",
-            "Docker"
+            "Vault",
+            "Bruno",
+            "Data Streaming Platform"
         ]
     },
     {
@@ -96,9 +96,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/8.jpg",
         "likedTechnos": [
-            "Kotlin",
-            "Spring Boot",
-            "Kubernetes"
+            "KMM (Kotlin Multiplatform)",
+            "Playwright",
+            "Github"
         ]
     },
     {
@@ -108,9 +108,9 @@
         "title": "QA OPS",
         "photo": "https://cdn.balkan.app/shared/a/19.jpg",
         "likedTechnos": [
-            "Playwright",
-            "Cypress",
-            "GitHub Actions"
+            "Svelte",
+            "MongoDB",
+            "GitHub Copilot"
         ]
     },
     {
@@ -120,9 +120,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/9.jpg",
         "likedTechnos": [
-            "Event Sourcing",
-            "Kafka",
-            "Domain-Driven Design"
+            "Progressive Web Apps",
+            "K9s",
+            "Confluence"
         ]
     },
     {
@@ -141,9 +141,9 @@
         "title": "Product Manager",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
         "likedTechnos": [
-            "Feature Flags",
-            "Domain-Driven Design",
-            "JavaScript"
+            "Nest.js",
+            "Business Process Model and Notation (BPMN)",
+            "Open Telemetry"
         ]
     },
     {
@@ -153,9 +153,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/14.jpg",
         "likedTechnos": [
-            "React",
-            "Next.js",
-            "TypeScript"
+            "Atlas Search",
+            "AWA - Automic Workflow Automation",
+            "Progressive Web Apps"
         ]
     },
     {
@@ -165,9 +165,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/18.jpg",
         "likedTechnos": [
-            "Angular",
-            "Node.js",
-            "PostgreSQL"
+            "TypeScript",
+            "Vault",
+            "Dependabot"
         ]
     },
     {
@@ -177,9 +177,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/16.jpg",
         "likedTechnos": [
-            "AWS",
             "Terraform",
-            "Docker"
+            "ADR - Synchronous API Public Exposition",
+            "AWX"
         ]
     },
     {
@@ -189,9 +189,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/15.jpg",
         "likedTechnos": [
-            "GraphQL",
-            "MongoDB",
-            "Redis"
+            "Pair Review",
+            "Github",
+            "Jfrog Artifactory"
         ]
     },
     {
@@ -201,9 +201,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/17.jpg",
         "likedTechnos": [
-            "OpenTelemetry",
-            "Datadog",
-            "Sentry"
+            "Infrastructure as Code",
+            "K9s",
+            "Data Streaming Platform"
         ]
     },
     {
@@ -213,9 +213,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
         "likedTechnos": [
-            "Kotlin",
-            "Spring Boot",
-            "Istio"
+            "Python",
+            "Github Advanced Security",
+            "GitHub Copilot Code Reviews"
         ]
     },
     {
@@ -234,9 +234,9 @@
         "title": "Tech Lead",
         "photo": "https://cdn.balkan.app/shared/a/13.jpg",
         "likedTechnos": [
-            "Java",
-            "Spring Boot",
-            "Kafka"
+            "Nest.js",
+            "Jfrog Artifactory",
+            "Cloud Containers"
         ]
     },
     {
@@ -246,9 +246,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
         "likedTechnos": [
-            "TypeScript",
-            "React",
-            "GraphQL"
+            "Progressive Web Apps",
+            "Semantic Release",
+            "Nest.js"
         ]
     },
     {
@@ -258,9 +258,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/20.jpg",
         "likedTechnos": [
-            "Go",
             "Docker",
-            "Kubernetes"
+            "GitHub Copilot",
+            "Adeo Design System V2"
         ]
     },
     {
@@ -270,8 +270,8 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
         "likedTechnos": [
-            "Elasticsearch",
-            "Redis",
+            "AWA - Automic Workflow Automation",
+            "Eclipse Temurin OpenJDK",
             "MongoDB"
         ]
     },
@@ -282,9 +282,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/4.jpg",
         "likedTechnos": [
-            "ArgoCD",
-            "Helm",
-            "Terraform"
+            "Python",
+            "Dependabot",
+            "Jfrog Artifactory"
         ]
     },
     {
@@ -294,9 +294,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/3.jpg",
         "likedTechnos": [
-            "Python",
-            "dbt",
-            "Airflow"
+            "Spring Boot",
+            "SQL",
+            "Jfrog Artifactory"
         ]
     },
     {
@@ -310,9 +310,9 @@
         ],
         "photo": "https://cdn.balkan.app/shared/a/2.jpg",
         "likedTechnos": [
-            "Python",
-            "Kubernetes",
-            "Azure"
+            "Adeo Design System",
+            "PostgreSQL",
+            "Infrastructure as Code"
         ],
         "description": "Sales & Relation"
     },
@@ -324,9 +324,9 @@
         "title": "Engineering Manager",
         "photo": "https://cdn.balkan.app/shared/a/1.jpg",
         "likedTechnos": [
-            "Java",
-            "AWS",
-            "Domain-Driven Design"
+            "GitHub Copilot",
+            "ADR - Synchronous API Public Exposition",
+            "GitHub Copilot Code Reviews"
         ]
     },
     {
@@ -345,9 +345,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/19.jpg",
         "likedTechnos": [
-            "Python",
-            "Kafka",
-            "PostgreSQL"
+            "MongoDB",
+            "Java",
+            "Flutter"
         ]
     },
     {
@@ -357,9 +357,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/8.jpg",
         "likedTechnos": [
-            "Java",
-            "Spring Boot",
-            "MongoDB"
+            "TypeScript",
+            "IaC",
+            "Golang"
         ]
     },
     {
@@ -369,9 +369,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
         "likedTechnos": [
-            "TypeScript",
-            "React",
-            "GraphQL"
+            "Neo4j",
+            "ADR - Synchronous API Local Exposition",
+            "Eclipse Temurin OpenJDK"
         ]
     },
     {
@@ -381,9 +381,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/9.jpg",
         "likedTechnos": [
-            "Redis",
-            "Elasticsearch",
-            "Datadog"
+            "Datahub Pipelines",
+            "Kobi",
+            "Jfrog Artifactory"
         ]
     },
     {
@@ -393,9 +393,9 @@
         "title": "QA OPS",
         "photo": "https://cdn.balkan.app/shared/a/15.jpg",
         "likedTechnos": [
-            "Cypress",
-            "k6",
-            "GitHub Actions"
+            "Vault",
+            "IaC",
+            "Mockito"
         ]
     },
     {
@@ -405,9 +405,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/7.jpg",
         "likedTechnos": [
-            "Terraform",
-            "AWS",
-            "Kubernetes"
+            "Spring Boot",
+            "Jira Xray",
+            "Code Review Standards for AI-generated Code"
         ]
     },
     {
@@ -426,9 +426,9 @@
         "title": "Product Manager",
         "photo": "https://cdn.balkan.app/shared/a/18.jpg",
         "likedTechnos": [
-            "Feature Flags",
-            "Domain-Driven Design",
-            "Vertex AI"
+            "Code Review Standards for AI-generated Code",
+            "Semantic Release",
+            "PG Vector"
         ]
     },
     {
@@ -438,9 +438,9 @@
         "title": "Tech Lead",
         "photo": "https://cdn.balkan.app/shared/a/13.jpg",
         "likedTechnos": [
-            "Go",
-            "gRPC",
-            "Kubernetes"
+            "Flutter",
+            "Pair Programming",
+            "Google Cloud BigQuery AS Analytical Database"
         ]
     },
     {
@@ -450,9 +450,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
         "likedTechnos": [
-            "Vue.js",
-            "Node.js",
-            "PostgreSQL"
+            "GitHub Copilot",
+            "Semantic Versioning",
+            "Python"
         ]
     },
     {
@@ -462,9 +462,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/14.jpg",
         "likedTechnos": [
-            "Python",
-            "FastAPI",
-            "Docker"
+            "GitHub Copilot",
+            "ADR - Synchronous API Internal Exposition",
+            "Adeo Design System"
         ]
     },
     {
@@ -474,9 +474,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
         "likedTechnos": [
-            "React",
-            "TypeScript",
-            "Next.js"
+            "Pair Review",
+            "Pair Programming",
+            "Github Actions"
         ]
     },
     {
@@ -486,9 +486,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/16.jpg",
         "likedTechnos": [
-            "Prometheus",
-            "Grafana",
-            "OpenTelemetry"
+            "Python",
+            "Terraform",
+            "Google Cloud BigQuery AS Analytical Database"
         ]
     },
     {
@@ -498,9 +498,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
         "likedTechnos": [
-            "Spark",
-            "dbt",
-            "Airflow"
+            "Jira Xray",
+            "Adeo Design System V2",
+            "Maven"
         ]
     },
     {
@@ -519,9 +519,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/20.jpg",
         "likedTechnos": [
-            "Kotlin",
-            "Spring Boot",
-            "Kafka"
+            "Data Streaming Platform",
+            "Adeo Design System",
+            "Dependabot"
         ]
     },
     {
@@ -531,9 +531,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/3.jpg",
         "likedTechnos": [
-            "React",
-            "GraphQL",
-            "MongoDB"
+            "PostgreSQL",
+            "Turbine",
+            "TypeScript"
         ]
     },
     {
@@ -543,8 +543,8 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/4.jpg",
         "likedTechnos": [
-            "LangChain",
-            "OpenAI API",
+            "Datahub Pipelines",
+            "ValKey",
             "Python"
         ]
     },
@@ -555,9 +555,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/19.jpg",
         "likedTechnos": [
-            "Node.js",
-            "TypeScript",
-            "Redis"
+            "MongoDB VECTOR",
+            "Python",
+            "Confluence Cloud"
         ]
     },
     {
@@ -567,9 +567,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/17.jpg",
         "likedTechnos": [
-            "Playwright",
-            "SonarQube",
-            "GitHub Actions"
+            "Infrastructure as Code",
+            "PostgreSQL",
+            "OpenSearch"
         ]
     },
     {
@@ -583,9 +583,9 @@
         ],
         "photo": "https://cdn.balkan.app/shared/a/2.jpg",
         "likedTechnos": [
-            "Python",
-            "Kubernetes",
-            "Azure"
+            "Pair Review",
+            "Github Advanced Security",
+            "Infrastructure as Code"
         ],
         "description": "Project & config"
     },
@@ -597,9 +597,9 @@
         "title": "Engineering Manager",
         "photo": "https://cdn.balkan.app/shared/a/1.jpg",
         "likedTechnos": [
-            "Go",
-            "Kubernetes",
-            "ArgoCD"
+            "Progressive Web Apps",
+            "OpenSearch",
+            "REST"
         ]
     },
     {
@@ -618,9 +618,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
         "likedTechnos": [
-            "Java",
-            "Spring Boot",
-            "PostgreSQL"
+            "TypeScript",
+            "Google Cloud BigQuery AS Analytical Database",
+            "Knative"
         ]
     },
     {
@@ -630,9 +630,9 @@
         "title": "Tech Lead",
         "photo": "https://cdn.balkan.app/shared/a/13.jpg",
         "likedTechnos": [
-            "Go",
-            "Kubernetes",
-            "Helm"
+            "Golang",
+            "Python",
+            "Progressive Web Apps"
         ]
     },
     {
@@ -642,9 +642,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
         "likedTechnos": [
-            "TypeScript",
-            "Node.js",
-            "MongoDB"
+            "Argo Workflows",
+            "AWA - Automic Workflow Automation",
+            "Confluence"
         ]
     },
     {
@@ -654,9 +654,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
         "likedTechnos": [
-            "Feature Flags",
-            "Domain-Driven Design",
-            "Event Sourcing"
+            "IaC",
+            "IntelliJ",
+            "Golang"
         ]
     },
     {
@@ -666,9 +666,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/9.jpg",
         "likedTechnos": [
-            "ArgoCD",
-            "Terraform",
-            "AWS"
+            "Semantic Release",
+            "Atlas Search",
+            "MongoDB VECTOR"
         ]
     },
     {
@@ -678,9 +678,9 @@
         "title": "QA OPS",
         "photo": "https://cdn.balkan.app/shared/a/18.jpg",
         "likedTechnos": [
-            "k6",
-            "Playwright",
-            "SonarQube"
+            "ADR - Synchronous API Local Exposition",
+            "Code Review Standards for AI-generated Code",
+            "PostgreSQL"
         ]
     },
     {
@@ -699,9 +699,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/14.jpg",
         "likedTechnos": [
-            "Python",
-            "Spark",
-            "dbt"
+            "GitHub Copilot",
+            "Code Review Standards for AI-generated Code",
+            "Semantic Versioning"
         ]
     },
     {
@@ -711,9 +711,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/15.jpg",
         "likedTechnos": [
-            "React",
-            "TypeScript",
-            "GraphQL"
+            "Eclipse Temurin OpenJDK",
+            "OpenSearch",
+            "Github Advanced Security"
         ]
     },
     {
@@ -723,9 +723,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/16.jpg",
         "likedTechnos": [
-            "Kafka",
-            "Redis",
-            "Elasticsearch"
+            "Golang",
+            "Python",
+            "Kubernetes"
         ]
     },
     {
@@ -735,9 +735,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/19.jpg",
         "likedTechnos": [
-            "Datadog",
-            "Prometheus",
-            "Grafana"
+            "Data Streaming Platform",
+            "Bruno",
+            "Golang"
         ]
     },
     {
@@ -747,9 +747,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/4.jpg",
         "likedTechnos": [
-            "Kotlin",
-            "Spring Boot",
-            "Docker"
+            "AWX",
+            "MongoDB",
+            "Svelte"
         ]
     },
     {
@@ -759,9 +759,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/3.jpg",
         "likedTechnos": [
-            "MLflow",
-            "Airflow",
-            "LangChain"
+            "Camunda",
+            "GitHub Copilot",
+            "ADR - Synchronous API Internal Exposition"
         ]
     },
     {
@@ -771,9 +771,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/20.jpg",
         "likedTechnos": [
-            "Go",
-            "gRPC",
-            "Istio"
+            "Semantic Versioning",
+            "GitHub Copilot Code Reviews",
+            "MongoDB VECTOR"
         ]
     },
     {
@@ -792,9 +792,9 @@
         "title": "Product Manager",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
         "likedTechnos": [
-            "Domain-Driven Design",
-            "Feature Flags",
-            "CQRS"
+            "Business Process Model and Notation (BPMN)",
+            "Google Cloud BigQuery AS Analytical Database",
+            "IntelliJ"
         ]
     },
     {
@@ -804,9 +804,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/8.jpg",
         "likedTechnos": [
-            "Java",
-            "Spring Boot",
-            "Kafka"
+            "PG Vector",
+            "Data Streaming Platform",
+            "ADR - Synchronous API Local Exposition"
         ]
     },
     {
@@ -816,9 +816,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
         "likedTechnos": [
-            "Python",
-            "FastAPI",
-            "MongoDB"
+            "AWX",
+            "Svelte",
+            "Spring Boot"
         ]
     },
     {
@@ -828,9 +828,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/17.jpg",
         "likedTechnos": [
-            "AWS",
-            "Pulumi",
-            "Kubernetes"
+            "Infrastructure as Code",
+            "AWA - Automic Workflow Automation",
+            "Yaml"
         ]
     },
     {
@@ -840,9 +840,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
         "likedTechnos": [
-            "TypeScript",
-            "Node.js",
-            "PostgreSQL"
+            "MongoDB",
+            "Flutter",
+            "Visual Studio Code (VsCode)"
         ]
     },
     {
@@ -852,9 +852,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/7.jpg",
         "likedTechnos": [
-            "Sentry",
-            "OpenTelemetry",
-            "GitHub Actions"
+            "Datadog",
+            "Semantic Release",
+            "KMM (Kotlin Multiplatform)"
         ]
     },
     {
@@ -868,9 +868,9 @@
         ],
         "photo": "https://media.licdn.com/dms/image/v2/C5603AQELh6Z79-QYlw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516316841461?e=1778112000&v=beta&t=O9FndgdFKdSeKx7siXnvG__fmA8vBwJkDl_yjSHrk_s",
         "likedTechnos": [
-            "Python",
-            "Kubernetes",
-            "Azure"
+            "Datadog RUM",
+            "Progressive Web Apps",
+            "HTML"
         ],
         "description": "Services & Reno"
     },
@@ -882,9 +882,9 @@
         "title": "Engineering Manager",
         "photo": "https://media.licdn.com/dms/image/v2/C4D03AQGAAMGjwYhF_w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1552597928446?e=1778112000&v=beta&t=Ah6SLgyyHGbTFhtmdFvE7iIgHe44AMg5o3vjYyvdcIU",
         "likedTechnos": [
-            "Go",
-            "Docker",
-            "AWS"
+            "Google Cloud BigQuery AS Analytical Database",
+            "ADR - Synchronous API Public Exposition",
+            "Java"
         ]
     },
     {
@@ -903,9 +903,9 @@
         "title": "Product Manager",
         "photo": "https://cdn.balkan.app/shared/a/3.jpg",
         "likedTechnos": [
-            "Domain-Driven Design",
-            "JavaScript",
-            "Vertex AI"
+            "ADR - Synchronous API Internal Exposition",
+            "Pair Review",
+            "HTML"
         ]
     },
     {
@@ -915,9 +915,9 @@
         "title": "Tech Lead",
         "photo": "https://media.licdn.com/dms/image/v2/C4D03AQGdrssLYnRVjw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1597738702036?e=1778112000&v=beta&t=L8XgugcYu73c128RmR_2y0kbBC6f4Cd1gr57Eze64zM",
         "likedTechnos": [
-            "TypeScript",
-            "React",
-            "AWS"
+            "Infrastructure as Code",
+            "Visual Studio Code (VsCode)",
+            "Eclipse Temurin OpenJDK"
         ]
     },
     {
@@ -927,9 +927,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/4.jpg",
         "likedTechnos": [
-            "PostgreSQL",
-            "JavaScript",
-            "Istio"
+            "Datadog",
+            "Atlas Search",
+            "Confluence"
         ]
     },
     {
@@ -939,9 +939,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/7.jpg",
         "likedTechnos": [
-            "GitHub Actions",
-            "ArgoCD",
-            "Azure"
+            "AWA - Automic Workflow Automation",
+            "Sonarqube",
+            "ADR - Synchronous API Internal Exposition"
         ]
     },
     {
@@ -951,9 +951,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/8.jpg",
         "likedTechnos": [
-            "Angular",
-            "Node.js",
-            "GitHub Actions"
+            "K9s",
+            "Infrastructure as Code",
+            "Java"
         ]
     },
     {
@@ -963,9 +963,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/9.jpg",
         "likedTechnos": [
-            "MLflow",
-            "FastAPI",
-            "OpenTelemetry"
+            "Zabbix",
+            "Kubernetes",
+            "IntelliJ"
         ]
     },
     {
@@ -975,9 +975,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/10.jpg",
         "likedTechnos": [
-            "MLflow",
-            "Node.js",
-            "MongoDB"
+            "Vault",
+            "OctoPerf",
+            "Knative"
         ]
     },
     {
@@ -987,9 +987,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
         "likedTechnos": [
-            "OpenAI API",
-            "GCP",
-            "Git"
+            "Github Actions",
+            "Flutter",
+            "Open Telemetry"
         ]
     },
     {
@@ -999,9 +999,9 @@
         "title": "Développeur Full Stack",
         "photo": "https://cdn.balkan.app/shared/a/13.jpg",
         "likedTechnos": [
-            "k6",
-            "Domain-Driven Design",
-            "Kafka"
+            "AWA - Automic Workflow Automation",
+            "ADR - Synchronous API Local Exposition",
+            "Yaml"
         ]
     },
     {
@@ -1011,9 +1011,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/14.jpg",
         "likedTechnos": [
-            "Python",
-            "SonarQube",
-            "Datadog"
+            "Mockito",
+            "SQL",
+            "Cloud Containers"
         ]
     },
     {
@@ -1032,9 +1032,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/15.jpg",
         "likedTechnos": [
-            "Spring Boot",
-            "OpenAI API",
-            "LangChain"
+            "ADR - Synchronous API Local Exposition",
+            "ADR - Synchronous API Internal Exposition",
+            "AWA - Automic Workflow Automation"
         ]
     },
     {
@@ -1044,9 +1044,9 @@
         "title": "QA OPS",
         "photo": "https://cdn.balkan.app/shared/a/18.jpg",
         "likedTechnos": [
-            "Terraform",
-            "Pulumi",
-            "Datadog"
+            "Zabbix",
+            "Semantic Release",
+            "OpenAPI"
         ]
     },
     {
@@ -1056,9 +1056,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/16.jpg",
         "likedTechnos": [
-            "Playwright",
-            "GraphQL",
-            "Spring Boot"
+            "Jira Xray",
+            "Data Streaming Platform",
+            "Pair Review"
         ]
     },
     {
@@ -1068,9 +1068,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/19.jpg",
         "likedTechnos": [
-            "Go",
-            "Vertex AI",
-            "Angular"
+            "Confluence",
+            "Nest.js",
+            "Maven"
         ]
     },
     {
@@ -1080,9 +1080,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/17.jpg",
         "likedTechnos": [
-            "AWS",
-            "Domain-Driven Design",
-            "SonarQube"
+            "Atlas Search",
+            "Neo4j",
+            "IntelliJ"
         ]
     },
     {
@@ -1092,9 +1092,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/20.jpg",
         "likedTechnos": [
-            "Datadog",
-            "Node.js",
-            "FastAPI"
+            "Cloud Containers",
+            "Adeo Design System",
+            "Neo4j"
         ]
     },
     {
@@ -1104,9 +1104,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/1.jpg",
         "likedTechnos": [
-            "Node.js",
-            "Angular",
-            "JavaScript"
+            "OctoPerf",
+            "ADR - Synchronous API Public Exposition",
+            "Java Freemarker"
         ]
     },
     {
@@ -1125,9 +1125,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/13.jpg",
         "likedTechnos": [
-            "Domain-Driven Design",
-            "k6",
-            "Go"
+            "Neo4j",
+            "Visual Studio Code (VsCode)",
+            "Conventional Commits"
         ]
     },
     {
@@ -1137,9 +1137,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/2.jpg",
         "likedTechnos": [
-            "Spark",
-            "Event Sourcing",
-            "Terraform"
+            "IaC",
+            "SQL",
+            "Github"
         ]
     },
     {
@@ -1149,9 +1149,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/4.jpg",
         "likedTechnos": [
-            "GitHub Actions",
-            "Prometheus",
-            "Spark"
+            "Cloud Containers",
+            "Business Process Model and Notation (BPMN)",
+            "Pair Review"
         ]
     },
     {
@@ -1161,9 +1161,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/7.jpg",
         "likedTechnos": [
-            "AWS",
-            "Redis",
-            "Playwright"
+            "Zabbix",
+            "PG Vector",
+            "Argo Workflows"
         ]
     },
     {
@@ -1173,9 +1173,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/3.jpg",
         "likedTechnos": [
-            "Docker",
-            "GraphQL",
-            "Airflow"
+            "ADR - Synchronous API Internal Exposition",
+            "Datadog",
+            "Code Review Standards for AI-generated Code"
         ]
     },
     {
@@ -1185,9 +1185,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
         "likedTechnos": [
-            "Spring Boot",
-            "TypeScript",
-            "FastAPI"
+            "OctoPerf",
+            "Java",
+            "AWX"
         ]
     },
     {
@@ -1197,9 +1197,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/8.jpg",
         "likedTechnos": [
-            "Event Sourcing",
-            "MongoDB",
-            "Airflow"
+            "Github Advanced Security",
+            "Adeo Design System V2",
+            "GitHub Copilot Code Reviews"
         ]
     },
     {
@@ -1209,9 +1209,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/9.jpg",
         "likedTechnos": [
-            "MongoDB",
-            "Pulumi",
-            "Vue.js"
+            "Semantic Versioning",
+            "PG Vector",
+            "ValKey"
         ]
     },
     {
@@ -1230,9 +1230,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/10.jpg",
         "likedTechnos": [
-            "Sentry",
-            "JavaScript",
-            "OpenTelemetry"
+            "Speedcurve",
+            "Zabbix",
+            "Dependabot"
         ]
     },
     {
@@ -1251,9 +1251,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/13.jpg",
         "likedTechnos": [
-            "Elasticsearch",
-            "Grafana",
-            "GraphQL"
+            "ValKey",
+            "Terraform",
+            "Zabbix"
         ]
     },
     {
@@ -1263,9 +1263,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/14.jpg",
         "likedTechnos": [
-            "Terraform",
-            "Feature Flags",
-            "Kotlin"
+            "Datadog RUM",
+            "AWA - Automic Workflow Automation",
+            "Nest.js"
         ]
     },
     {
@@ -1275,9 +1275,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/16.jpg",
         "likedTechnos": [
-            "Redis",
-            "Node.js",
-            "PostgreSQL"
+            "PostgreSQL",
+            "ADR - Synchronous API Public Exposition",
+            "ADR - Synchronous API Local Exposition"
         ]
     },
     {
@@ -1287,9 +1287,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/17.jpg",
         "likedTechnos": [
-            "AWS",
-            "Pulumi",
-            "JavaScript"
+            "Conventional Commits",
+            "Visual Studio Code (VsCode)",
+            "Yaml"
         ]
     },
     {
@@ -1299,9 +1299,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/20.jpg",
         "likedTechnos": [
-            "MongoDB",
-            "JavaScript",
-            "Istio"
+            "Python",
+            "Golang",
+            "Progressive Web Apps"
         ]
     },
     {
@@ -1320,9 +1320,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/1.jpg",
         "likedTechnos": [
-            "Cypress",
-            "Playwright",
-            "Node.js"
+            "REST",
+            "Bruno",
+            "Golang"
         ]
     },
     {
@@ -1332,9 +1332,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/2.jpg",
         "likedTechnos": [
-            "Go",
-            "k6",
-            "GitHub Actions"
+            "Pair Review",
+            "TypeScript",
+            "ADR - Synchronous API Local Exposition"
         ]
     },
     {
@@ -1344,9 +1344,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
         "likedTechnos": [
-            "dbt",
-            "Docker",
-            "Node.js"
+            "GitHub Copilot",
+            "Semantic Versioning",
+            "VueJS"
         ]
     },
     {
@@ -1356,9 +1356,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/4.jpg",
         "likedTechnos": [
-            "Domain-Driven Design",
-            "Playwright",
-            "MLflow"
+            "Infrastructure as Code",
+            "SQL",
+            "Jfrog Artifactory"
         ]
     },
     {
@@ -1368,9 +1368,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
         "likedTechnos": [
-            "Kotlin",
-            "Vue.js",
-            "Feature Flags"
+            "GitHub Copilot Code Reviews",
+            "PG Vector",
+            "MongoDB VECTOR"
         ]
     },
     {
@@ -1380,9 +1380,9 @@
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
         "likedTechnos": [
-            "React",
-            "Kafka",
-            "GitHub Actions"
+            "Open Telemetry",
+            "Progressive Web Apps",
+            "Google Cloud BigQuery AS Analytical Database"
         ]
     }
 ]

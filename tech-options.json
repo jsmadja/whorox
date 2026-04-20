@@ -1,214 +1,330 @@
 [
     {
-        "value": "JavaScript",
-        "text": "JavaScript"
+        "value": "GitHub Copilot",
+        "text": "GitHub Copilot"
     },
     {
-        "value": "TypeScript",
-        "text": "TypeScript"
+        "value": "ADR - Synchronous API Internal Exposition",
+        "text": "ADR - Synchronous API Internal Exposition"
     },
     {
-        "value": "Python",
-        "text": "Python"
+        "value": "ADR - Synchronous API Local Exposition",
+        "text": "ADR - Synchronous API Local Exposition"
+    },
+    {
+        "value": "ADR - Synchronous API Public Exposition",
+        "text": "ADR - Synchronous API Public Exposition"
+    },
+    {
+        "value": "Google Cloud BigQuery AS Analytical Database",
+        "text": "Google Cloud BigQuery AS Analytical Database"
+    },
+    {
+        "value": "Jfrog Artifactory",
+        "text": "Jfrog Artifactory"
+    },
+    {
+        "value": "Data Streaming Platform",
+        "text": "Data Streaming Platform"
+    },
+    {
+        "value": "AWA - Automic Workflow Automation",
+        "text": "AWA - Automic Workflow Automation"
+    },
+    {
+        "value": "AWX",
+        "text": "AWX"
+    },
+    {
+        "value": "Eclipse Temurin OpenJDK",
+        "text": "Eclipse Temurin OpenJDK"
+    },
+    {
+        "value": "Golang",
+        "text": "Golang"
     },
     {
         "value": "Java",
         "text": "Java"
     },
     {
-        "value": "Go",
-        "text": "Go"
+        "value": "Nest.js",
+        "text": "Nest.js"
     },
     {
-        "value": "Kotlin",
-        "text": "Kotlin"
-    },
-    {
-        "value": "Rust",
-        "text": "Rust"
-    },
-    {
-        "value": "React",
-        "text": "React"
-    },
-    {
-        "value": "Vue.js",
-        "text": "Vue.js"
-    },
-    {
-        "value": "Angular",
-        "text": "Angular"
-    },
-    {
-        "value": "Next.js",
-        "text": "Next.js"
-    },
-    {
-        "value": "Node.js",
-        "text": "Node.js"
+        "value": "Python",
+        "text": "Python"
     },
     {
         "value": "Spring Boot",
         "text": "Spring Boot"
     },
     {
-        "value": "FastAPI",
-        "text": "FastAPI"
+        "value": "TypeScript",
+        "text": "TypeScript"
     },
     {
-        "value": "GraphQL",
-        "text": "GraphQL"
+        "value": "Maven",
+        "text": "Maven"
     },
     {
-        "value": "PostgreSQL",
-        "text": "PostgreSQL"
+        "value": "Turbine",
+        "text": "Turbine"
     },
     {
-        "value": "MongoDB",
-        "text": "MongoDB"
+        "value": "Github Actions",
+        "text": "Github Actions"
     },
     {
-        "value": "Redis",
-        "text": "Redis"
+        "value": "Github",
+        "text": "Github"
     },
     {
-        "value": "Elasticsearch",
-        "text": "Elasticsearch"
+        "value": "Yaml",
+        "text": "Yaml"
     },
     {
-        "value": "Kafka",
-        "text": "Kafka"
-    },
-    {
-        "value": "dbt",
-        "text": "dbt"
-    },
-    {
-        "value": "Spark",
-        "text": "Spark"
-    },
-    {
-        "value": "Airflow",
-        "text": "Airflow"
-    },
-    {
-        "value": "MLflow",
-        "text": "MLflow"
-    },
-    {
-        "value": "LangChain",
-        "text": "LangChain"
-    },
-    {
-        "value": "OpenAI API",
-        "text": "OpenAI API"
-    },
-    {
-        "value": "Vertex AI",
-        "text": "Vertex AI"
-    },
-    {
-        "value": "AWS",
-        "text": "AWS"
-    },
-    {
-        "value": "GCP",
-        "text": "GCP"
-    },
-    {
-        "value": "Azure",
-        "text": "Azure"
+        "value": "Cloud Containers",
+        "text": "Cloud Containers"
     },
     {
         "value": "Docker",
         "text": "Docker"
     },
     {
+        "value": "K9s",
+        "text": "K9s"
+    },
+    {
         "value": "Kubernetes",
         "text": "Kubernetes"
+    },
+    {
+        "value": "SQL",
+        "text": "SQL"
+    },
+    {
+        "value": "Adeo Design System",
+        "text": "Adeo Design System"
+    },
+    {
+        "value": "Adeo Design System V2",
+        "text": "Adeo Design System V2"
+    },
+    {
+        "value": "MongoDB",
+        "text": "MongoDB"
+    },
+    {
+        "value": "Confluence",
+        "text": "Confluence"
+    },
+    {
+        "value": "Confluence Cloud",
+        "text": "Confluence Cloud"
+    },
+    {
+        "value": "Datahub Pipelines",
+        "text": "Datahub Pipelines"
+    },
+    {
+        "value": "HTML",
+        "text": "HTML"
+    },
+    {
+        "value": "Progressive Web Apps",
+        "text": "Progressive Web Apps"
+    },
+    {
+        "value": "Svelte",
+        "text": "Svelte"
+    },
+    {
+        "value": "VueJS",
+        "text": "VueJS"
+    },
+    {
+        "value": "Flutter",
+        "text": "Flutter"
+    },
+    {
+        "value": "KMM (Kotlin Multiplatform)",
+        "text": "KMM (Kotlin Multiplatform)"
+    },
+    {
+        "value": "Neo4j",
+        "text": "Neo4j"
+    },
+    {
+        "value": "IntelliJ",
+        "text": "IntelliJ"
+    },
+    {
+        "value": "Visual Studio Code (VsCode)",
+        "text": "Visual Studio Code (VsCode)"
+    },
+    {
+        "value": "ValKey",
+        "text": "ValKey"
+    },
+    {
+        "value": "CloudCraft",
+        "text": "CloudCraft"
+    },
+    {
+        "value": "IaC",
+        "text": "IaC"
+    },
+    {
+        "value": "Infrastructure as Code",
+        "text": "Infrastructure as Code"
     },
     {
         "value": "Terraform",
         "text": "Terraform"
     },
     {
-        "value": "Helm",
-        "text": "Helm"
+        "value": "Kobi",
+        "text": "Kobi"
     },
     {
-        "value": "Pulumi",
-        "text": "Pulumi"
-    },
-    {
-        "value": "ArgoCD",
-        "text": "ArgoCD"
-    },
-    {
-        "value": "Istio",
-        "text": "Istio"
+        "value": "Business Process Model and Notation (BPMN)",
+        "text": "Business Process Model and Notation (BPMN)"
     },
     {
         "value": "Datadog",
         "text": "Datadog"
     },
     {
-        "value": "Grafana",
-        "text": "Grafana"
+        "value": "Open Telemetry",
+        "text": "Open Telemetry"
     },
     {
-        "value": "Prometheus",
-        "text": "Prometheus"
+        "value": "Datadog RUM",
+        "text": "Datadog RUM"
     },
     {
-        "value": "OpenTelemetry",
-        "text": "OpenTelemetry"
+        "value": "Speedcurve",
+        "text": "Speedcurve"
     },
     {
-        "value": "Sentry",
-        "text": "Sentry"
+        "value": "Zabbix",
+        "text": "Zabbix"
     },
     {
-        "value": "Cypress",
-        "text": "Cypress"
+        "value": "Argo Workflows",
+        "text": "Argo Workflows"
+    },
+    {
+        "value": "Camunda",
+        "text": "Camunda"
+    },
+    {
+        "value": "OctoPerf",
+        "text": "OctoPerf"
+    },
+    {
+        "value": "Sonarqube",
+        "text": "Sonarqube"
+    },
+    {
+        "value": "PostgreSQL",
+        "text": "PostgreSQL"
+    },
+    {
+        "value": "Atlas Search",
+        "text": "Atlas Search"
+    },
+    {
+        "value": "OpenSearch",
+        "text": "OpenSearch"
+    },
+    {
+        "value": "PG Vector",
+        "text": "PG Vector"
+    },
+    {
+        "value": "Vault",
+        "text": "Vault"
+    },
+    {
+        "value": "Dependabot",
+        "text": "Dependabot"
+    },
+    {
+        "value": "Github Advanced Security",
+        "text": "Github Advanced Security"
+    },
+    {
+        "value": "Knative",
+        "text": "Knative"
+    },
+    {
+        "value": "Software Architecture Advice Process",
+        "text": "Software Architecture Advice Process"
+    },
+    {
+        "value": "Conventional Commits",
+        "text": "Conventional Commits"
+    },
+    {
+        "value": "GitHub Copilot Code Reviews",
+        "text": "GitHub Copilot Code Reviews"
+    },
+    {
+        "value": "Pair Programming",
+        "text": "Pair Programming"
+    },
+    {
+        "value": "Pair Review",
+        "text": "Pair Review"
+    },
+    {
+        "value": "Semantic Release",
+        "text": "Semantic Release"
+    },
+    {
+        "value": "Semantic Versioning",
+        "text": "Semantic Versioning"
+    },
+    {
+        "value": "Code Review Standards for AI-generated Code",
+        "text": "Code Review Standards for AI-generated Code"
+    },
+    {
+        "value": "OpenAPI",
+        "text": "OpenAPI"
+    },
+    {
+        "value": "REST",
+        "text": "REST"
+    },
+    {
+        "value": "Java Freemarker",
+        "text": "Java Freemarker"
     },
     {
         "value": "Playwright",
         "text": "Playwright"
     },
     {
-        "value": "k6",
-        "text": "k6"
+        "value": "JUnit",
+        "text": "JUnit"
     },
     {
-        "value": "Git",
-        "text": "Git"
+        "value": "Mockito",
+        "text": "Mockito"
     },
     {
-        "value": "GitHub Actions",
-        "text": "GitHub Actions"
+        "value": "Jira Xray",
+        "text": "Jira Xray"
     },
     {
-        "value": "SonarQube",
-        "text": "SonarQube"
+        "value": "Bruno",
+        "text": "Bruno"
     },
     {
-        "value": "Feature Flags",
-        "text": "Feature Flags"
-    },
-    {
-        "value": "Architecture Fitness Functions",
-        "text": "Architecture Fitness Functions"
-    },
-    {
-        "value": "Domain-Driven Design",
-        "text": "Domain-Driven Design"
-    },
-    {
-        "value": "Event Sourcing",
-        "text": "Event Sourcing"
-    },
-    {
-        "value": "CQRS",
-        "text": "CQRS"
+        "value": "MongoDB VECTOR",
+        "text": "MongoDB VECTOR"
     }
 ]
