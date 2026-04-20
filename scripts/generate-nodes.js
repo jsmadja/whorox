@@ -94,6 +94,7 @@ searchIndex.push({
     title: team.head.title,
     photo: team.head.photo || '',
     technos: team.head.technos || [],
+    contact: team.head.contact || [],
     team: '',
     dm: '',
     dmDescription: ''
@@ -106,6 +107,7 @@ for (const dm of team.delivery_managers) {
         title: dm.title,
         photo: dm.photo || '',
         technos: dm.technos || [],
+        contact: dm.contact || [],
         team: '',
         dm: '',
         dmDescription: dm.description || ''
@@ -119,6 +121,7 @@ for (const dm of team.delivery_managers) {
             title: em.title,
             photo: em.photo || '',
             technos: em.technos || [],
+            contact: em.contact || [],
             team: '',
             dm: dm.name,
             dmDescription: dm.description || ''
@@ -133,6 +136,7 @@ for (const dm of team.delivery_managers) {
                 title: member.title,
                 photo: member.photo || '',
                 technos: member.technos || [],
+                contact: member.contact || [],
                 team: t.name,
                 dm: dm.name,
                 dmDescription: dm.description || ''

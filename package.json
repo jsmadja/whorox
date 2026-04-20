@@ -6,6 +6,7 @@
     "generate": "npm run generate:tech && npm run generate:nodes"
   },
   "dependencies": {
-    "js-yaml": "^4.1.1"
+    "js-yaml": "^4.1.1",
+    "yaml": "^2.8.3"
   }
 }

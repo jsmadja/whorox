@@ -1,0 +1,2132 @@
+[
+    {
+        "_id": 766,
+        "name": "PLSQL",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/218",
+        "category": "Database",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 33
+    },
+    {
+        "_id": 456,
+        "name": "Confluence",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/231",
+        "category": "Documentation",
+        "quadrant": "tools",
+        "quantity": 184
+    },
+    {
+        "_id": 87,
+        "name": "Camunda",
+        "endingDate": null,
+        "stage": "trial",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/74",
+        "category": "",
+        "quadrant": "tools",
+        "quantity": 5
+    },
+    {
+        "_id": 161,
+        "name": "JUnit",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/259",
+        "category": "Testing",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 277
+    },
+    {
+        "_id": 149,
+        "name": "Mockito",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/258",
+        "category": "Testing",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 266
+    },
+    {
+        "_id": 1412,
+        "name": "Business Process Model and Notation (BPMN)",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/322",
+        "category": "Modeling & Design",
+        "quadrant": "techniques",
+        "quantity": 0
+    },
+    {
+        "_id": 185,
+        "name": "React",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/275",
+        "category": "Frontend",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 35
+    },
+    {
+        "_id": 15,
+        "name": "Github",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/168",
+        "category": "Code storage",
+        "quadrant": "tools",
+        "quantity": 2098
+    },
+    {
+        "_id": 316,
+        "name": "IPAM - Infoblox",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/228",
+        "category": "Network",
+        "quadrant": "platforms",
+        "quantity": 17
+    },
+    {
+        "_id": 52,
+        "name": "Redis® Cloud Cache and Vector Database",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/206",
+        "category": "In Memory Database",
+        "quadrant": "platforms",
+        "quantity": 66
+    },
+    {
+        "_id": 1579,
+        "name": "Entra ID",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/317",
+        "category": "Identity Management",
+        "quadrant": "tools",
+        "quantity": 0
+    },
+    {
+        "_id": 143,
+        "name": "Micronaut",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/201",
+        "category": "Backend",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 2
+    },
+    {
+        "_id": 470,
+        "name": "Datahub Pipelines",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/229",
+        "category": "Event Streaming",
+        "quadrant": "platforms",
+        "quantity": 672
+    },
+    {
+        "_id": 157,
+        "name": "Nest.js",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/189",
+        "category": "Backend",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 243
+    },
+    {
+        "_id": 251,
+        "name": "Svelte",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/158",
+        "category": "Frontend",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 90
+    },
+    {
+        "_id": 252,
+        "name": "VueJS",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/61",
+        "category": "Frontend",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 440
+    },
+    {
+        "_id": 778,
+        "name": "SQL",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/217",
+        "category": "Database",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 146
+    },
+    {
+        "_id": 482,
+        "name": "Docker",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/243",
+        "category": "Container Orchestration",
+        "quadrant": "platforms",
+        "quantity": 639
+    },
+    {
+        "_id": 28,
+        "name": "Vmware vRealize",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/152",
+        "category": "Cloud",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 1878,
+        "name": "Adeo Design System V2",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/137",
+        "category": "Design System",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 71
+    },
+    {
+        "_id": 1879,
+        "name": "Tech Communities",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/335",
+        "category": "Innersource",
+        "quadrant": "techniques",
+        "quantity": 0
+    },
+    {
+        "_id": 1413,
+        "name": "ADR - Synchronous API Internal Exposition ",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/324",
+        "category": "API Management",
+        "quadrant": "techniques",
+        "quantity": 0
+    },
+    {
+        "_id": 1580,
+        "name": "Active Directory",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/318",
+        "category": "Identity Management",
+        "quadrant": "tools",
+        "quantity": 0
+    },
+    {
+        "_id": 1880,
+        "name": "Shared libraries",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/334",
+        "category": "Innersource",
+        "quadrant": "techniques",
+        "quantity": 0
+    },
+    {
+        "_id": 1845,
+        "name": "Opencode",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "",
+        "category": "AI-assisted software development",
+        "quadrant": "tools",
+        "quantity": 0
+    },
+    {
+        "_id": 449,
+        "name": "CloudCraft",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/271",
+        "category": "Infrastructure As Code",
+        "quadrant": "platforms",
+        "quantity": 115
+    },
+    {
+        "_id": 59,
+        "name": "Managed Servers",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/70",
+        "category": "Server",
+        "quadrant": "platforms",
+        "quantity": 301
+    },
+    {
+        "_id": 288,
+        "name": "Fastly",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/277",
+        "category": "CDN",
+        "quadrant": "platforms",
+        "quantity": 29
+    },
+    {
+        "_id": 1881,
+        "name": "Google Cloud BigQuery AS Analytical Database",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/333",
+        "category": "Analytics Database",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 790,
+        "name": "Data Finder",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/287",
+        "category": "Data Access Management",
+        "quadrant": "platforms",
+        "quantity": 106
+    },
+    {
+        "_id": 1141,
+        "name": "Label Studio",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/316",
+        "category": "Machine Learning",
+        "quadrant": "tools",
+        "quantity": 0
+    },
+    {
+        "_id": 1415,
+        "name": "Conventional Branch",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/304",
+        "category": "Software Craftmanship",
+        "quadrant": "techniques",
+        "quantity": 0
+    },
+    {
+        "_id": 1882,
+        "name": "Code Review Standards for AI-generated Code",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/298",
+        "category": "Software Development",
+        "quadrant": "techniques",
+        "quantity": 0
+    },
+    {
+        "_id": 775,
+        "name": "Ruby",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/270",
+        "category": "Backend",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 10
+    },
+    {
+        "_id": 209,
+        "name": "Scala",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/288",
+        "category": "Backend",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 5
+    },
+    {
+        "_id": 1414,
+        "name": "VertexAI Pipelines as ML pipeline backend",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/185",
+        "category": "Machine Learning",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 838,
+        "name": "Yandex Object Storage S3",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "",
+        "category": "Cloud",
+        "quadrant": "platforms",
+        "quantity": 1
+    },
+    {
+        "_id": 538,
+        "name": "Heimdall",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/263",
+        "category": "Configuration Compliance",
+        "quadrant": "tools",
+        "quantity": 37
+    },
+    {
+        "_id": 1883,
+        "name": "n8n",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/355",
+        "category": "Workflow Automation",
+        "quadrant": "tools",
+        "quantity": 0
+    },
+    {
+        "_id": 47,
+        "name": "Flutter",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/183",
+        "category": "Frontends",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 30
+    },
+    {
+        "_id": 1884,
+        "name": "Software Engineering Agents",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/306",
+        "category": "Software Development",
+        "quadrant": "techniques",
+        "quantity": 0
+    },
+    {
+        "_id": 621,
+        "name": "OpenAPI",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/323",
+        "category": "Specification",
+        "quadrant": "platforms",
+        "quantity": 133
+    },
+    {
+        "_id": 253,
+        "name": "ZenML",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/187",
+        "category": "ML",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 26
+    },
+    {
+        "_id": 1885,
+        "name": "Aruba LAN and Wifi",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/345",
+        "category": "Network",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 645,
+        "name": "Postman",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/195",
+        "category": "Tools",
+        "quadrant": "tools",
+        "quantity": 93
+    },
+    {
+        "_id": 266,
+        "name": "Atlas Search",
+        "endingDate": null,
+        "stage": "trial",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/63",
+        "category": "Search Engine",
+        "quadrant": "platforms",
+        "quantity": 4
+    },
+    {
+        "_id": 57,
+        "name": "Knative",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/184",
+        "category": "Serverless",
+        "quadrant": "platforms",
+        "quantity": 3
+    },
+    {
+        "_id": 53,
+        "name": "Eclipse Temurin OpenJDK",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/151",
+        "category": "Backend",
+        "quadrant": "tools",
+        "quantity": 11
+    },
+    {
+        "_id": 55,
+        "name": "Elastic Cloud",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/64",
+        "category": "Database Provider",
+        "quadrant": "platforms",
+        "quantity": 3
+    },
+    {
+        "_id": 1041,
+        "name": "Spring Native",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/202",
+        "category": "Backend",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 4
+    },
+    {
+        "_id": 702,
+        "name": "Talend Open Studio",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/205",
+        "category": "ETL / ELT",
+        "quadrant": "tools",
+        "quantity": 5
+    },
+    {
+        "_id": 159,
+        "name": "Adonis",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/330",
+        "category": "Backend",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 1
+    },
+    {
+        "_id": 1040,
+        "name": "Bruno",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/196",
+        "category": "Tools",
+        "quadrant": "tools",
+        "quantity": 75
+    },
+    {
+        "_id": 182,
+        "name": "MLFlow",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/188",
+        "category": "Big Data & Machine Learning",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 14
+    },
+    {
+        "_id": 335,
+        "name": "MANAWA OPENSHIFT Cloud",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": null,
+        "category": "Cloud",
+        "quadrant": "platforms",
+        "quantity": 20
+    },
+    {
+        "_id": 810,
+        "name": "M3db",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/241",
+        "category": "Time Series Database",
+        "quadrant": "platforms",
+        "quantity": 1
+    },
+    {
+        "_id": 577,
+        "name": "Kobi",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/181",
+        "category": "Micro Frontend",
+        "quadrant": "tools",
+        "quantity": 76
+    },
+    {
+        "_id": 785,
+        "name": "Avalanche Vector",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/92",
+        "category": "Database Provider",
+        "quadrant": "platforms",
+        "quantity": 1
+    },
+    {
+        "_id": 1106,
+        "name": "ValKey",
+        "endingDate": null,
+        "stage": "trial",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/207",
+        "category": "In Memory Database",
+        "quadrant": "platforms",
+        "quantity": 36
+    },
+    {
+        "_id": 656,
+        "name": "Qualys",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/190",
+        "category": "Vulnerability Manager",
+        "quadrant": "tools",
+        "quantity": 4
+    },
+    {
+        "_id": 274,
+        "name": "Azure",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": null,
+        "category": "Cloud",
+        "quadrant": "platforms",
+        "quantity": 26
+    },
+    {
+        "_id": 1307,
+        "name": "GitHub Copilot",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/261",
+        "category": "AI-assisted software development",
+        "quadrant": "tools",
+        "quantity": 44
+    },
+    {
+        "_id": 803,
+        "name": "Cloud Firestore",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/130",
+        "category": "Document Database",
+        "quadrant": "platforms",
+        "quantity": 20
+    },
+    {
+        "_id": 706,
+        "name": "Tenable AD",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/192",
+        "category": "Vulnerability Manager",
+        "quadrant": "tools",
+        "quantity": 1
+    },
+    {
+        "_id": 1108,
+        "name": "PG Vector",
+        "endingDate": null,
+        "stage": "trial",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/209",
+        "category": "Search Engine",
+        "quadrant": "platforms",
+        "quantity": 1
+    },
+    {
+        "_id": 1109,
+        "name": "ARM C4A in GKE",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/211",
+        "category": "Cloud",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 1111,
+        "name": "Knative Eventing",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/210",
+        "category": "Serverless",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 852,
+        "name": "Docker Dekstop",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/191",
+        "category": "Tools",
+        "quadrant": "tools",
+        "quantity": 2
+    },
+    {
+        "_id": 853,
+        "name": "Datadog LLM Observability",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/193",
+        "category": "Monitoring (application)",
+        "quadrant": "tools",
+        "quantity": 0
+    },
+    {
+        "_id": 1174,
+        "name": "Confluence Cloud",
+        "endingDate": null,
+        "stage": "trial",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/231",
+        "category": "Documentation",
+        "quadrant": "tools",
+        "quantity": 0
+    },
+    {
+        "_id": 179,
+        "name": "Playwright",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/221",
+        "category": "Test Automation",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 56
+    },
+    {
+        "_id": 1173,
+        "name": "MongoDB VECTOR",
+        "endingDate": null,
+        "stage": "trial",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/219",
+        "category": "Vector Database",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 1208,
+        "name": "OpenFeature",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/236",
+        "category": "Configuration",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 0
+    },
+    {
+        "_id": 69,
+        "name": "DBAPI",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/54",
+        "category": "Database Platform",
+        "quadrant": "platforms",
+        "quantity": 391
+    },
+    {
+        "_id": 445,
+        "name": "Checkmarx",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/204",
+        "category": "Secure Development Tools",
+        "quadrant": "tools",
+        "quantity": 48
+    },
+    {
+        "_id": 307,
+        "name": "Google Cloud Vmware Engine (GCVE)",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/153",
+        "category": "Cloud",
+        "quadrant": "platforms",
+        "quantity": 1
+    },
+    {
+        "_id": 362,
+        "name": "VPN SSL - Fortinet",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/344",
+        "category": "Network",
+        "quadrant": "platforms",
+        "quantity": 2
+    },
+    {
+        "_id": 1888,
+        "name": "",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/327",
+        "category": "Web Performance",
+        "quadrant": "techniques",
+        "quantity": 0
+    },
+    {
+        "_id": 10,
+        "name": "Spring Boot",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/102",
+        "category": "Backend",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 535
+    },
+    {
+        "_id": 1889,
+        "name": "Frontend Async Pattern Decision Tree",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/327",
+        "category": "Web Performance",
+        "quadrant": "techniques",
+        "quantity": 0
+    },
+    {
+        "_id": 183,
+        "name": "Quarkus",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/200",
+        "category": "Backend",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 10
+    },
+    {
+        "_id": 1175,
+        "name": "GCP Cloud DNS",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/230",
+        "category": "Network",
+        "quadrant": "platforms",
+        "quantity": 460
+    },
+    {
+        "_id": 80,
+        "name": "PostgreSQL",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/81",
+        "category": "Relational Database",
+        "quadrant": "platforms",
+        "quantity": 297
+    },
+    {
+        "_id": 51,
+        "name": "PagerDuty",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/26",
+        "category": "Alerting",
+        "quadrant": "platforms",
+        "quantity": 243
+    },
+    {
+        "_id": 422,
+        "name": "Argo Events",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/220",
+        "category": "Automation",
+        "quadrant": "tools",
+        "quantity": 3
+    },
+    {
+        "_id": 74,
+        "name": "Turbine",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/32",
+        "category": "CD tool",
+        "quadrant": "tools",
+        "quantity": 598
+    },
+    {
+        "_id": 29,
+        "name": "Sonarqube",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/117",
+        "category": "Quality",
+        "quadrant": "tools",
+        "quantity": 583
+    },
+    {
+        "_id": 73,
+        "name": "Vault",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/169",
+        "category": "Secrets Storage",
+        "quadrant": "tools",
+        "quantity": 1068
+    },
+    {
+        "_id": 49,
+        "name": "Data Streaming Platform",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/35",
+        "category": "Async communication",
+        "quadrant": "platforms",
+        "quantity": 533
+    },
+    {
+        "_id": 9,
+        "name": "Datadog",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/25",
+        "category": "Monitoring",
+        "quadrant": "tools",
+        "quantity": 1582
+    },
+    {
+        "_id": 14,
+        "name": "Jfrog Artifactory",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/135",
+        "category": "Artifact Management",
+        "quadrant": "tools",
+        "quantity": 1033
+    },
+    {
+        "_id": 83,
+        "name": "OpenSearch",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/62",
+        "category": "Search Engine",
+        "quadrant": "platforms",
+        "quantity": 73
+    },
+    {
+        "_id": 473,
+        "name": "Dependabot",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/264",
+        "category": "Secure Development Tools",
+        "quadrant": "tools",
+        "quantity": 88
+    },
+    {
+        "_id": 382,
+        "name": "Conventional Commits",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/238",
+        "category": "Software Craftmanship",
+        "quadrant": "techniques",
+        "quantity": 115
+    },
+    {
+        "_id": 411,
+        "name": "Semantic Release",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/303",
+        "category": "Software Craftmanship",
+        "quadrant": "techniques",
+        "quantity": 437
+    },
+    {
+        "_id": 409,
+        "name": "Pair Programming",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/232",
+        "category": "Software Craftmanship",
+        "quadrant": "techniques",
+        "quantity": 224
+    },
+    {
+        "_id": 368,
+        "name": "VPN SSL - F5",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/346",
+        "category": "Network",
+        "quadrant": "platforms",
+        "quantity": 12
+    },
+    {
+        "_id": 757,
+        "name": "HTML",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/260",
+        "category": "Frontend",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 389
+    },
+    {
+        "_id": 441,
+        "name": "Cerberus",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/307",
+        "category": "Test Automation",
+        "quadrant": "tools",
+        "quantity": 11
+    },
+    {
+        "_id": 676,
+        "name": "ServiceNow",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/252",
+        "category": "Incident Management",
+        "quadrant": "tools",
+        "quantity": 399
+    },
+    {
+        "_id": 622,
+        "name": "Open Telemetry",
+        "endingDate": null,
+        "stage": "trial",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/325",
+        "category": "Monitoring",
+        "quadrant": "tools",
+        "quantity": 16
+    },
+    {
+        "_id": 271,
+        "name": "AWS S3",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/67",
+        "category": "Cloud",
+        "quadrant": "platforms",
+        "quantity": 2
+    },
+    {
+        "_id": 371,
+        "name": "Yandex Cloud",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": null,
+        "category": "Cloud",
+        "quadrant": "platforms",
+        "quantity": 3
+    },
+    {
+        "_id": 466,
+        "name": "Datadome",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/276",
+        "category": "Antibot and DDOS protection",
+        "quadrant": "tools",
+        "quantity": 8
+    },
+    {
+        "_id": 823,
+        "name": "REST",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/328",
+        "category": "Specification",
+        "quadrant": "platforms",
+        "quantity": 134
+    },
+    {
+        "_id": 50,
+        "name": "Graylog",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/27",
+        "category": "Log Management",
+        "quadrant": "platforms",
+        "quantity": 3
+    },
+    {
+        "_id": 276,
+        "name": "LAN-WIFI - Cisco Meraki",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/176",
+        "category": "Network",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 4,
+        "name": "Statuspage",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/29",
+        "category": "Incident",
+        "quadrant": "tools",
+        "quantity": 27
+    },
+    {
+        "_id": 42,
+        "name": "Unsupported Windows Server",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/143",
+        "category": "Operating Systems",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 13,
+        "name": "Codacy",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/119",
+        "category": "Quality",
+        "quadrant": "tools",
+        "quantity": 9
+    },
+    {
+        "_id": 64,
+        "name": "Neo4j",
+        "endingDate": null,
+        "stage": "trial",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/133",
+        "category": "Graph Database",
+        "quadrant": "platforms",
+        "quantity": 2
+    },
+    {
+        "_id": 23,
+        "name": "Netbox",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/99",
+        "category": "Network",
+        "quadrant": "tools",
+        "quantity": 0
+    },
+    {
+        "_id": 81,
+        "name": "Postgres Document-Oriented",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/94",
+        "category": "Document Database",
+        "quadrant": "platforms",
+        "quantity": 2
+    },
+    {
+        "_id": 12,
+        "name": "KMM (Kotlin Multiplatform)",
+        "endingDate": null,
+        "stage": "trial",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/44",
+        "category": "Frontends",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 0
+    },
+    {
+        "_id": 44,
+        "name": "Kong Gateway",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/34",
+        "category": "API Gateway",
+        "quadrant": "platforms",
+        "quantity": 50
+    },
+    {
+        "_id": 37,
+        "name": "Nameshield (Public DNS Registrar)",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/139",
+        "category": "Network",
+        "quadrant": "platforms",
+        "quantity": 1
+    },
+    {
+        "_id": 7,
+        "name": "Lanceur",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/123",
+        "category": "Scheduling",
+        "quadrant": "tools",
+        "quantity": 0
+    },
+    {
+        "_id": 941,
+        "name": "Github Advanced Security",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/203",
+        "category": "Secure Development Tools",
+        "quadrant": "tools",
+        "quantity": 36
+    },
+    {
+        "_id": 22,
+        "name": "Adeo Design System",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/137",
+        "category": "Design System",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 103
+    },
+    {
+        "_id": 2,
+        "name": "Progressive Web Apps",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/39",
+        "category": "Frontend",
+        "quadrant": "techniques",
+        "quantity": 13
+    },
+    {
+        "_id": 90,
+        "name": "Vectorwize",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/91",
+        "category": "Analytics Database",
+        "quadrant": "platforms",
+        "quantity": 1
+    },
+    {
+        "_id": 36,
+        "name": "LAN-WIFI - Juniper Mist",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/177",
+        "category": "Network",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 38,
+        "name": "Google Cloud Composer",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/124",
+        "category": "Orchestration DAG",
+        "quadrant": "platforms",
+        "quantity": 38
+    },
+    {
+        "_id": 45,
+        "name": "CentOS",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/146",
+        "category": "Operating Systems",
+        "quadrant": "platforms",
+        "quantity": 5
+    },
+    {
+        "_id": 39,
+        "name": "AKS Native",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/126",
+        "category": "Container Orchestration",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 8,
+        "name": "OctoPerf",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/95",
+        "category": "Performance test",
+        "quadrant": "tools",
+        "quantity": 51
+    },
+    {
+        "_id": 60,
+        "name": "Oracle Cloud Infrastructure",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/111",
+        "category": "Cloud",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 56,
+        "name": "Aiven",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/30",
+        "category": "Database Provider",
+        "quadrant": "platforms",
+        "quantity": 215
+    },
+    {
+        "_id": 48,
+        "name": "Platform Eco",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/100",
+        "category": "Big Data & Machine Learning",
+        "quadrant": "platforms",
+        "quantity": 1
+    },
+    {
+        "_id": 65,
+        "name": "AWX",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/33",
+        "category": "Automation",
+        "quadrant": "platforms",
+        "quantity": 30
+    },
+    {
+        "_id": 62,
+        "name": "Rancher",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/115",
+        "category": "Cloud",
+        "quadrant": "platforms",
+        "quantity": 4
+    },
+    {
+        "_id": 67,
+        "name": "VertexAI-GenAI",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/166",
+        "category": "GenAI",
+        "quadrant": "platforms",
+        "quantity": 4
+    },
+    {
+        "_id": 35,
+        "name": "Nac - Aruba Clearpass",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/120",
+        "category": "Network",
+        "quadrant": "platforms",
+        "quantity": 3
+    },
+    {
+        "_id": 84,
+        "name": "Innersource Incubator",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/163",
+        "category": "Innersource",
+        "quadrant": "techniques",
+        "quantity": 2
+    },
+    {
+        "_id": 54,
+        "name": "Cloud Containers",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/58",
+        "category": "Container Orchestration",
+        "quadrant": "platforms",
+        "quantity": 1209
+    },
+    {
+        "_id": 33,
+        "name": "App Engine",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/160",
+        "category": "Cloud",
+        "quadrant": "platforms",
+        "quantity": 158
+    },
+    {
+        "_id": 756,
+        "name": "Java Freemarker",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/321",
+        "category": "Templating",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 19
+    },
+    {
+        "_id": 974,
+        "name": "Firestore",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/130",
+        "category": "Duplicated",
+        "quadrant": "platforms",
+        "quantity": 3
+    },
+    {
+        "_id": 11,
+        "name": "Sentry",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/17",
+        "category": "Alerting",
+        "quadrant": "tools",
+        "quantity": 8
+    },
+    {
+        "_id": 3,
+        "name": "DevPortal",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/36",
+        "category": "API Portal",
+        "quadrant": "tools",
+        "quantity": 310
+    },
+    {
+        "_id": 727,
+        "name": "Visual Studio Code (VsCode)",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/250",
+        "category": "IDE",
+        "quadrant": "tools",
+        "quantity": 108
+    },
+    {
+        "_id": 336,
+        "name": "Netskope",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/175",
+        "category": "Network",
+        "quadrant": "platforms",
+        "quantity": 19
+    },
+    {
+        "_id": 373,
+        "name": "Zabbix",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/154",
+        "category": "Monitoring (application)",
+        "quadrant": "platforms",
+        "quantity": 1
+    },
+    {
+        "_id": 75,
+        "name": "MySQL",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/131",
+        "category": "Relational Database",
+        "quadrant": "platforms",
+        "quantity": 111
+    },
+    {
+        "_id": 18,
+        "name": "Github Actions",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/16",
+        "category": "CI tool",
+        "quadrant": "tools",
+        "quantity": 2090
+    },
+    {
+        "_id": 636,
+        "name": "Pingdom",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/14",
+        "category": "Alerting",
+        "quadrant": "tools",
+        "quantity": 1
+    },
+    {
+        "_id": 30,
+        "name": "RHEL (Red Hat Enterprise Linux) Server Operating Systems",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/147",
+        "category": "Operating Systems",
+        "quadrant": "platforms",
+        "quantity": 3
+    },
+    {
+        "_id": 5,
+        "name": "Oracle Linux",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/145",
+        "category": "Operating Systems",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 26,
+        "name": "IBM AIX",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/144",
+        "category": "Operating Systems",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 21,
+        "name": "Supported Windows Server",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/142",
+        "category": "Operating Systems",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 40,
+        "name": "OpenShift",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/88",
+        "category": "Operating Systems",
+        "quadrant": "platforms",
+        "quantity": 1
+    },
+    {
+        "_id": 68,
+        "name": "FerretDB",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/172",
+        "category": "Document Database",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 560,
+        "name": "Jira",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/247",
+        "category": "Agile Project Management",
+        "quadrant": "tools",
+        "quantity": 358
+    },
+    {
+        "_id": 464,
+        "name": "Datadog RUM",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/237",
+        "category": "Monitoring (application)",
+        "quadrant": "tools",
+        "quantity": 20
+    },
+    {
+        "_id": 63,
+        "name": "Collaboration Agreement",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/164",
+        "category": "Innersource",
+        "quadrant": "techniques",
+        "quantity": 0
+    },
+    {
+        "_id": 77,
+        "name": "Web Quality Dashboard",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/71",
+        "category": "Web Indicators",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 820,
+        "name": "Oracle",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/24",
+        "category": "Relational Database",
+        "quadrant": "platforms",
+        "quantity": 13
+    },
+    {
+        "_id": 82,
+        "name": "Microsoft SQL Server",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/83",
+        "category": "Relational Database",
+        "quadrant": "platforms",
+        "quantity": 14
+    },
+    {
+        "_id": 809,
+        "name": "Ingres",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/82",
+        "category": "Relational Database",
+        "quadrant": "platforms",
+        "quantity": 6
+    },
+    {
+        "_id": 1,
+        "name": "SBOM (Software Bill Of Materials)",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/180",
+        "category": "SBOM",
+        "quadrant": "tools",
+        "quantity": 0
+    },
+    {
+        "_id": 552,
+        "name": "Jenkins",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/179",
+        "category": "CI tool",
+        "quadrant": "tools",
+        "quantity": 2
+    },
+    {
+        "_id": 289,
+        "name": "Dynatrace",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/18",
+        "category": "Monitoring (application)",
+        "quadrant": "tools",
+        "quantity": 10
+    },
+    {
+        "_id": 25,
+        "name": "Ubuntu Server Operating Systems",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/149",
+        "category": "Operating Systems",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 17,
+        "name": "Rocky Linux Server Operating Systems",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/148",
+        "category": "Operating Systems",
+        "quadrant": "platforms",
+        "quantity": 5
+    },
+    {
+        "_id": 24,
+        "name": "AWA - Automic Workflow Automation",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/121",
+        "category": "Automation",
+        "quadrant": "platforms",
+        "quantity": 27
+    },
+    {
+        "_id": 34,
+        "name": "Dollar Universe",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/122",
+        "category": "Scheduling",
+        "quadrant": "platforms",
+        "quantity": 6
+    },
+    {
+        "_id": 43,
+        "name": "Nac - Microsoft NPS",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/156",
+        "category": "Network",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 71,
+        "name": "Google Cloud Platform",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/66",
+        "category": "Cloud",
+        "quadrant": "platforms",
+        "quantity": 304
+    },
+    {
+        "_id": 70,
+        "name": "AWS",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/67",
+        "category": "Cloud",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 66,
+        "name": "GKE Native",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/110",
+        "category": "Container Orchestration",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 765,
+        "name": "Oracle Java SE",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/150",
+        "category": "Backend",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 0
+    },
+    {
+        "_id": 46,
+        "name": "Python",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/165",
+        "category": "Backend",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 680
+    },
+    {
+        "_id": 595,
+        "name": "Maven",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/246",
+        "category": "Build Automation",
+        "quadrant": "tools",
+        "quantity": 226
+    },
+    {
+        "_id": 638,
+        "name": "PingOne",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/244",
+        "category": "Identity & Role Mangement",
+        "quadrant": "tools",
+        "quantity": 271
+    },
+    {
+        "_id": 76,
+        "name": "Kafka Aiven",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/90",
+        "category": "Event Streaming Provider",
+        "quadrant": "platforms",
+        "quantity": 1
+    },
+    {
+        "_id": 86,
+        "name": "Couchbase",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/84",
+        "category": "Document Database",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 78,
+        "name": "TypeScript",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/140",
+        "category": "Backend",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 803
+    },
+    {
+        "_id": 513,
+        "name": "Gitlab",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/15",
+        "category": "Code storage",
+        "quadrant": "tools",
+        "quantity": 35
+    },
+    {
+        "_id": 85,
+        "name": "MariaDB",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/132",
+        "category": "Relational Database",
+        "quadrant": "platforms",
+        "quantity": 2
+    },
+    {
+        "_id": 89,
+        "name": "MongoDB",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/89",
+        "category": "Document Database",
+        "quadrant": "platforms",
+        "quantity": 192
+    },
+    {
+        "_id": 749,
+        "name": "C#",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/268",
+        "category": "Backend",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 23
+    },
+    {
+        "_id": 279,
+        "name": "Cloudflare",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/278",
+        "category": "CDN",
+        "quadrant": "platforms",
+        "quantity": 3
+    },
+    {
+        "_id": 287,
+        "name": "Elasticsearch IAAS",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/65",
+        "category": "Search Engine",
+        "quadrant": "platforms",
+        "quantity": 15
+    },
+    {
+        "_id": 787,
+        "name": "Azure OpenAI",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/167",
+        "category": "GenAI",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 23
+    },
+    {
+        "_id": 61,
+        "name": "NextGen Firewall SDWAN - Fortinet",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/119",
+        "category": "Network",
+        "quadrant": "platforms",
+        "quantity": 5
+    },
+    {
+        "_id": 72,
+        "name": "Couchbase Capella",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/85",
+        "category": "Database Provider",
+        "quadrant": "platforms",
+        "quantity": 0
+    },
+    {
+        "_id": 16,
+        "name": "Speedcurve",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/8",
+        "category": "Monitoring (application)",
+        "quadrant": "tools",
+        "quantity": 0
+    },
+    {
+        "_id": 32,
+        "name": "Jira Xray",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/93",
+        "category": "Testing Scenario",
+        "quadrant": "tools",
+        "quantity": 19
+    },
+    {
+        "_id": 41,
+        "name": "NextGen Firewall SDWAN - Forcepoint",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/155",
+        "category": "Network",
+        "quadrant": "platforms",
+        "quantity": 3
+    },
+    {
+        "_id": 19,
+        "name": "Java",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/102",
+        "category": "Backend",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 973
+    },
+    {
+        "_id": 6,
+        "name": "Golang",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/116",
+        "category": "Backend",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 141
+    },
+    {
+        "_id": 397,
+        "name": "Infrastructure as Code",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/234",
+        "category": "Infrastructure As Code",
+        "quadrant": "techniques",
+        "quantity": 101
+    },
+    {
+        "_id": 542,
+        "name": "IaC",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/234",
+        "category": "Infrastructure As Code",
+        "quadrant": "techniques",
+        "quantity": 7
+    },
+    {
+        "_id": 79,
+        "name": "Argo Workflows Legacy",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/125",
+        "category": "Batch Processing",
+        "quadrant": "tools",
+        "quantity": 2
+    },
+    {
+        "_id": 239,
+        "name": "Terraform",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/251",
+        "category": "Infrastructure As Code",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 507
+    },
+    {
+        "_id": 323,
+        "name": "Kubernetes",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/254",
+        "category": "Container Orchestration",
+        "quadrant": "platforms",
+        "quantity": 215
+    },
+    {
+        "_id": 545,
+        "name": "IntelliJ",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/249",
+        "category": "IDE",
+        "quadrant": "tools",
+        "quantity": 158
+    },
+    {
+        "_id": 1374,
+        "name": "Global Operation Committee enabled by the Backpack Ops",
+        "endingDate": null,
+        "stage": "assess",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/245",
+        "category": "",
+        "quadrant": "techniques",
+        "quantity": 0
+    },
+    {
+        "_id": 745,
+        "name": "ASP.Net",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/269",
+        "category": "Frontend",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 6
+    },
+    {
+        "_id": 408,
+        "name": "Pair Review",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/233",
+        "category": "Software Craftmanship",
+        "quadrant": "techniques",
+        "quantity": 232
+    },
+    {
+        "_id": 412,
+        "name": "Semantic Versioning",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/235",
+        "category": "Software Craftmanship",
+        "quadrant": "techniques",
+        "quantity": 171
+    },
+    {
+        "_id": 793,
+        "name": "Collibra",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/281",
+        "category": "Data Access Management",
+        "quadrant": "platforms",
+        "quantity": 83
+    },
+    {
+        "_id": 779,
+        "name": "Yaml",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/257",
+        "category": "Configuration",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 139
+    },
+    {
+        "_id": 1377,
+        "name": "GitHub Copilot Code Reviews",
+        "endingDate": null,
+        "stage": "trial",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/272",
+        "category": "Software Craftmanship",
+        "quadrant": "techniques",
+        "quantity": 5
+    },
+    {
+        "_id": 1378,
+        "name": "ADR - Synchronous API Local Exposition",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/315",
+        "category": "API Management",
+        "quadrant": "techniques",
+        "quantity": 0
+    },
+    {
+        "_id": 1379,
+        "name": "ADR - Synchronous API Public Exposition ",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/314",
+        "category": "API Management",
+        "quadrant": "techniques",
+        "quantity": 0
+    },
+    {
+        "_id": 1380,
+        "name": "Software Architecture Advice Process",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/273",
+        "category": "Software Architecture",
+        "quadrant": "techniques",
+        "quantity": 0
+    },
+    {
+        "_id": 1373,
+        "name": "Argo Workflows",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/309",
+        "category": "Orchestration DAG",
+        "quadrant": "tools",
+        "quantity": 2
+    },
+    {
+        "_id": 31,
+        "name": "CDN - Content Delivery Network",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/162",
+        "category": "Duplicated",
+        "quadrant": "platforms",
+        "quantity": 4
+    },
+    {
+        "_id": 20,
+        "name": "Rust (for Edge Serverless CDN)",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/248",
+        "category": "Scripting",
+        "quadrant": "languages_and_frameworks",
+        "quantity": 0
+    },
+    {
+        "_id": 88,
+        "name": "Cloud SQL",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/127",
+        "category": "Relational Database",
+        "quadrant": "platforms",
+        "quantity": 77
+    },
+    {
+        "_id": 27,
+        "name": "Cloud Memorystore for Redis",
+        "endingDate": null,
+        "stage": "hold",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/129",
+        "category": "Duplicated",
+        "quadrant": "platforms",
+        "quantity": 7
+    },
+    {
+        "_id": 563,
+        "name": "K9s",
+        "endingDate": null,
+        "stage": "adopt",
+        "caseUrl": "https://github.com/adeo/adeo-group-toc/issues/255",
+        "category": "Container Orchestration",
+        "quadrant": "tools",
+        "quantity": 117
+    }
+]

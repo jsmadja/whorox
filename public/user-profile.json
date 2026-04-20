@@ -1,0 +1,32 @@
+{
+    "name": "Julien Smadja",
+    "title": "Tech Lead",
+    "photo": "https://media.licdn.com/dms/image/v2/C4D03AQGdrssLYnRVjw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1597738702036?e=1778112000&v=beta&t=L8XgugcYu73c128RmR_2y0kbBC6f4Cd1gr57Eze64zM",
+    "team": "Tapas",
+    "dm": "Thomas Bujaud",
+    "dmDescription": "Services & Reno",
+    "canHelp": [
+        "Infrastructure as Code",
+        "Visual Studio Code (VsCode)",
+        "Java",
+        "Spring Boot",
+        "Docker",
+        "Kubernetes",
+        "Github Actions",
+        "TypeScript",
+        "SQL",
+        "Github"
+    ],
+    "needsHelp": [
+        "Pair Programming",
+        "Github Actions",
+        "Golang",
+        "Python",
+        "Nest.js",
+        "Data Streaming Platform",
+        "GitHub Copilot",
+        "K9s",
+        "Maven",
+        "Turbine"
+    ]
+}

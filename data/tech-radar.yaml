@@ -1,69 +1,177 @@
 categories:
-
-  - name: Languages & Frameworks
+  - name: AI-assisted software development
     technos:
-      - JavaScript
-      - TypeScript
-      - Python
+      - GitHub Copilot
+  - name: API Management
+    technos:
+      - ADR - Synchronous API Internal Exposition
+      - ADR - Synchronous API Local Exposition
+      - ADR - Synchronous API Public Exposition
+  - name: Analytics Database
+    technos:
+      - Google Cloud BigQuery AS Analytical Database
+  - name: Artifact Management
+    technos:
+      - Jfrog Artifactory
+  - name: Async communication
+    technos:
+      - Data Streaming Platform
+  - name: Automation
+    technos:
+      - AWA - Automic Workflow Automation
+      - AWX
+  - name: Backend
+    technos:
+      - Eclipse Temurin OpenJDK
+      - Golang
       - Java
-      - Go
-      - Kotlin
-      - Rust
-      - React
-      - Vue.js
-      - Angular
-      - Next.js
-      - Node.js
+      - Nest.js
+      - Python
       - Spring Boot
-      - FastAPI
-      - GraphQL
-
-  - name: Data & AI
+      - TypeScript
+  - name: Build Automation
     technos:
-      - PostgreSQL
-      - MongoDB
-      - Redis
-      - Elasticsearch
-      - Kafka
-      - dbt
-      - Spark
-      - Airflow
-      - MLflow
-      - LangChain
-      - OpenAI API
-      - Vertex AI
-
-  - name: Infrastructure & Cloud
+      - Maven
+  - name: CD tool
     technos:
-      - AWS
-      - GCP
-      - Azure
+      - Turbine
+  - name: CI tool
+    technos:
+      - Github Actions
+  - name: Code storage
+    technos:
+      - Github
+  - name: Configuration
+    technos:
+      - Yaml
+  - name: Container Orchestration
+    technos:
+      - Cloud Containers
       - Docker
+      - K9s
       - Kubernetes
+  - name: Database
+    technos:
+      - SQL
+  - name: Design System
+    technos:
+      - Adeo Design System
+      - Adeo Design System V2
+  - name: Document Database
+    technos:
+      - MongoDB
+  - name: Documentation
+    technos:
+      - Confluence
+      - Confluence Cloud
+  - name: Event Streaming
+    technos:
+      - Datahub Pipelines
+  - name: Frontend
+    technos:
+      - HTML
+      - Progressive Web Apps
+      - Svelte
+      - VueJS
+  - name: Frontends
+    technos:
+      - Flutter
+      - KMM (Kotlin Multiplatform)
+  - name: Graph Database
+    technos:
+      - Neo4j
+  - name: IDE
+    technos:
+      - IntelliJ
+      - Visual Studio Code (VsCode)
+  - name: In Memory Database
+    technos:
+      - ValKey
+  - name: Infrastructure As Code
+    technos:
+      - CloudCraft
+      - IaC
+      - Infrastructure as Code
       - Terraform
-      - Helm
-      - Pulumi
-      - ArgoCD
-      - Istio
-
-  - name: Observability & Quality
+  - name: Micro Frontend
+    technos:
+      - Kobi
+  - name: Modeling & Design
+    technos:
+      - Business Process Model and Notation (BPMN)
+  - name: Monitoring
     technos:
       - Datadog
-      - Grafana
-      - Prometheus
-      - OpenTelemetry
-      - Sentry
-      - Cypress
-      - Playwright
-      - k6
-
-  - name: Practices & Tools
+      - Open Telemetry
+  - name: Monitoring (application)
     technos:
-      - Git
-      - GitHub Actions
-      - SonarQube
-      - Feature Flags
-      - Architecture Fitness Functions
-      - Domain-Driven Design
-      - Event Sourcing
-      - CQRS
+      - Datadog RUM
+      - Speedcurve
+      - Zabbix
+  - name: Orchestration DAG
+    technos:
+      - Argo Workflows
+  - name: Other
+    technos:
+      - Camunda
+  - name: Performance test
+    technos:
+      - OctoPerf
+  - name: Quality
+    technos:
+      - Sonarqube
+  - name: Relational Database
+    technos:
+      - PostgreSQL
+  - name: Search Engine
+    technos:
+      - Atlas Search
+      - OpenSearch
+      - PG Vector
+  - name: Secrets Storage
+    technos:
+      - Vault
+  - name: Secure Development Tools
+    technos:
+      - Dependabot
+      - Github Advanced Security
+  - name: Serverless
+    technos:
+      - Knative
+  - name: Software Architecture
+    technos:
+      - Software Architecture Advice Process
+  - name: Software Craftmanship
+    technos:
+      - Conventional Commits
+      - GitHub Copilot Code Reviews
+      - Pair Programming
+      - Pair Review
+      - Semantic Release
+      - Semantic Versioning
+  - name: Software Development
+    technos:
+      - Code Review Standards for AI-generated Code
+  - name: Specification
+    technos:
+      - OpenAPI
+      - REST
+  - name: Templating
+    technos:
+      - Java Freemarker
+  - name: Test Automation
+    technos:
+      - Playwright
+  - name: Testing
+    technos:
+      - JUnit
+      - Mockito
+  - name: Testing Scenario
+    technos:
+      - Jira Xray
+  - name: Tools
+    technos:
+      - Bruno
+  - name: Vector Database
+    technos:
+      - MongoDB VECTOR
