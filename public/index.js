@@ -416,6 +416,29 @@ function searchFilterNeedsHelp() {
     renderSearchPanelFilterResults(results, 'Cherche aide sur...', 'orange');
 }
 
+function searchFilterReferent() {
+    var results = [];
+    Object.keys(allUserProfiles).forEach(function(name) {
+        var profile = allUserProfiles[name];
+        if (profile.referent && profile.referent.length > 0) {
+            var entry = searchIndexData.find(function(e) { return e.name === name; });
+            if (entry) {
+                results.push({
+                    name: entry.name,
+                    title: entry.title,
+                    photo: entry.photo,
+                    technos: profile.referent,
+                    team: entry.team,
+                    dm: entry.dm,
+                    _filterType: 'referent'
+                });
+            }
+        }
+    });
+    results.sort(function(a, b) { return a.name.localeCompare(b.name); });
+    renderSearchPanelFilterResults(results, '⭐ Référents', 'purple');
+}
+
 function renderSearchPanelFilterResults(results, title, color) {
     var container = document.getElementById('search-panel-results');
     var countEl = document.getElementById('search-panel-count');
@@ -576,6 +599,11 @@ function searchPanelSearch(query) {
         if (entry.dmDescription && slugify(entry.dmDescription).includes(q)) return true;
         for (var i = 0; i < entry.technos.length; i++) {
             if (slugify(entry.technos[i]).includes(q)) return true;
+        }
+        if (entry.referent) {
+            for (var j = 0; j < entry.referent.length; j++) {
+                if (slugify(entry.referent[j]).includes(q)) return true;
+            }
         }
         return false;
     }).sort(function(a, b) {
@@ -742,6 +770,17 @@ function openDetailPanel(name) {
             }).join('') + '</div></div>';
     }
 
+    var referentHtml = '';
+    var referentData = (entry.referent && entry.referent.length > 0) ? entry.referent : (profile && profile.referent && profile.referent.length > 0) ? profile.referent : [];
+    if (referentData.length > 0) {
+        referentHtml = '<div class="mt-4">'
+            + '<div class="text-[10px] text-gray-400 uppercase tracking-wider mb-2">⭐ Référent</div>'
+            + '<div class="flex flex-wrap gap-1.5">' + referentData.map(function(t) {
+                var safeT = t.replace(/&/g,'&amp;').replace(/"/g,'&quot;');
+                return '<span class="inline-block px-2 py-1 text-xs rounded-lg bg-purple-100 text-purple-800 font-medium cursor-pointer hover:bg-purple-200 transition-colors" data-detail-techno="' + safeT + '">' + t + '</span>';
+            }).join('') + '</div></div>';
+    }
+
     var contactIcons = { 'Slack': '💬', 'Google Chat': '📞', 'Email': '✉️', 'En personne': '🤝' };
     var contactHtml = (entry.contact && entry.contact.length > 0)
         ? '<div class="mt-4 pt-4 border-t border-gray-100">'
@@ -765,6 +804,7 @@ function openDetailPanel(name) {
                 + '<div class="flex flex-wrap gap-2">' + technosHtml + '</div>'
               + '</div>'
             : '')
+        + referentHtml
         + canHelpHtml
         + needsHelpHtml
         + contactHtml
@@ -804,7 +844,7 @@ function openSearchWithTechno(techno) {
 var profilePanelOpen = false;
 var profileGroupByTechno = true;
 var profileHelpersGroupByTechno = true;
-var profileAccordion = { canHelp: true, needsHelp: true, seekers: true, helpers: true };
+var profileAccordion = { canHelp: true, needsHelp: true, referent: true, seekers: true, helpers: true };
 var allUserProfiles = {}; // name → { canHelp: [], needsHelp: [] }
 
 function closeAllRightPanels() {
@@ -830,7 +870,7 @@ function initAllUserProfiles() {
     // Initialiser des profils mockés pour tous les membres à partir du feed
     activityFeed.forEach(function(ev) {
         if (!allUserProfiles[ev.actor]) {
-            allUserProfiles[ev.actor] = { canHelp: [], needsHelp: [] };
+            allUserProfiles[ev.actor] = { canHelp: [], needsHelp: [], referent: [] };
         }
         if (ev.type === 'canHelp' && allUserProfiles[ev.actor].canHelp.indexOf(ev.techno) === -1) {
             allUserProfiles[ev.actor].canHelp.push(ev.techno);
@@ -839,11 +879,21 @@ function initAllUserProfiles() {
             allUserProfiles[ev.actor].needsHelp.push(ev.techno);
         }
     });
+    // Charger les referent depuis searchIndexData
+    searchIndexData.forEach(function(entry) {
+        if (!allUserProfiles[entry.name]) {
+            allUserProfiles[entry.name] = { canHelp: [], needsHelp: [], referent: [] };
+        }
+        if (entry.referent && entry.referent.length > 0) {
+            allUserProfiles[entry.name].referent = entry.referent.slice();
+        }
+    });
     // Ajouter le currentUser
     if (currentUser) {
         allUserProfiles[currentUser.name] = {
             canHelp: currentUser.canHelp.slice(),
-            needsHelp: currentUser.needsHelp.slice()
+            needsHelp: currentUser.needsHelp.slice(),
+            referent: (currentUser.referent || []).slice()
         };
     }
 }
@@ -913,6 +963,23 @@ function renderProfilePanel() {
     profile.needsHelp.forEach(function(t) {
         html += '<span class="inline-flex items-center gap-1 px-2 py-1 text-xs rounded-lg bg-orange-100 text-orange-800 font-medium">'
             + t + ' <button onclick="removeProfileTechno(\'needsHelp\',\'' + t.replace(/'/g, "\\'") + '\')" class="text-orange-400 hover:text-orange-700 ml-0.5">&times;</button></span>';
+    });
+    html += '</div></div></div>';
+
+    // Référent
+    var referentList = profile.referent || [];
+    html += '<div class="mt-4">'
+        + '<button class="profile-accordion-header w-full flex items-center justify-between" data-accordion="referent">'
+        + '<div class="flex items-center gap-2"><svg class="w-3 h-3 text-gray-400 transition-transform duration-200' + (profileAccordion.referent ? ' rotate-90' : '') + '" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>'
+        + '<span class="text-[10px] text-gray-400 uppercase tracking-wider">⭐ Référent</span>'
+        + '<span class="text-[10px] text-gray-300">(' + referentList.length + ')</span></div>'
+        + '<span onclick="event.stopPropagation();openTechnoPickerForProfile(\'referent\')" class="text-purple-500 hover:text-purple-700 text-xs font-medium">+ Ajouter</span>'
+        + '</button>'
+        + '<div class="mt-2' + (profileAccordion.referent ? '' : ' hidden') + '" data-accordion-body="referent">'
+        + '<div class="flex flex-wrap gap-2" id="profile-referent-tags">';
+    referentList.forEach(function(t) {
+        html += '<span class="inline-flex items-center gap-1 px-2 py-1 text-xs rounded-lg bg-purple-100 text-purple-800 font-medium">'
+            + t + ' <button onclick="removeProfileTechno(\'referent\',\'' + t.replace(/'/g, "\\'") + '\')" class="text-purple-400 hover:text-purple-700 ml-0.5">&times;</button></span>';
     });
     html += '</div></div></div>';
 
@@ -1084,7 +1151,7 @@ function removeProfileTechno(type, techno) {
     // Ajouter un event dans le feed
     activityFeed.unshift({
         actor: currentUser.name,
-        type: type === 'canHelp' ? 'removeCanHelp' : 'removeNeedsHelp',
+        type: type === 'canHelp' ? 'removeCanHelp' : type === 'referent' ? 'removeReferent' : 'removeNeedsHelp',
         techno: techno,
         date: new Date().toISOString()
     });
@@ -1094,9 +1161,10 @@ function removeProfileTechno(type, techno) {
 function addProfileTechno(type, techno) {
     var profile = allUserProfiles[currentUser.name];
     if (!profile) {
-        profile = { canHelp: [], needsHelp: [] };
+        profile = { canHelp: [], needsHelp: [], referent: [] };
         allUserProfiles[currentUser.name] = profile;
     }
+    if (!profile[type]) profile[type] = [];
     if (profile[type].indexOf(techno) !== -1) return;
     profile[type].push(techno);
     // Ajouter un event dans le feed
@@ -1127,7 +1195,7 @@ function openTechnoPickerForProfile(type) {
         modal.className = 'bg-white rounded-xl shadow-2xl w-80 max-h-[70vh] flex flex-col overflow-hidden';
 
         var header = '<div class="px-4 py-3 border-b border-gray-100 flex items-center justify-between">'
-            + '<span class="text-sm font-bold text-gray-800">' + (type === 'canHelp' ? 'Je peux aider sur...' : 'J\'ai besoin d\'aide sur...') + '</span>'
+            + '<span class="text-sm font-bold text-gray-800">' + (type === 'canHelp' ? 'Je peux aider sur...' : type === 'referent' ? 'Référent sur...' : 'J\'ai besoin d\'aide sur...') + '</span>'
             + '<button id="close-techno-picker" class="text-gray-400 hover:text-gray-600"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg></button>'
             + '</div>';
 
@@ -1136,7 +1204,7 @@ function openTechnoPickerForProfile(type) {
             body += '<div class="px-4 py-1"><div class="text-[10px] text-gray-400 uppercase tracking-wider mb-1">' + cat.name + '</div>';
             (cat.items || cat.technos).forEach(function(techno) {
                 var isSelected = alreadySelected.indexOf(techno) !== -1;
-                var color = type === 'canHelp' ? 'green' : 'orange';
+                var color = type === 'canHelp' ? 'green' : type === 'referent' ? 'purple' : 'orange';
                 body += '<button data-pick-techno="' + techno.replace(/"/g, '&quot;') + '" class="inline-block m-0.5 px-2 py-1 text-xs rounded-lg border transition-colors '
                     + (isSelected
                         ? 'bg-' + color + '-100 text-' + color + '-800 border-' + color + '-300 opacity-50 cursor-not-allowed'
@@ -1158,7 +1226,7 @@ function openTechnoPickerForProfile(type) {
             btn.addEventListener('click', function() {
                 var techno = btn.getAttribute('data-pick-techno');
                 addProfileTechno(type, techno);
-                var color = type === 'canHelp' ? 'green' : 'orange';
+                var color = type === 'canHelp' ? 'green' : type === 'referent' ? 'purple' : 'orange';
                 btn.disabled = true;
                 btn.className = 'inline-block m-0.5 px-2 py-1 text-xs rounded-lg border transition-colors bg-' + color + '-100 text-' + color + '-800 border-' + color + '-300 opacity-50 cursor-not-allowed';
             });
@@ -1362,9 +1430,12 @@ Promise.all([
         mouseScrool: OrgChart.action.zoom,
         expand: {},
         collapse: {
-            level: 2
+            level: 3
         },
         tags: {
+            director: {
+                template: 'manager'
+            },
             manager: {
                 template: 'manager'
             },
