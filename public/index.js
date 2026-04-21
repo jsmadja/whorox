@@ -742,7 +742,7 @@ function openDetailPanel(name) {
             }).join('') + '</div></div>';
     }
 
-    var contactIcons = { 'Slack': '💬', 'Teams': '📞', 'Email': '✉️', 'En personne': '🤝' };
+    var contactIcons = { 'Slack': '💬', 'Google Chat': '📞', 'Email': '✉️', 'En personne': '🤝' };
     var contactHtml = (entry.contact && entry.contact.length > 0)
         ? '<div class="mt-4 pt-4 border-t border-gray-100">'
             + '<div class="text-[10px] text-gray-400 uppercase tracking-wider mb-2">Contact privilégié</div>'

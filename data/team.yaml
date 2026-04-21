@@ -27,7 +27,7 @@ delivery_managers:
         - Argo Workflows
         - Adeo Design System V2
       contact: *a1
-    teams:
+    Google Chat:
       - name: Collab RH
         description: Outils RH, Onboarding, Portail collaborateur
         members:
@@ -50,7 +50,7 @@ delivery_managers:
             photo: https://cdn.balkan.app/shared/a/7.jpg
             contact: &a10
               - Slack
-              - Teams
+              - Google Chat
           - name: Inès Marchand
             title: Développeur
             technos:
@@ -86,7 +86,7 @@ delivery_managers:
               - Confluence
             photo: https://cdn.balkan.app/shared/a/9.jpg
             contact: &a3
-              - Teams
+              - Google Chat
       - name: Expérience Digitale
         description: App mobile, Self-service, Parcours client
         members:
@@ -99,7 +99,7 @@ delivery_managers:
             photo: https://cdn.balkan.app/shared/a/6.jpg
             contact: &a4
               - Slack
-              - Teams
+              - Google Chat
               - En personne
           - name: Victor Leclercq
             title: Développeur
@@ -109,7 +109,7 @@ delivery_managers:
               - Progressive Web Apps
             photo: https://cdn.balkan.app/shared/a/14.jpg
             contact: &a6
-              - Teams
+              - Google Chat
               - En personne
           - name: Manon Dupuis
             title: Développeur
@@ -119,7 +119,7 @@ delivery_managers:
               - Dependabot
             photo: https://cdn.balkan.app/shared/a/18.jpg
             contact: &a8
-              - Teams
+              - Google Chat
               - Email
           - name: Alexis Perrin
             title: Développeur
@@ -224,7 +224,7 @@ delivery_managers:
         - ADR - Synchronous API Public Exposition
         - GitHub Copilot Code Reviews
       contact: *a5
-    teams:
+    Google Chat:
       - name: CRM & Fidélité
         description: CRM, Programme fidélité, Offres personnalisées
         members:
@@ -397,7 +397,7 @@ delivery_managers:
         - OpenSearch
         - REST
       contact: *a5
-    teams:
+    Google Chat:
       - name: Config & Référentiel
         description: MDM, Référentiel produit, Config store
         members:
@@ -577,7 +577,7 @@ delivery_managers:
         - ADR - Synchronous API Public Exposition
         - Java
       contact: *a4
-    teams:
+    Google Chat:
       - name: Tapas
         description: Tandem, Tandem PRO, Trek
         members:
