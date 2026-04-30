@@ -28,5 +28,9 @@
         "K9s",
         "Maven",
         "Turbine"
+    ],
+    "referent": [
+        "Confluence",
+        "SQL"
     ]
 }

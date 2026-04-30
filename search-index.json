@@ -1,5 +1,18 @@
 [
     {
+        "name": "Franck Drecourt",
+        "title": "Directeur Digital Data",
+        "photo": "https://media.licdn.com/dms/image/v2/C4D03AQHTKRqvHjEj5w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516933296317?e=1778112000&v=beta&t=DLyPwIbyPl0UWKS8CGlgiVsXMTWq5YiMvQX7WbD9vs4",
+        "technos": [],
+        "contact": [
+            "Google Chat"
+        ],
+        "referent": [],
+        "team": "",
+        "dm": "",
+        "dmDescription": ""
+    },
+    {
         "name": "Alexis Masset",
         "title": "Directeur digital",
         "photo": "https://media.licdn.com/dms/image/v2/C4E03AQFe6OnLMtGtrA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1626881647348?e=1778112000&v=beta&t=c5sE-IZMQiDnSMOs22ICIV8pTp6ubQGiGONQiPtFYcA",
@@ -11,9 +24,10 @@
         "contact": [
             "En personne"
         ],
+        "referent": [],
         "team": "",
         "dm": "",
-        "dmDescription": ""
+        "dmDescription": "Omnicommerce Collab Xp & HR"
     },
     {
         "name": "Juliette Lefranc",
@@ -28,8 +42,9 @@
             "Slack",
             "En personne"
         ],
+        "referent": [],
         "team": "",
-        "dm": "",
+        "dm": "Alexis Masset",
         "dmDescription": "HR & Collaboration"
     },
     {
@@ -44,6 +59,7 @@
         "contact": [
             "En personne"
         ],
+        "referent": [],
         "team": "",
         "dm": "Juliette Lefranc",
         "dmDescription": "HR & Collaboration"
@@ -61,6 +77,7 @@
             "Email",
             "En personne"
         ],
+        "referent": [],
         "team": "Collab RH",
         "dm": "Juliette Lefranc",
         "dmDescription": "HR & Collaboration"
@@ -76,8 +93,9 @@
         ],
         "contact": [
             "Slack",
-            "Teams"
+            "Google Chat"
         ],
+        "referent": [],
         "team": "Collab RH",
         "dm": "Juliette Lefranc",
         "dmDescription": "HR & Collaboration"
@@ -94,6 +112,7 @@
         "contact": [
             "Slack"
         ],
+        "referent": [],
         "team": "Collab RH",
         "dm": "Juliette Lefranc",
         "dmDescription": "HR & Collaboration"
@@ -111,6 +130,7 @@
             "Slack",
             "Email"
         ],
+        "referent": [],
         "team": "Collab RH",
         "dm": "Juliette Lefranc",
         "dmDescription": "HR & Collaboration"
@@ -127,6 +147,7 @@
         "contact": [
             "Slack"
         ],
+        "referent": [],
         "team": "Collab RH",
         "dm": "Juliette Lefranc",
         "dmDescription": "HR & Collaboration"
@@ -141,8 +162,9 @@
             "Confluence"
         ],
         "contact": [
-            "Teams"
+            "Google Chat"
         ],
+        "referent": [],
         "team": "Collab RH",
         "dm": "Juliette Lefranc",
         "dmDescription": "HR & Collaboration"
@@ -158,9 +180,10 @@
         ],
         "contact": [
             "Slack",
-            "Teams",
+            "Google Chat",
             "En personne"
         ],
+        "referent": [],
         "team": "Expérience Digitale",
         "dm": "Juliette Lefranc",
         "dmDescription": "HR & Collaboration"
@@ -175,9 +198,10 @@
             "Progressive Web Apps"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "En personne"
         ],
+        "referent": [],
         "team": "Expérience Digitale",
         "dm": "Juliette Lefranc",
         "dmDescription": "HR & Collaboration"
@@ -192,9 +216,10 @@
             "Dependabot"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "Email"
         ],
+        "referent": [],
         "team": "Expérience Digitale",
         "dm": "Juliette Lefranc",
         "dmDescription": "HR & Collaboration"
@@ -209,8 +234,9 @@
             "AWX"
         ],
         "contact": [
-            "Teams"
+            "Google Chat"
         ],
+        "referent": [],
         "team": "Expérience Digitale",
         "dm": "Juliette Lefranc",
         "dmDescription": "HR & Collaboration"
@@ -226,9 +252,10 @@
         ],
         "contact": [
             "Slack",
-            "Teams",
+            "Google Chat",
             "En personne"
         ],
+        "referent": [],
         "team": "Expérience Digitale",
         "dm": "Juliette Lefranc",
         "dmDescription": "HR & Collaboration"
@@ -245,6 +272,7 @@
         "contact": [
             "En personne"
         ],
+        "referent": [],
         "team": "Expérience Digitale",
         "dm": "Juliette Lefranc",
         "dmDescription": "HR & Collaboration"
@@ -259,8 +287,9 @@
             "GitHub Copilot Code Reviews"
         ],
         "contact": [
-            "Teams"
+            "Google Chat"
         ],
+        "referent": [],
         "team": "Expérience Digitale",
         "dm": "Juliette Lefranc",
         "dmDescription": "HR & Collaboration"
@@ -276,6 +305,10 @@
         ],
         "contact": [
             "Slack"
+        ],
+        "referent": [
+            "Nest.js",
+            "Docker"
         ],
         "team": "Omnicommerce",
         "dm": "Juliette Lefranc",
@@ -294,6 +327,7 @@
             "Email",
             "En personne"
         ],
+        "referent": [],
         "team": "Omnicommerce",
         "dm": "Juliette Lefranc",
         "dmDescription": "HR & Collaboration"
@@ -310,6 +344,7 @@
         "contact": [
             "Slack"
         ],
+        "referent": [],
         "team": "Omnicommerce",
         "dm": "Juliette Lefranc",
         "dmDescription": "HR & Collaboration"
@@ -324,9 +359,10 @@
             "MongoDB"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "En personne"
         ],
+        "referent": [],
         "team": "Omnicommerce",
         "dm": "Juliette Lefranc",
         "dmDescription": "HR & Collaboration"
@@ -343,6 +379,7 @@
         "contact": [
             "Slack"
         ],
+        "referent": [],
         "team": "Omnicommerce",
         "dm": "Juliette Lefranc",
         "dmDescription": "HR & Collaboration"
@@ -359,6 +396,7 @@
         "contact": [
             "En personne"
         ],
+        "referent": [],
         "team": "Omnicommerce",
         "dm": "Juliette Lefranc",
         "dmDescription": "HR & Collaboration"
@@ -375,8 +413,9 @@
         "contact": [
             "En personne"
         ],
+        "referent": [],
         "team": "",
-        "dm": "",
+        "dm": "Alexis Masset",
         "dmDescription": "Sales & Relation"
     },
     {
@@ -392,6 +431,7 @@
             "Email",
             "En personne"
         ],
+        "referent": [],
         "team": "",
         "dm": "Loïc Laloyer",
         "dmDescription": "Sales & Relation"
@@ -409,6 +449,7 @@
             "Slack",
             "Email"
         ],
+        "referent": [],
         "team": "CRM & Fidélité",
         "dm": "Loïc Laloyer",
         "dmDescription": "Sales & Relation"
@@ -424,9 +465,10 @@
         ],
         "contact": [
             "Slack",
-            "Teams",
+            "Google Chat",
             "En personne"
         ],
+        "referent": [],
         "team": "CRM & Fidélité",
         "dm": "Loïc Laloyer",
         "dmDescription": "Sales & Relation"
@@ -441,9 +483,10 @@
             "Eclipse Temurin OpenJDK"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "En personne"
         ],
+        "referent": [],
         "team": "CRM & Fidélité",
         "dm": "Loïc Laloyer",
         "dmDescription": "Sales & Relation"
@@ -458,9 +501,10 @@
             "Jfrog Artifactory"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "Email"
         ],
+        "referent": [],
         "team": "CRM & Fidélité",
         "dm": "Loïc Laloyer",
         "dmDescription": "Sales & Relation"
@@ -478,6 +522,7 @@
             "Email",
             "En personne"
         ],
+        "referent": [],
         "team": "CRM & Fidélité",
         "dm": "Loïc Laloyer",
         "dmDescription": "Sales & Relation"
@@ -494,6 +539,7 @@
         "contact": [
             "En personne"
         ],
+        "referent": [],
         "team": "CRM & Fidélité",
         "dm": "Loïc Laloyer",
         "dmDescription": "Sales & Relation"
@@ -510,6 +556,7 @@
         "contact": [
             "Slack"
         ],
+        "referent": [],
         "team": "Devis & Configurateur",
         "dm": "Loïc Laloyer",
         "dmDescription": "Sales & Relation"
@@ -525,8 +572,11 @@
         ],
         "contact": [
             "Slack",
-            "Teams",
+            "Google Chat",
             "En personne"
+        ],
+        "referent": [
+            "Flutter"
         ],
         "team": "Devis & Configurateur",
         "dm": "Loïc Laloyer",
@@ -544,6 +594,7 @@
         "contact": [
             "En personne"
         ],
+        "referent": [],
         "team": "Devis & Configurateur",
         "dm": "Loïc Laloyer",
         "dmDescription": "Sales & Relation"
@@ -561,6 +612,7 @@
             "Slack",
             "Email"
         ],
+        "referent": [],
         "team": "Devis & Configurateur",
         "dm": "Loïc Laloyer",
         "dmDescription": "Sales & Relation"
@@ -575,9 +627,10 @@
             "Github Actions"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "Email"
         ],
+        "referent": [],
         "team": "Devis & Configurateur",
         "dm": "Loïc Laloyer",
         "dmDescription": "Sales & Relation"
@@ -594,6 +647,7 @@
         "contact": [
             "En personne"
         ],
+        "referent": [],
         "team": "Devis & Configurateur",
         "dm": "Loïc Laloyer",
         "dmDescription": "Sales & Relation"
@@ -611,6 +665,7 @@
             "Slack",
             "En personne"
         ],
+        "referent": [],
         "team": "Devis & Configurateur",
         "dm": "Loïc Laloyer",
         "dmDescription": "Sales & Relation"
@@ -626,8 +681,9 @@
         ],
         "contact": [
             "Slack",
-            "Teams"
+            "Google Chat"
         ],
+        "referent": [],
         "team": "Relation Client",
         "dm": "Loïc Laloyer",
         "dmDescription": "Sales & Relation"
@@ -644,6 +700,7 @@
         "contact": [
             "Email"
         ],
+        "referent": [],
         "team": "Relation Client",
         "dm": "Loïc Laloyer",
         "dmDescription": "Sales & Relation"
@@ -659,8 +716,9 @@
         ],
         "contact": [
             "Slack",
-            "Teams"
+            "Google Chat"
         ],
+        "referent": [],
         "team": "Relation Client",
         "dm": "Loïc Laloyer",
         "dmDescription": "Sales & Relation"
@@ -675,9 +733,10 @@
             "Confluence Cloud"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "Email"
         ],
+        "referent": [],
         "team": "Relation Client",
         "dm": "Loïc Laloyer",
         "dmDescription": "Sales & Relation"
@@ -692,8 +751,12 @@
             "OpenSearch"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "En personne"
+        ],
+        "referent": [
+            "Infrastructure as Code",
+            "OpenSearch"
         ],
         "team": "Relation Client",
         "dm": "Loïc Laloyer",
@@ -712,8 +775,9 @@
             "Email",
             "En personne"
         ],
+        "referent": [],
         "team": "",
-        "dm": "",
+        "dm": "Alexis Masset",
         "dmDescription": "Project & config"
     },
     {
@@ -729,6 +793,7 @@
             "Email",
             "En personne"
         ],
+        "referent": [],
         "team": "",
         "dm": "Thomas Conroux",
         "dmDescription": "Project & config"
@@ -745,6 +810,7 @@
         "contact": [
             "Email"
         ],
+        "referent": [],
         "team": "Config & Référentiel",
         "dm": "Thomas Conroux",
         "dmDescription": "Project & config"
@@ -760,6 +826,9 @@
         ],
         "contact": [
             "Slack"
+        ],
+        "referent": [
+            "Golang"
         ],
         "team": "Config & Référentiel",
         "dm": "Thomas Conroux",
@@ -778,6 +847,7 @@
             "Slack",
             "En personne"
         ],
+        "referent": [],
         "team": "Config & Référentiel",
         "dm": "Thomas Conroux",
         "dmDescription": "Project & config"
@@ -792,9 +862,10 @@
             "Golang"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "Email"
         ],
+        "referent": [],
         "team": "Config & Référentiel",
         "dm": "Thomas Conroux",
         "dmDescription": "Project & config"
@@ -812,6 +883,7 @@
             "Email",
             "En personne"
         ],
+        "referent": [],
         "team": "Config & Référentiel",
         "dm": "Thomas Conroux",
         "dmDescription": "Project & config"
@@ -829,6 +901,7 @@
             "Slack",
             "En personne"
         ],
+        "referent": [],
         "team": "Config & Référentiel",
         "dm": "Thomas Conroux",
         "dmDescription": "Project & config"
@@ -846,6 +919,7 @@
             "Slack",
             "En personne"
         ],
+        "referent": [],
         "team": "Pricing & Promo",
         "dm": "Thomas Conroux",
         "dmDescription": "Project & config"
@@ -860,7 +934,10 @@
             "Github Advanced Security"
         ],
         "contact": [
-            "Teams"
+            "Google Chat"
+        ],
+        "referent": [
+            "Eclipse Temurin OpenJDK"
         ],
         "team": "Pricing & Promo",
         "dm": "Thomas Conroux",
@@ -876,8 +953,12 @@
             "Kubernetes"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "En personne"
+        ],
+        "referent": [
+            "Kubernetes",
+            "Golang"
         ],
         "team": "Pricing & Promo",
         "dm": "Thomas Conroux",
@@ -895,6 +976,7 @@
         "contact": [
             "Slack"
         ],
+        "referent": [],
         "team": "Pricing & Promo",
         "dm": "Thomas Conroux",
         "dmDescription": "Project & config"
@@ -909,9 +991,10 @@
             "Svelte"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "En personne"
         ],
+        "referent": [],
         "team": "Pricing & Promo",
         "dm": "Thomas Conroux",
         "dmDescription": "Project & config"
@@ -928,6 +1011,9 @@
         "contact": [
             "En personne"
         ],
+        "referent": [
+            "GitHub Copilot"
+        ],
         "team": "Pricing & Promo",
         "dm": "Thomas Conroux",
         "dmDescription": "Project & config"
@@ -942,9 +1028,10 @@
             "MongoDB VECTOR"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "Email"
         ],
+        "referent": [],
         "team": "Pricing & Promo",
         "dm": "Thomas Conroux",
         "dmDescription": "Project & config"
@@ -960,8 +1047,11 @@
         ],
         "contact": [
             "Slack",
-            "Teams",
+            "Google Chat",
             "En personne"
+        ],
+        "referent": [
+            "Google Cloud BigQuery AS Analytical Database"
         ],
         "team": "Approvisionnement",
         "dm": "Thomas Conroux",
@@ -977,8 +1067,9 @@
             "ADR - Synchronous API Local Exposition"
         ],
         "contact": [
-            "Teams"
+            "Google Chat"
         ],
+        "referent": [],
         "team": "Approvisionnement",
         "dm": "Thomas Conroux",
         "dmDescription": "Project & config"
@@ -996,6 +1087,7 @@
             "Email",
             "En personne"
         ],
+        "referent": [],
         "team": "Approvisionnement",
         "dm": "Thomas Conroux",
         "dmDescription": "Project & config"
@@ -1013,6 +1105,7 @@
             "Slack",
             "Email"
         ],
+        "referent": [],
         "team": "Approvisionnement",
         "dm": "Thomas Conroux",
         "dmDescription": "Project & config"
@@ -1030,6 +1123,7 @@
             "Slack",
             "Email"
         ],
+        "referent": [],
         "team": "Approvisionnement",
         "dm": "Thomas Conroux",
         "dmDescription": "Project & config"
@@ -1044,9 +1138,10 @@
             "KMM (Kotlin Multiplatform)"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "En personne"
         ],
+        "referent": [],
         "team": "Approvisionnement",
         "dm": "Thomas Conroux",
         "dmDescription": "Project & config"
@@ -1061,11 +1156,15 @@
             "HTML"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "En personne"
         ],
+        "referent": [
+            "Datadog RUM",
+            "Progressive Web Apps"
+        ],
         "team": "",
-        "dm": "",
+        "dm": "Alexis Masset",
         "dmDescription": "Services & Reno"
     },
     {
@@ -1079,8 +1178,12 @@
         ],
         "contact": [
             "Slack",
-            "Teams",
+            "Google Chat",
             "En personne"
+        ],
+        "referent": [
+            "Java",
+            "Spring Boot"
         ],
         "team": "",
         "dm": "Thomas Bujaud",
@@ -1096,8 +1199,11 @@
             "HTML"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "Email"
+        ],
+        "referent": [
+            "HTML"
         ],
         "team": "Tapas",
         "dm": "Thomas Bujaud",
@@ -1114,6 +1220,10 @@
         ],
         "contact": [
             "En personne"
+        ],
+        "referent": [
+            "Confluence",
+            "SQL"
         ],
         "team": "Tapas",
         "dm": "Thomas Bujaud",
@@ -1132,6 +1242,9 @@
             "Slack",
             "En personne"
         ],
+        "referent": [
+            "Datadog"
+        ],
         "team": "Tapas",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1148,6 +1261,7 @@
         "contact": [
             "Slack"
         ],
+        "referent": [],
         "team": "Tapas",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1164,6 +1278,7 @@
         "contact": [
             "Email"
         ],
+        "referent": [],
         "team": "Tapas",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1178,8 +1293,9 @@
             "IntelliJ"
         ],
         "contact": [
-            "Teams"
+            "Google Chat"
         ],
+        "referent": [],
         "team": "Tapas",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1194,9 +1310,10 @@
             "Knative"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "En personne"
         ],
+        "referent": [],
         "team": "Tapas",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1212,6 +1329,9 @@
         ],
         "contact": [
             "Slack"
+        ],
+        "referent": [
+            "Github Actions"
         ],
         "team": "Tapas",
         "dm": "Thomas Bujaud",
@@ -1230,6 +1350,9 @@
             "Email",
             "En personne"
         ],
+        "referent": [
+            "Yaml"
+        ],
         "team": "Tapas",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1246,6 +1369,7 @@
         "contact": [
             "Slack"
         ],
+        "referent": [],
         "team": "Tapas",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1262,6 +1386,9 @@
         "contact": [
             "Slack"
         ],
+        "referent": [
+            "AWA - Automic Workflow Automation"
+        ],
         "team": "Installation",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1276,8 +1403,11 @@
             "OpenAPI"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "En personne"
+        ],
+        "referent": [
+            "OpenAPI"
         ],
         "team": "Installation",
         "dm": "Thomas Bujaud",
@@ -1296,6 +1426,7 @@
             "Slack",
             "En personne"
         ],
+        "referent": [],
         "team": "Installation",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1312,6 +1443,7 @@
         "contact": [
             "En personne"
         ],
+        "referent": [],
         "team": "Installation",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1326,8 +1458,11 @@
             "IntelliJ"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "Email"
+        ],
+        "referent": [
+            "Neo4j"
         ],
         "team": "Installation",
         "dm": "Thomas Bujaud",
@@ -1346,6 +1481,7 @@
             "Slack",
             "En personne"
         ],
+        "referent": [],
         "team": "Installation",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1362,6 +1498,7 @@
         "contact": [
             "En personne"
         ],
+        "referent": [],
         "team": "Installation",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1377,7 +1514,10 @@
         ],
         "contact": [
             "Slack",
-            "Teams"
+            "Google Chat"
+        ],
+        "referent": [
+            "Visual Studio Code (VsCode)"
         ],
         "team": "Renov'Aid",
         "dm": "Thomas Bujaud",
@@ -1394,8 +1534,9 @@
         ],
         "contact": [
             "Slack",
-            "Teams"
+            "Google Chat"
         ],
+        "referent": [],
         "team": "Renov'Aid",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1410,9 +1551,10 @@
             "Pair Review"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "Email"
         ],
+        "referent": [],
         "team": "Renov'Aid",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1429,6 +1571,7 @@
         "contact": [
             "Slack"
         ],
+        "referent": [],
         "team": "Renov'Aid",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1443,9 +1586,10 @@
             "Code Review Standards for AI-generated Code"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "En personne"
         ],
+        "referent": [],
         "team": "Renov'Aid",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1461,8 +1605,9 @@
         ],
         "contact": [
             "Slack",
-            "Teams"
+            "Google Chat"
         ],
+        "referent": [],
         "team": "Renov'Aid",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1477,9 +1622,10 @@
             "GitHub Copilot Code Reviews"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "En personne"
         ],
+        "referent": [],
         "team": "Renov'Aid",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1495,8 +1641,9 @@
         ],
         "contact": [
             "Slack",
-            "Teams"
+            "Google Chat"
         ],
+        "referent": [],
         "team": "Renov'Aid",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1512,9 +1659,10 @@
         ],
         "contact": [
             "Slack",
-            "Teams",
+            "Google Chat",
             "En personne"
         ],
+        "referent": [],
         "team": "LM Réno",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1531,6 +1679,7 @@
         "contact": [
             "Slack"
         ],
+        "referent": [],
         "team": "Ref Habitat",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1547,6 +1696,7 @@
         "contact": [
             "Email"
         ],
+        "referent": [],
         "team": "Ref Habitat",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1564,6 +1714,7 @@
             "Email",
             "En personne"
         ],
+        "referent": [],
         "team": "Ref Habitat",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1578,9 +1729,10 @@
             "Yaml"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "En personne"
         ],
+        "referent": [],
         "team": "Ref Habitat",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1596,9 +1748,10 @@
         ],
         "contact": [
             "Slack",
-            "Teams",
+            "Google Chat",
             "En personne"
         ],
+        "referent": [],
         "team": "Ref Habitat",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1614,9 +1767,10 @@
         ],
         "contact": [
             "Slack",
-            "Teams",
+            "Google Chat",
             "En personne"
         ],
+        "referent": [],
         "team": "Transversal",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1633,6 +1787,7 @@
         "contact": [
             "Slack"
         ],
+        "referent": [],
         "team": "Transversal",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1648,8 +1803,11 @@
         ],
         "contact": [
             "Slack",
-            "Teams",
+            "Google Chat",
             "En personne"
+        ],
+        "referent": [
+            "VueJS"
         ],
         "team": "Transversal",
         "dm": "Thomas Bujaud",
@@ -1667,6 +1825,7 @@
         "contact": [
             "Email"
         ],
+        "referent": [],
         "team": "Transversal",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1681,9 +1840,10 @@
             "MongoDB VECTOR"
         ],
         "contact": [
-            "Teams",
+            "Google Chat",
             "Email"
         ],
+        "referent": [],
         "team": "Transversal",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
@@ -1700,8 +1860,90 @@
         "contact": [
             "Slack"
         ],
+        "referent": [],
         "team": "Transversal",
         "dm": "Thomas Bujaud",
         "dmDescription": "Services & Reno"
+    },
+    {
+        "name": "Anthony Legrand",
+        "title": "Directeur Digital",
+        "photo": "https://cdn.balkan.app/shared/a/1.jpg",
+        "technos": [],
+        "contact": [
+            "Slack"
+        ],
+        "referent": [],
+        "team": "",
+        "dm": "",
+        "dmDescription": ""
+    },
+    {
+        "name": "Fabien Deleplanque",
+        "title": "Head of Architect",
+        "photo": "https://cdn.balkan.app/shared/a/2.jpg",
+        "technos": [],
+        "contact": [
+            "Google Chat",
+            "En personne"
+        ],
+        "referent": [],
+        "team": "",
+        "dm": "",
+        "dmDescription": ""
+    },
+    {
+        "name": "Jean-François Rompais",
+        "title": "Directeur digital",
+        "photo": "https://cdn.balkan.app/shared/a/3.jpg",
+        "technos": [],
+        "contact": [
+            "Email"
+        ],
+        "referent": [],
+        "team": "",
+        "dm": "",
+        "dmDescription": ""
+    },
+    {
+        "name": "Jean-Paul Brunelle",
+        "title": "Directeur digital",
+        "photo": "https://cdn.balkan.app/shared/a/4.jpg",
+        "technos": [],
+        "contact": [
+            "Slack",
+            "En personne"
+        ],
+        "referent": [],
+        "team": "",
+        "dm": "",
+        "dmDescription": ""
+    },
+    {
+        "name": "Matthieu Dassonneville",
+        "title": "Directeur digital",
+        "photo": "https://cdn.balkan.app/shared/a/5.jpg",
+        "technos": [],
+        "contact": [
+            "Google Chat"
+        ],
+        "referent": [],
+        "team": "",
+        "dm": "",
+        "dmDescription": ""
+    },
+    {
+        "name": "Sophie Muto",
+        "title": "Directeur digital",
+        "photo": "https://cdn.balkan.app/shared/a/6.jpg",
+        "technos": [],
+        "contact": [
+            "Slack",
+            "Email"
+        ],
+        "referent": [],
+        "team": "",
+        "dm": "",
+        "dmDescription": ""
     }
 ]

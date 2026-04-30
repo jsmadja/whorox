@@ -1,6 +1,18 @@
 [
     {
         "id": 1,
+        "name": "Franck Drecourt",
+        "title": "Directeur Digital Data",
+        "photo": "https://media.licdn.com/dms/image/v2/C4D03AQHTKRqvHjEj5w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516933296317?e=1778112000&v=beta&t=DLyPwIbyPl0UWKS8CGlgiVsXMTWq5YiMvQX7WbD9vs4",
+        "description": "",
+        "likedTechnos": [],
+        "tags": [
+            "listceo"
+        ]
+    },
+    {
+        "id": 2,
+        "pid": 1,
         "name": "Alexis Masset",
         "title": "Directeur digital",
         "photo": "https://media.licdn.com/dms/image/v2/C4E03AQFe6OnLMtGtrA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1626881647348?e=1778112000&v=beta&t=c5sE-IZMQiDnSMOs22ICIV8pTp6ubQGiGONQiPtFYcA",
@@ -11,12 +23,13 @@
             "Cloud Containers"
         ],
         "tags": [
-            "listceo"
+            "list",
+            "director"
         ]
     },
     {
-        "id": 2,
-        "pid": 1,
+        "id": 3,
+        "pid": 2,
         "name": "Juliette Lefranc",
         "title": "Delivery Manager",
         "tags": [
@@ -32,8 +45,8 @@
         "description": "HR & Collaboration"
     },
     {
-        "id": 3,
-        "pid": 2,
+        "id": 4,
+        "pid": 3,
         "isAssistant": true,
         "name": "Sarah Fontaine",
         "title": "Engineering Manager",
@@ -45,8 +58,8 @@
         ]
     },
     {
-        "id": 4,
-        "pid": 2,
+        "id": 5,
+        "pid": 3,
         "name": "Collab RH",
         "title": "Outils RH, Onboarding, Portail collaborateur",
         "tags": [
@@ -54,8 +67,8 @@
         ]
     },
     {
-        "id": 5,
-        "stpid": 4,
+        "id": 6,
+        "stpid": 5,
         "name": "Camille Aubert",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
@@ -66,8 +79,8 @@
         ]
     },
     {
-        "id": 6,
-        "stpid": 4,
+        "id": 7,
+        "stpid": 5,
         "name": "Thomas Renard",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/7.jpg",
@@ -78,8 +91,8 @@
         ]
     },
     {
-        "id": 7,
-        "stpid": 4,
+        "id": 8,
+        "stpid": 5,
         "name": "Inès Marchand",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
@@ -90,8 +103,8 @@
         ]
     },
     {
-        "id": 8,
-        "stpid": 4,
+        "id": 9,
+        "stpid": 5,
         "name": "Romain Chevalier",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/8.jpg",
@@ -102,8 +115,8 @@
         ]
     },
     {
-        "id": 9,
-        "stpid": 4,
+        "id": 10,
+        "stpid": 5,
         "name": "Lucie Morin",
         "title": "QA OPS",
         "photo": "https://cdn.balkan.app/shared/a/19.jpg",
@@ -114,8 +127,8 @@
         ]
     },
     {
-        "id": 10,
-        "stpid": 4,
+        "id": 11,
+        "stpid": 5,
         "name": "Baptiste Garnier",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/9.jpg",
@@ -126,8 +139,8 @@
         ]
     },
     {
-        "id": 11,
-        "pid": 2,
+        "id": 12,
+        "pid": 3,
         "name": "Expérience Digitale",
         "title": "App mobile, Self-service, Parcours client",
         "tags": [
@@ -135,8 +148,8 @@
         ]
     },
     {
-        "id": 12,
-        "stpid": 11,
+        "id": 13,
+        "stpid": 12,
         "name": "Élodie Fabre",
         "title": "Product Manager",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
@@ -147,8 +160,8 @@
         ]
     },
     {
-        "id": 13,
-        "stpid": 11,
+        "id": 14,
+        "stpid": 12,
         "name": "Victor Leclercq",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/14.jpg",
@@ -159,8 +172,8 @@
         ]
     },
     {
-        "id": 14,
-        "stpid": 11,
+        "id": 15,
+        "stpid": 12,
         "name": "Manon Dupuis",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/18.jpg",
@@ -171,8 +184,8 @@
         ]
     },
     {
-        "id": 15,
-        "stpid": 11,
+        "id": 16,
+        "stpid": 12,
         "name": "Alexis Perrin",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/16.jpg",
@@ -183,8 +196,8 @@
         ]
     },
     {
-        "id": 16,
-        "stpid": 11,
+        "id": 17,
+        "stpid": 12,
         "name": "Clara Bonnet",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/15.jpg",
@@ -195,8 +208,8 @@
         ]
     },
     {
-        "id": 17,
-        "stpid": 11,
+        "id": 18,
+        "stpid": 12,
         "name": "Hugo Lemaire",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/17.jpg",
@@ -207,8 +220,8 @@
         ]
     },
     {
-        "id": 18,
-        "stpid": 11,
+        "id": 19,
+        "stpid": 12,
         "name": "Zoé Carlier",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
@@ -219,8 +232,8 @@
         ]
     },
     {
-        "id": 19,
-        "pid": 2,
+        "id": 20,
+        "pid": 3,
         "name": "Omnicommerce",
         "title": "Catalogue, Panier, Commande en ligne",
         "tags": [
@@ -228,8 +241,8 @@
         ]
     },
     {
-        "id": 20,
-        "stpid": 19,
+        "id": 21,
+        "stpid": 20,
         "name": "Nicolas Blanc",
         "title": "Tech Lead",
         "photo": "https://cdn.balkan.app/shared/a/13.jpg",
@@ -240,8 +253,8 @@
         ]
     },
     {
-        "id": 21,
-        "stpid": 19,
+        "id": 22,
+        "stpid": 20,
         "name": "Pauline Girard",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
@@ -252,8 +265,8 @@
         ]
     },
     {
-        "id": 22,
-        "stpid": 19,
+        "id": 23,
+        "stpid": 20,
         "name": "Simon Leroy",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/20.jpg",
@@ -264,8 +277,8 @@
         ]
     },
     {
-        "id": 23,
-        "stpid": 19,
+        "id": 24,
+        "stpid": 20,
         "name": "Mathilde Rousseau",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
@@ -276,8 +289,8 @@
         ]
     },
     {
-        "id": 24,
-        "stpid": 19,
+        "id": 25,
+        "stpid": 20,
         "name": "Antoine Mercier",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/4.jpg",
@@ -288,8 +301,8 @@
         ]
     },
     {
-        "id": 25,
-        "stpid": 19,
+        "id": 26,
+        "stpid": 20,
         "name": "Céline Bertrand",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/3.jpg",
@@ -300,8 +313,8 @@
         ]
     },
     {
-        "id": 26,
-        "pid": 1,
+        "id": 27,
+        "pid": 2,
         "name": "Loïc Laloyer",
         "title": "Delivery Manager",
         "tags": [
@@ -317,8 +330,8 @@
         "description": "Sales & Relation"
     },
     {
-        "id": 27,
-        "pid": 26,
+        "id": 28,
+        "pid": 27,
         "isAssistant": true,
         "name": "Marc Tissier",
         "title": "Engineering Manager",
@@ -330,8 +343,8 @@
         ]
     },
     {
-        "id": 28,
-        "pid": 26,
+        "id": 29,
+        "pid": 27,
         "name": "CRM & Fidélité",
         "title": "CRM, Programme fidélité, Offres personnalisées",
         "tags": [
@@ -339,8 +352,8 @@
         ]
     },
     {
-        "id": 29,
-        "stpid": 28,
+        "id": 30,
+        "stpid": 29,
         "name": "Léa Vasseur",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/19.jpg",
@@ -351,8 +364,8 @@
         ]
     },
     {
-        "id": 30,
-        "stpid": 28,
+        "id": 31,
+        "stpid": 29,
         "name": "Florian Millet",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/8.jpg",
@@ -363,8 +376,8 @@
         ]
     },
     {
-        "id": 31,
-        "stpid": 28,
+        "id": 32,
+        "stpid": 29,
         "name": "Amandine Collet",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
@@ -375,8 +388,8 @@
         ]
     },
     {
-        "id": 32,
-        "stpid": 28,
+        "id": 33,
+        "stpid": 29,
         "name": "Julien Normand",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/9.jpg",
@@ -387,8 +400,8 @@
         ]
     },
     {
-        "id": 33,
-        "stpid": 28,
+        "id": 34,
+        "stpid": 29,
         "name": "Laure Jacquet",
         "title": "QA OPS",
         "photo": "https://cdn.balkan.app/shared/a/15.jpg",
@@ -399,8 +412,8 @@
         ]
     },
     {
-        "id": 34,
-        "stpid": 28,
+        "id": 35,
+        "stpid": 29,
         "name": "Pierre Gautier",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/7.jpg",
@@ -411,8 +424,8 @@
         ]
     },
     {
-        "id": 35,
-        "pid": 26,
+        "id": 36,
+        "pid": 27,
         "name": "Devis & Configurateur",
         "title": "Configurateur produit, Devis en ligne, Simulation",
         "tags": [
@@ -420,8 +433,8 @@
         ]
     },
     {
-        "id": 36,
-        "stpid": 35,
+        "id": 37,
+        "stpid": 36,
         "name": "Nathalie Roux",
         "title": "Product Manager",
         "photo": "https://cdn.balkan.app/shared/a/18.jpg",
@@ -432,8 +445,8 @@
         ]
     },
     {
-        "id": 37,
-        "stpid": 35,
+        "id": 38,
+        "stpid": 36,
         "name": "Kevin Barbier",
         "title": "Tech Lead",
         "photo": "https://cdn.balkan.app/shared/a/13.jpg",
@@ -444,8 +457,8 @@
         ]
     },
     {
-        "id": 38,
-        "stpid": 35,
+        "id": 39,
+        "stpid": 36,
         "name": "Sandra Picard",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
@@ -456,8 +469,8 @@
         ]
     },
     {
-        "id": 39,
-        "stpid": 35,
+        "id": 40,
+        "stpid": 36,
         "name": "Étienne Morel",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/14.jpg",
@@ -468,8 +481,8 @@
         ]
     },
     {
-        "id": 40,
-        "stpid": 35,
+        "id": 41,
+        "stpid": 36,
         "name": "Fanny Lambert",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
@@ -480,8 +493,8 @@
         ]
     },
     {
-        "id": 41,
-        "stpid": 35,
+        "id": 42,
+        "stpid": 36,
         "name": "Grégory Sanchez",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/16.jpg",
@@ -492,8 +505,8 @@
         ]
     },
     {
-        "id": 42,
-        "stpid": 35,
+        "id": 43,
+        "stpid": 36,
         "name": "Isabelle Meunier",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
@@ -504,8 +517,8 @@
         ]
     },
     {
-        "id": 43,
-        "pid": 26,
+        "id": 44,
+        "pid": 27,
         "name": "Relation Client",
         "title": "SAV, Chat, Avis clients",
         "tags": [
@@ -513,8 +526,8 @@
         ]
     },
     {
-        "id": 44,
-        "stpid": 43,
+        "id": 45,
+        "stpid": 44,
         "name": "Damien Ferreira",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/20.jpg",
@@ -525,8 +538,8 @@
         ]
     },
     {
-        "id": 45,
-        "stpid": 43,
+        "id": 46,
+        "stpid": 44,
         "name": "Océane Dupont",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/3.jpg",
@@ -537,8 +550,8 @@
         ]
     },
     {
-        "id": 46,
-        "stpid": 43,
+        "id": 47,
+        "stpid": 44,
         "name": "Thibault Henry",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/4.jpg",
@@ -549,8 +562,8 @@
         ]
     },
     {
-        "id": 47,
-        "stpid": 43,
+        "id": 48,
+        "stpid": 44,
         "name": "Virginie Caron",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/19.jpg",
@@ -561,8 +574,8 @@
         ]
     },
     {
-        "id": 48,
-        "stpid": 43,
+        "id": 49,
+        "stpid": 44,
         "name": "Sébastien Auger",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/17.jpg",
@@ -573,8 +586,8 @@
         ]
     },
     {
-        "id": 49,
-        "pid": 1,
+        "id": 50,
+        "pid": 2,
         "name": "Thomas Conroux",
         "title": "Delivery Manager",
         "tags": [
@@ -590,8 +603,8 @@
         "description": "Project & config"
     },
     {
-        "id": 50,
-        "pid": 49,
+        "id": 51,
+        "pid": 50,
         "isAssistant": true,
         "name": "Laurent Vidal",
         "title": "Engineering Manager",
@@ -603,8 +616,8 @@
         ]
     },
     {
-        "id": 51,
-        "pid": 49,
+        "id": 52,
+        "pid": 50,
         "name": "Config & Référentiel",
         "title": "MDM, Référentiel produit, Config store",
         "tags": [
@@ -612,8 +625,8 @@
         ]
     },
     {
-        "id": 52,
-        "stpid": 51,
+        "id": 53,
+        "stpid": 52,
         "name": "Aude Renault",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
@@ -624,8 +637,8 @@
         ]
     },
     {
-        "id": 53,
-        "stpid": 51,
+        "id": 54,
+        "stpid": 52,
         "name": "Christophe Faure",
         "title": "Tech Lead",
         "photo": "https://cdn.balkan.app/shared/a/13.jpg",
@@ -636,8 +649,8 @@
         ]
     },
     {
-        "id": 54,
-        "stpid": 51,
+        "id": 55,
+        "stpid": 52,
         "name": "Mélanie Prévost",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
@@ -648,8 +661,8 @@
         ]
     },
     {
-        "id": 55,
-        "stpid": 51,
+        "id": 56,
+        "stpid": 52,
         "name": "Aurore Lemoine",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
@@ -660,8 +673,8 @@
         ]
     },
     {
-        "id": 56,
-        "stpid": 51,
+        "id": 57,
+        "stpid": 52,
         "name": "Bastien Guérin",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/9.jpg",
@@ -672,8 +685,8 @@
         ]
     },
     {
-        "id": 57,
-        "stpid": 51,
+        "id": 58,
+        "stpid": 52,
         "name": "Stéphanie Collin",
         "title": "QA OPS",
         "photo": "https://cdn.balkan.app/shared/a/18.jpg",
@@ -684,8 +697,8 @@
         ]
     },
     {
-        "id": 58,
-        "pid": 49,
+        "id": 59,
+        "pid": 50,
         "name": "Pricing & Promo",
         "title": "Moteur de prix, Promotions, Remises",
         "tags": [
@@ -693,8 +706,8 @@
         ]
     },
     {
-        "id": 59,
-        "stpid": 58,
+        "id": 60,
+        "stpid": 59,
         "name": "François Nguyen",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/14.jpg",
@@ -705,8 +718,8 @@
         ]
     },
     {
-        "id": 60,
-        "stpid": 58,
+        "id": 61,
+        "stpid": 59,
         "name": "Charlotte Petit",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/15.jpg",
@@ -717,8 +730,8 @@
         ]
     },
     {
-        "id": 61,
-        "stpid": 58,
+        "id": 62,
+        "stpid": 59,
         "name": "Jonathan Rivière",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/16.jpg",
@@ -729,8 +742,8 @@
         ]
     },
     {
-        "id": 62,
-        "stpid": 58,
+        "id": 63,
+        "stpid": 59,
         "name": "Audrey Lacroix",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/19.jpg",
@@ -741,8 +754,8 @@
         ]
     },
     {
-        "id": 63,
-        "stpid": 58,
+        "id": 64,
+        "stpid": 59,
         "name": "Nicolas Reynaud",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/4.jpg",
@@ -753,8 +766,8 @@
         ]
     },
     {
-        "id": 64,
-        "stpid": 58,
+        "id": 65,
+        "stpid": 59,
         "name": "Pauline Guillot",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/3.jpg",
@@ -765,8 +778,8 @@
         ]
     },
     {
-        "id": 65,
-        "stpid": 58,
+        "id": 66,
+        "stpid": 59,
         "name": "Xavier Lemaire",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/20.jpg",
@@ -777,8 +790,8 @@
         ]
     },
     {
-        "id": 66,
-        "pid": 49,
+        "id": 67,
+        "pid": 50,
         "name": "Approvisionnement",
         "title": "Supply chain, Stocks, Logistique",
         "tags": [
@@ -786,8 +799,8 @@
         ]
     },
     {
-        "id": 67,
-        "stpid": 66,
+        "id": 68,
+        "stpid": 67,
         "name": "Delphine Arnaud",
         "title": "Product Manager",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
@@ -798,8 +811,8 @@
         ]
     },
     {
-        "id": 68,
-        "stpid": 66,
+        "id": 69,
+        "stpid": 67,
         "name": "Maxime Bertrand",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/8.jpg",
@@ -810,8 +823,8 @@
         ]
     },
     {
-        "id": 69,
-        "stpid": 66,
+        "id": 70,
+        "stpid": 67,
         "name": "Anaëlle Roussel",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
@@ -822,8 +835,8 @@
         ]
     },
     {
-        "id": 70,
-        "stpid": 66,
+        "id": 71,
+        "stpid": 67,
         "name": "Benoît Martel",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/17.jpg",
@@ -834,8 +847,8 @@
         ]
     },
     {
-        "id": 71,
-        "stpid": 66,
+        "id": 72,
+        "stpid": 67,
         "name": "Margot Schneider",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
@@ -846,8 +859,8 @@
         ]
     },
     {
-        "id": 72,
-        "stpid": 66,
+        "id": 73,
+        "stpid": 67,
         "name": "Guillaume Morin",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/7.jpg",
@@ -858,8 +871,8 @@
         ]
     },
     {
-        "id": 73,
-        "pid": 1,
+        "id": 74,
+        "pid": 2,
         "name": "Thomas Bujaud",
         "title": "Delivery Manager",
         "tags": [
@@ -875,8 +888,8 @@
         "description": "Services & Reno"
     },
     {
-        "id": 74,
-        "pid": 73,
+        "id": 75,
+        "pid": 74,
         "isAssistant": true,
         "name": "Cédric Boufflers",
         "title": "Engineering Manager",
@@ -888,8 +901,8 @@
         ]
     },
     {
-        "id": 75,
-        "pid": 73,
+        "id": 76,
+        "pid": 74,
         "name": "Tapas",
         "title": "Tandem, Tandem PRO, Trek",
         "tags": [
@@ -897,8 +910,8 @@
         ]
     },
     {
-        "id": 76,
-        "stpid": 75,
+        "id": 77,
+        "stpid": 76,
         "name": "Sophie Calvat",
         "title": "Product Manager",
         "photo": "https://cdn.balkan.app/shared/a/3.jpg",
@@ -909,8 +922,8 @@
         ]
     },
     {
-        "id": 77,
-        "stpid": 75,
+        "id": 78,
+        "stpid": 76,
         "name": "Julien Smadja",
         "title": "Tech Lead",
         "photo": "https://media.licdn.com/dms/image/v2/C4D03AQGdrssLYnRVjw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1597738702036?e=1778112000&v=beta&t=L8XgugcYu73c128RmR_2y0kbBC6f4Cd1gr57Eze64zM",
@@ -921,8 +934,8 @@
         ]
     },
     {
-        "id": 78,
-        "stpid": 75,
+        "id": 79,
+        "stpid": 76,
         "name": "Jérôme Fleury",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/4.jpg",
@@ -933,8 +946,8 @@
         ]
     },
     {
-        "id": 79,
-        "stpid": 75,
+        "id": 80,
+        "stpid": 76,
         "name": "Gaëtan Hermand",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/7.jpg",
@@ -945,8 +958,8 @@
         ]
     },
     {
-        "id": 80,
-        "stpid": 75,
+        "id": 81,
+        "stpid": 76,
         "name": "Julien Legrand",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/8.jpg",
@@ -957,8 +970,8 @@
         ]
     },
     {
-        "id": 81,
-        "stpid": 75,
+        "id": 82,
+        "stpid": 76,
         "name": "Louis Deparis",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/9.jpg",
@@ -969,8 +982,8 @@
         ]
     },
     {
-        "id": 82,
-        "stpid": 75,
+        "id": 83,
+        "stpid": 76,
         "name": "Adrien Duwez",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/10.jpg",
@@ -981,8 +994,8 @@
         ]
     },
     {
-        "id": 83,
-        "stpid": 75,
+        "id": 84,
+        "stpid": 76,
         "name": "Marie Saillard",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/11.jpg",
@@ -993,8 +1006,8 @@
         ]
     },
     {
-        "id": 84,
-        "stpid": 75,
+        "id": 85,
+        "stpid": 76,
         "name": "Morgan Lombard",
         "title": "Développeur Full Stack",
         "photo": "https://cdn.balkan.app/shared/a/13.jpg",
@@ -1005,8 +1018,8 @@
         ]
     },
     {
-        "id": 85,
-        "stpid": 75,
+        "id": 86,
+        "stpid": 76,
         "name": "Ibrahim Moujaes",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/14.jpg",
@@ -1017,8 +1030,8 @@
         ]
     },
     {
-        "id": 86,
-        "pid": 73,
+        "id": 87,
+        "pid": 74,
         "name": "Installation",
         "title": "iPose, Installa, Portail Four, BRT",
         "tags": [
@@ -1026,8 +1039,8 @@
         ]
     },
     {
-        "id": 87,
-        "stpid": 86,
+        "id": 88,
+        "stpid": 87,
         "name": "Alexia Née",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/15.jpg",
@@ -1038,8 +1051,8 @@
         ]
     },
     {
-        "id": 88,
-        "stpid": 86,
+        "id": 89,
+        "stpid": 87,
         "name": "Fabienne Hirwa",
         "title": "QA OPS",
         "photo": "https://cdn.balkan.app/shared/a/18.jpg",
@@ -1050,8 +1063,8 @@
         ]
     },
     {
-        "id": 89,
-        "stpid": 86,
+        "id": 90,
+        "stpid": 87,
         "name": "Heithem Lejmi",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/16.jpg",
@@ -1062,8 +1075,8 @@
         ]
     },
     {
-        "id": 90,
-        "stpid": 86,
+        "id": 91,
+        "stpid": 87,
         "name": "Lucie Guerreiro",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/19.jpg",
@@ -1074,8 +1087,8 @@
         ]
     },
     {
-        "id": 91,
-        "stpid": 86,
+        "id": 92,
+        "stpid": 87,
         "name": "Rémy Halipré",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/17.jpg",
@@ -1086,8 +1099,8 @@
         ]
     },
     {
-        "id": 92,
-        "stpid": 86,
+        "id": 93,
+        "stpid": 87,
         "name": "Aurélien Gout",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/20.jpg",
@@ -1098,8 +1111,8 @@
         ]
     },
     {
-        "id": 93,
-        "stpid": 86,
+        "id": 94,
+        "stpid": 87,
         "name": "Barthélemy Kalamakas",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/1.jpg",
@@ -1110,8 +1123,8 @@
         ]
     },
     {
-        "id": 94,
-        "pid": 73,
+        "id": 95,
+        "pid": 74,
         "name": "Renov'Aid",
         "title": "Renov'Aid, Simulateur DPE",
         "tags": [
@@ -1119,8 +1132,8 @@
         ]
     },
     {
-        "id": 95,
-        "stpid": 94,
+        "id": 96,
+        "stpid": 95,
         "name": "Alexandre Lamiral",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/13.jpg",
@@ -1131,8 +1144,8 @@
         ]
     },
     {
-        "id": 96,
-        "stpid": 94,
+        "id": 97,
+        "stpid": 95,
         "name": "Fabrice Ahoulou",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/2.jpg",
@@ -1143,8 +1156,8 @@
         ]
     },
     {
-        "id": 97,
-        "stpid": 94,
+        "id": 98,
+        "stpid": 95,
         "name": "Saad Ederdik",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/4.jpg",
@@ -1155,8 +1168,8 @@
         ]
     },
     {
-        "id": 98,
-        "stpid": 94,
+        "id": 99,
+        "stpid": 95,
         "name": "William Meslard",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/7.jpg",
@@ -1167,8 +1180,8 @@
         ]
     },
     {
-        "id": 99,
-        "stpid": 94,
+        "id": 100,
+        "stpid": 95,
         "name": "Sarah Gergaud",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/3.jpg",
@@ -1179,8 +1192,8 @@
         ]
     },
     {
-        "id": 100,
-        "stpid": 94,
+        "id": 101,
+        "stpid": 95,
         "name": "Delphine Leguyader",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
@@ -1191,8 +1204,8 @@
         ]
     },
     {
-        "id": 101,
-        "stpid": 94,
+        "id": 102,
+        "stpid": 95,
         "name": "Rémi Doolaeghe",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/8.jpg",
@@ -1203,8 +1216,8 @@
         ]
     },
     {
-        "id": 102,
-        "stpid": 94,
+        "id": 103,
+        "stpid": 95,
         "name": "Amine Khiari",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/9.jpg",
@@ -1215,8 +1228,8 @@
         ]
     },
     {
-        "id": 103,
-        "pid": 73,
+        "id": 104,
+        "pid": 74,
         "name": "LM Réno",
         "title": "Team",
         "tags": [
@@ -1224,8 +1237,8 @@
         ]
     },
     {
-        "id": 104,
-        "stpid": 103,
+        "id": 105,
+        "stpid": 104,
         "name": "Emmanuel Reant",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/10.jpg",
@@ -1236,8 +1249,8 @@
         ]
     },
     {
-        "id": 105,
-        "pid": 73,
+        "id": 106,
+        "pid": 74,
         "name": "Ref Habitat",
         "title": "Team",
         "tags": [
@@ -1245,8 +1258,8 @@
         ]
     },
     {
-        "id": 106,
-        "stpid": 105,
+        "id": 107,
+        "stpid": 106,
         "name": "Mathieu Boniface",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/13.jpg",
@@ -1257,8 +1270,8 @@
         ]
     },
     {
-        "id": 107,
-        "stpid": 105,
+        "id": 108,
+        "stpid": 106,
         "name": "Julien Thilliez",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/14.jpg",
@@ -1269,8 +1282,8 @@
         ]
     },
     {
-        "id": 108,
-        "stpid": 105,
+        "id": 109,
+        "stpid": 106,
         "name": "Matthias Scherrens",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/16.jpg",
@@ -1281,8 +1294,8 @@
         ]
     },
     {
-        "id": 109,
-        "stpid": 105,
+        "id": 110,
+        "stpid": 106,
         "name": "Mehdi Lahiyane",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/17.jpg",
@@ -1293,8 +1306,8 @@
         ]
     },
     {
-        "id": 110,
-        "stpid": 105,
+        "id": 111,
+        "stpid": 106,
         "name": "Ahmed Achour",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/20.jpg",
@@ -1305,8 +1318,8 @@
         ]
     },
     {
-        "id": 111,
-        "pid": 73,
+        "id": 112,
+        "pid": 74,
         "name": "Transversal",
         "title": "Team",
         "tags": [
@@ -1314,8 +1327,8 @@
         ]
     },
     {
-        "id": 112,
-        "stpid": 111,
+        "id": 113,
+        "stpid": 112,
         "name": "Flavien Pagerie",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/1.jpg",
@@ -1326,8 +1339,8 @@
         ]
     },
     {
-        "id": 113,
-        "stpid": 111,
+        "id": 114,
+        "stpid": 112,
         "name": "Julien Defief",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/2.jpg",
@@ -1338,8 +1351,8 @@
         ]
     },
     {
-        "id": 114,
-        "stpid": 111,
+        "id": 115,
+        "stpid": 112,
         "name": "Anaïs Bernard",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
@@ -1350,8 +1363,8 @@
         ]
     },
     {
-        "id": 115,
-        "stpid": 111,
+        "id": 116,
+        "stpid": 112,
         "name": "Nabil Boutiyarzist",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/4.jpg",
@@ -1362,8 +1375,8 @@
         ]
     },
     {
-        "id": 116,
-        "stpid": 111,
+        "id": 117,
+        "stpid": 112,
         "name": "Julie Defrocourt",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/5.jpg",
@@ -1374,8 +1387,8 @@
         ]
     },
     {
-        "id": 117,
-        "stpid": 111,
+        "id": 118,
+        "stpid": 112,
         "name": "Alya Cholet",
         "title": "Développeur",
         "photo": "https://cdn.balkan.app/shared/a/6.jpg",
@@ -1383,6 +1396,84 @@
             "Open Telemetry",
             "Progressive Web Apps",
             "Google Cloud BigQuery AS Analytical Database"
+        ]
+    },
+    {
+        "id": 119,
+        "pid": 1,
+        "name": "Anthony Legrand",
+        "title": "Directeur Digital",
+        "photo": "https://cdn.balkan.app/shared/a/1.jpg",
+        "description": "",
+        "likedTechnos": [],
+        "tags": [
+            "list",
+            "director"
+        ]
+    },
+    {
+        "id": 120,
+        "pid": 1,
+        "name": "Fabien Deleplanque",
+        "title": "Head of Architect",
+        "photo": "https://cdn.balkan.app/shared/a/2.jpg",
+        "description": "",
+        "likedTechnos": [],
+        "tags": [
+            "list",
+            "director"
+        ]
+    },
+    {
+        "id": 121,
+        "pid": 1,
+        "name": "Jean-François Rompais",
+        "title": "Directeur digital",
+        "photo": "https://cdn.balkan.app/shared/a/3.jpg",
+        "description": "",
+        "likedTechnos": [],
+        "tags": [
+            "list",
+            "director"
+        ]
+    },
+    {
+        "id": 122,
+        "pid": 1,
+        "name": "Jean-Paul Brunelle",
+        "title": "Directeur digital",
+        "photo": "https://cdn.balkan.app/shared/a/4.jpg",
+        "description": "",
+        "likedTechnos": [],
+        "tags": [
+            "list",
+            "director"
+        ]
+    },
+    {
+        "id": 123,
+        "pid": 1,
+        "name": "Matthieu Dassonneville",
+        "title": "Directeur digital",
+        "photo": "https://cdn.balkan.app/shared/a/5.jpg",
+        "description": "",
+        "likedTechnos": [],
+        "tags": [
+            "list",
+            "director"
+        ]
+    },
+    {
+        "id": 124,
+        "pid": 1,
+        "name": "Sophie Muto",
+        "title": "Directeur digital",
+        "photo": "https://cdn.balkan.app/shared/a/6.jpg",
+        "description": "",
+        "likedTechnos": [],
+        "tags": [
+            "list",
+            "director"
         ]
     }
 ]
