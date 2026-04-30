@@ -1430,7 +1430,7 @@ Promise.all([
         mouseScrool: OrgChart.action.zoom,
         expand: {},
         collapse: {
-            level: 3
+            level: 2
         },
         tags: {
             director: {

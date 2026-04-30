@@ -3,6 +3,7 @@
     "dev": "node scripts/dev.js",
     "generate:nodes": "node scripts/generate-nodes.js",
     "generate:tech": "node scripts/generate-tech-options.js",
+    "generate:team-lmfr": "node scripts/generate-team-lmfr.js",
     "generate": "npm run generate:tech && npm run generate:nodes"
   },
   "dependencies": {

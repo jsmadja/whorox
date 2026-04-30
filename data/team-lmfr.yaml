@@ -1,0 +1,1279 @@
+head:
+  name: Franck Drecourt
+  title: Directeur Digital Data
+  technos: []
+  contact:
+    - Google Chat
+directors:
+  - name: Jean-Paul Brunelle
+    title: Directeur
+    description: Supply, Data, Finance & Développement
+    technos: []
+    contact:
+      - Slack
+    delivery_managers:
+      - name: Olivier Martine
+        title: Delivery Manager
+        description: Opérations Logistiques Magasin
+        photo: https://cdn.balkan.app/shared/a/3.jpg
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: Opérations Logistiques Magasin
+            members:
+              - name: Mathieu Sporta
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/1.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Julien Ferez
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/6.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Helène Loosveldt
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/15.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Kévin Arnaud
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/3.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Julien Manceau
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/6.jpg
+                technos: []
+                contact:
+                  - Slack
+      - name: Dominique Tran
+        title: Delivery Manager
+        description: IA & Data
+        photo: https://cdn.balkan.app/shared/a/5.jpg
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: IA Tech & Transverse
+            members: []
+          - name: Automation
+            members: []
+          - name: Data Science
+            members:
+              - name: Mickael Gest
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/8.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Maite Glinkowski
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/3.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Mahdi Masmoudi
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/17.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Youssef Barka
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/18.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Rémy Cocquempot
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/20.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Guillaume Caron
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/3.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Axel Tison
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/16.jpg
+                technos: []
+                contact:
+                  - Slack
+          - name: IA Expert
+            members:
+              - name: Cyril Spanneut
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/10.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Pauline Vilpini
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/6.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Benjamin Goulon
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/3.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Herve Anvroin
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/16.jpg
+                technos: []
+                contact:
+                  - Slack
+        engineering_manager:
+          name: Cyril Spanneut
+          title: Engineering Manager
+          isAssistant: true
+          photo: https://cdn.balkan.app/shared/a/10.jpg
+          technos: []
+          contact:
+            - Slack
+      - name: Jonathan Roussel
+        title: Delivery Manager
+        description: HUB WMS
+        photo: https://cdn.balkan.app/shared/a/5.jpg
+        technos: []
+        contact:
+          - Slack
+        teams: []
+      - name: Regis Ronsse
+        title: Delivery Manager
+        description: Appro Flux EDI
+        photo: https://cdn.balkan.app/shared/a/11.jpg
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: Appro Flux EDI
+            members:
+              - name: Timothe Depoorter
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/9.jpg
+                technos: []
+                contact:
+                  - Slack
+      - name: Jean Paul Brunelle
+        title: Delivery Manager
+        description: Finance & Performance
+        photo: https://cdn.balkan.app/shared/a/6.jpg
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: Finance & Performance
+            members:
+              - name: Jean-Christophe Marescaux
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/14.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Emeline Vahé
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/8.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Vincent Rousseaux
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/15.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Christian Deblaere
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/2.jpg
+                technos: []
+                contact:
+                  - Slack
+      - name: Joffrey Bombeeck
+        title: Delivery Manager
+        description: Opérations Logistique Entrepôt Mécanisation Transport, Squad Tech Supply, Supply Chain
+        photo: https://cdn.balkan.app/shared/a/2.jpg
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: Opérations Logistique Entrepôt Mécanisation Transport
+            members:
+              - name: Maciej Koszalka
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/18.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Abdelhakim Amniai
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/16.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Yanis Ferdi
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/9.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Bruno Leclerc
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/15.jpg
+                technos: []
+                contact:
+                  - Slack
+          - name: Squad Tech Supply
+            members:
+              - name: Florian Meriaux
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/19.jpg
+                technos: []
+                contact:
+                  - Slack
+          - name: Supply Chain
+            members:
+              - name: Olivier Martine
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/3.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Regis Ronsse
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/11.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Jonathan Roussel
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/5.jpg
+                technos: []
+                contact:
+                  - Slack
+      - name: Julien Henrion
+        title: Delivery Manager
+        description: Data PHP
+        photo: https://cdn.balkan.app/shared/a/17.jpg
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: Data Finance Performance & Humain
+            members:
+              - name: Romain Montagne
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/8.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Alexandre Dejardin
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/20.jpg
+                technos: []
+                contact:
+                  - Slack
+          - name: Data Supply & Offre
+            members:
+              - name: Maxime Lo Porto
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/17.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Clara Many
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/5.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Cedric Vivien
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/14.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Aurelien Mahier
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/14.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Hadrien Belcour
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/14.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Hanane El Moujoud
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/16.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Louis Bruche
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/4.jpg
+                technos: []
+                contact:
+                  - Slack
+          - name: Data Omnicommerce & Clients
+            members:
+              - name: Sander Gamboa
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/13.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Gaetan Cauchois
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/12.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Thomas Pereira
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/5.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Arnaud Delereux
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/10.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Yannick Pollart
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/18.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Emmanuelle Coniquet
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/12.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Maxime Paul
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/4.jpg
+                technos: []
+                contact:
+                  - Slack
+          - name: Data Tech & Transverse
+            members:
+              - name: Nicolas Justin
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/3.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Thierno-Souleymane Bah
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/14.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Aurelien Waels
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/4.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Simon Barbier
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/2.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Wajih Tebni
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/16.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Rached Tayech
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/8.jpg
+                technos: []
+                contact:
+                  - Slack
+        engineering_manager:
+          name: Veler Yannick Le
+          title: Engineering Manager
+          isAssistant: true
+          photo: https://cdn.balkan.app/shared/a/15.jpg
+          technos: []
+          contact:
+            - Slack
+  - name: Alexis Masset
+    title: Directeur
+    description: Omnico XP Collaborateur & HR
+    technos: []
+    contact:
+      - Slack
+    delivery_managers:
+      - name: Loic Laloyer
+        title: Delivery Manager
+        description: Sales & Relation
+        photo: https://cdn.balkan.app/shared/a/4.jpg
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: Sales & Relation - Sales
+            members:
+              - name: Fabien Delvallee
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/2.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Cedric Devaux
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/10.jpg
+                technos: []
+                contact:
+                  - Slack
+          - name: Sales & Relation - Cashing & Payment
+            members:
+              - name: Nicolas Bauw
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/7.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Stephane Vermeersch
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/5.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Pierre Soete
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/16.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Anthony Delattre
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/17.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Marie Pedrazzani
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/13.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Xavier Pasdeloup
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/19.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Marc-Antoine Salengro
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/6.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Leo Millet
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/14.jpg
+                technos: []
+                contact:
+                  - Slack
+          - name: Sales & Relation - Relation
+            members:
+              - name: Julie Varini
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/1.jpg
+                technos: []
+                contact:
+                  - Slack
+        engineering_manager:
+          name: Cedric Devaux
+          title: Engineering Manager
+          isAssistant: true
+          photo: https://cdn.balkan.app/shared/a/10.jpg
+          technos: []
+          contact:
+            - Slack
+      - name: Juliette Lefranc
+        title: Delivery Manager
+        description: HR & Collab
+        photo: https://cdn.balkan.app/shared/f/14.jpg
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: HR & Collab - HR Foundation, Compensation & Collaboration
+            members:
+              - name: Simon Leroy
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/10.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Philippe Tryla
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/16.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Guillaume Leroy
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/7.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Lionel Squelbut
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/1.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Theo Gadiffet
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/1.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Mathis Lecocq - Cartigny
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/20.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Hind Malti
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/13.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Jerome Vigne
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/20.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Sophie Vienne
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/16.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Pierre Silvain
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/16.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Stephanie Gougeon
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/20.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Jeremy Florte
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/1.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Francois Deroubaix
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/9.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Edgar Vermech
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/14.jpg
+                technos: []
+                contact:
+                  - Slack
+        engineering_manager:
+          name: Jerome Vigne
+          title: Engineering Manager
+          isAssistant: true
+          photo: https://cdn.balkan.app/shared/a/20.jpg
+          technos: []
+          contact:
+            - Slack
+      - name: Thomas Conroux
+        title: Delivery Manager
+        description: Projects & Configurators
+        photo: https://cdn.balkan.app/shared/a/11.jpg
+        technos: []
+        contact:
+          - Slack
+        teams: []
+      - name: Thomas Bujaud
+        title: Delivery Manager
+        description: Services & Reno
+        photo: >-
+          https://media.licdn.com/dms/image/v2/C5603AQELh6Z79-QYlw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516316841461?e=1778112000&v=beta&t=O9FndgdFKdSeKx7siXnvG__fmA8vBwJkDl_yjSHrk_s
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: Services & Reno - Engineering
+            members:
+              - name: Nabil Boutiyarzist
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/16.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Sophie Calvat
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/12.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Ibrahim Moujaes
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/5.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Flavien Pagerie
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/11.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Cedric Boufflers
+                title: Développeur
+                photo: >-
+                  https://media.licdn.com/dms/image/v2/C4D03AQGAAMGjwYhF_w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1552597928446?e=1778112000&v=beta&t=Ah6SLgyyHGbTFhtmdFvE7iIgHe44AMg5o3vjYyvdcIU
+                technos: []
+                contact:
+                  - Slack
+              - name: Alexia Nee
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/13.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Baptiste Bouchel
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/19.jpg
+                technos: []
+                contact:
+                  - Slack
+        engineering_manager:
+          name: Cedric Boufflers
+          title: Engineering Manager
+          isAssistant: true
+          photo: >-
+            https://media.licdn.com/dms/image/v2/C4D03AQGAAMGjwYhF_w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1552597928446?e=1778112000&v=beta&t=Ah6SLgyyHGbTFhtmdFvE7iIgHe44AMg5o3vjYyvdcIU
+          technos: []
+          contact:
+            - Slack
+  - name: Jean Francois Rompais
+    title: Directeur
+    description: Qualité Opérations Support
+    technos: []
+    contact:
+      - Slack
+    delivery_managers:
+      - name: Emile Belconde
+        title: Delivery Manager
+        description: Service Desk
+        photo: https://cdn.balkan.app/shared/a/13.jpg
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: Service Desk
+            members:
+              - name: Fabrice Degalet
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/1.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Stephane Tlalka
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/6.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Karim Ben Hafedh
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/2.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Matthieu Croccel
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/1.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Ahmed Najah
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/4.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Sekin Mawuto Alexand Nouchet
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/9.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Florent Membre
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/7.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Soundes Souli
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/16.jpg
+                technos: []
+                contact:
+                  - Slack
+      - name: Jean Francois Rompais
+        title: Delivery Manager
+        description: Intégration & Qualité, Opérations
+        photo: https://cdn.balkan.app/shared/a/3.jpg
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: Intégration & Qualité
+            members:
+              - name: Camille Hargez
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/13.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Lise Petinon
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/15.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Aline Vanberten
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/15.jpg
+                technos: []
+                contact:
+                  - Slack
+          - name: Opérations
+            members:
+              - name: Amaury Pruvot
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/14.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Thomas Stenger
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/11.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Matthieu Duytsche
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/13.jpg
+                technos: []
+                contact:
+                  - Slack
+  - name: Fabien Deleplanque
+    title: Directeur
+    description: Architecture
+    technos: []
+    contact:
+      - Slack
+    delivery_managers: []
+  - name: Anthony Legrand
+    title: Directeur
+    description: Cyber & Tech Platform
+    technos: []
+    contact:
+      - Slack
+    delivery_managers:
+      - name: Anthony Legrand
+        title: Delivery Manager
+        description: Site Capabilities, Cybersecurity
+        photo: https://cdn.balkan.app/shared/a/17.jpg
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: Site Capabilities
+            members:
+              - name: Benjamin Roger
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/12.jpg
+                technos: []
+                contact:
+                  - Slack
+          - name: Cybersecurity - CyberDefense
+            members:
+              - name: Anthony Godard
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/15.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Quentin Du Bois
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/19.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Matias Dandois
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/14.jpg
+                technos: []
+                contact:
+                  - Slack
+          - name: Cybersecurity - CyberRisks
+            members:
+              - name: Cedric Biencourt
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/18.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Quentin Torres
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/6.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Theo Grenet
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/18.jpg
+                technos: []
+                contact:
+                  - Slack
+        engineering_manager:
+          name: Tony Ruffin
+          title: Engineering Manager
+          isAssistant: true
+          photo: https://cdn.balkan.app/shared/a/11.jpg
+          technos: []
+          contact:
+            - Slack
+      - name: Jeremy Carpentier
+        title: Delivery Manager
+        description: Connectivity
+        photo: https://cdn.balkan.app/shared/a/6.jpg
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: End User Devices
+            members:
+              - name: Guillaume Devos
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/17.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Eric Doignies
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/20.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Thierry Debreu
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/17.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Sylvain Vasseur
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/6.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Corentin Broucke
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/14.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Lazare Jouaniko-Machon
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/13.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Nicolas Acke
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/10.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Valentin Hecht
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/6.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Romain Deleury
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/5.jpg
+                technos: []
+                contact:
+                  - Slack
+        engineering_manager:
+          name: Cedric Peraste
+          title: Engineering Manager
+          isAssistant: true
+          photo: https://cdn.balkan.app/shared/a/11.jpg
+          technos: []
+          contact:
+            - Slack
+      - name: Sebastien Renno
+        title: Delivery Manager
+        description: Cloud & Software Engineering
+        photo: https://cdn.balkan.app/shared/a/17.jpg
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: Cloud & Software Engineering
+            members:
+              - name: Liuhua Gao
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/18.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Philippe Blanckaert
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/15.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Mourad Saidani
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/10.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Adam Magnier
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/7.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Julien Debeuf
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/13.jpg
+                technos: []
+                contact:
+                  - Slack
+  - name: Matthieu Dassonneville
+    title: Directeur
+    description: Offre & Impact +
+    technos: []
+    contact:
+      - Slack
+    delivery_managers:
+      - name: Matthieu Dassonneville
+        title: Delivery Manager
+        description: Product Info XP, Impact+, Merch, Partner XP
+        photo: https://cdn.balkan.app/shared/a/13.jpg
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: Impact+
+            members:
+              - name: Audrey Belin
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/13.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Marie Dumortier
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/4.jpg
+                technos: []
+                contact:
+                  - Slack
+          - name: Merch
+            members:
+              - name: Logan Sel
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/12.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Tiphanie Degueldre
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/16.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Erwan Nisas
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/2.jpg
+                technos: []
+                contact:
+                  - Slack
+      - name: Antoine Delequeuche
+        title: Delivery Manager
+        description: Price XP
+        photo: https://cdn.balkan.app/shared/a/19.jpg
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: Price XP
+            members:
+              - name: Christophe Becquey
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/4.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Nicolas Ladeveze
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/18.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Jerome Cnockaert
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/11.jpg
+                technos: []
+                contact:
+                  - Slack
+      - name: Julien Momal
+        title: Delivery Manager
+        description: Offer XP
+        photo: https://cdn.balkan.app/shared/a/20.jpg
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: Offer XP
+            members:
+              - name: Théo Ernould
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/18.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Vincent Hayez
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/9.jpg
+                technos: []
+                contact:
+                  - Slack
+  - name: Sophie Muto
+    title: Directeur
+    description: Omnico XP Client, Design, CALM & COMETE
+    technos: []
+    contact:
+      - Slack
+    delivery_managers:
+      - name: Oliveira Andre De
+        title: Delivery Manager
+        description: Omnico XP Client, Omnico XP Client - Marketing Client
+        photo: https://cdn.balkan.app/shared/a/15.jpg
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: Omnico XP Client - Stratégie Habitant
+            members:
+              - name: Mathieu Boniface
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/1.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Anne Rapez
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/7.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Gérald Gallaix
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/20.jpg
+                technos: []
+                contact:
+                  - Slack
+          - name: Omnico XP Client - Pro Experience
+            members: []
+          - name: Omnico XP Client - Communication & Marque
+            members:
+              - name: Sarah Asselin
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/1.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Damien Desplats
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/13.jpg
+                technos: []
+                contact:
+                  - Slack
+          - name: Omnico XP Client - Engineering
+            members: []
+          - name: Omnico XP Client - Ecommerce
+            members:
+              - name: Julien Dogny
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/1.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Juliette Jaugey
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/10.jpg
+                technos: []
+                contact:
+                  - Slack
+        engineering_manager:
+          name: Gerald Gallaix
+          title: Engineering Manager
+          isAssistant: true
+          photo: https://cdn.balkan.app/shared/a/20.jpg
+          technos: []
+          contact:
+            - Slack
+      - name: Sophie Muto
+        title: Delivery Manager
+        description: COMETE, Design Experience
+        photo: https://cdn.balkan.app/shared/f/20.jpg
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: COMETE
+            members:
+              - name: Guillaume Soulié
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/5.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Eric Kuprowski
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/1.jpg
+                technos: []
+                contact:
+                  - Slack
+          - name: Design Experience
+            members:
+              - name: Elise Berthet
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/11.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Victor Pichon
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/19.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Vincent Driss
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/3.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Laetitia Cuq
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/11.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Ingrid Philippot
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/11.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Remi Fillion
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/13.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Lukas Bachtrog
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/11.jpg
+                technos: []
+                contact:
+                  - Slack
+      - name: Laetitia Cuq
+        title: Delivery Manager
+        description: Design XP - Omnico XP Client
+        photo: https://cdn.balkan.app/shared/f/11.jpg
+        technos: []
+        contact:
+          - Slack
+        teams: []
+      - name: Guillaume Mortier
+        title: Delivery Manager
+        description: CALM
+        photo: https://cdn.balkan.app/shared/a/2.jpg
+        technos: []
+        contact:
+          - Slack
+        teams:
+          - name: CALM
+            members:
+              - name: Marie Lasset
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/3.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Jean-François Chlebowski
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/10.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Flora Malfait
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/f/15.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Ludovic Leroy
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/12.jpg
+                technos: []
+                contact:
+                  - Slack
+              - name: Adrien Thoreau
+                title: Développeur
+                photo: https://cdn.balkan.app/shared/a/10.jpg
+                technos: []
+                contact:
+                  - Slack
